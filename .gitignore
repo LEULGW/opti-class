@@ -1,4 +1,10 @@
+# Python environment
 .venv/
 __pycache__/
 *.pyc
+
+# Local data 
+raw_data/
+
+# OS specific files
 .DS_Store
