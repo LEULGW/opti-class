@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 import csv, re, pandas as pd
 
-INPUT_FILE  = "howard_course_sections_workday.html"
-OUTPUT_FILE = "howard_courses.csv"
+INPUT_FILE  = "/Users/leul/opti-class/backend/data/raw_data/howard_course_sections_workday.html"
+OUTPUT_FILE = "/Users/leul/opti-class/backend/data/processed/howard_courses.csv"
 
 
 def parse_meeting(text):
