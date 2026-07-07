@@ -1,8 +1,11 @@
 from bs4 import BeautifulSoup
 import csv, re, pandas as pd
+from pathlib import Path
 
-INPUT_FILE  = "/Users/leul/opti-class/backend/data/raw_data/howard_course_sections_workday.html"
-OUTPUT_FILE = "/Users/leul/opti-class/backend/data/processed/howard_courses.csv"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+INPUT_FILE = BASE_DIR /"backend"/ "data" / "raw_data" / "howard_course_sections_workday.html"
+OUTPUT_FILE = BASE_DIR /"backend"/ "data" /"processed"/"howard_courses.csv"
 
 
 def parse_meeting(text):
@@ -27,7 +30,7 @@ def parse_meeting(text):
 
 def parse_course_id(text):
     """'ACAD 007-01 - College Study Skills' → ('ACAD 007', '01')"""
-    m = re.match(r"([A-Z]{2,5}\s+\d{3}(?:-\d{3})?)-(\d{2,3})", text)
+    m = re.match(r"([A-Z]{2,5}\s+\d{3}(?:-\d{3})?)-(\d{1,3})", text)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return text.strip(), "N/A"

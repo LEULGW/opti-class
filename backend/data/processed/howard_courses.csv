@@ -108,7 +108,7 @@ ARAB 001,2,Arabic I,Open,Raslan Moutraji,LKH-B2,"Monday, Wednesday, Friday",9:10
 ARAB 002,1,Arabic II,Open,Raslan Moutraji,DGH-104,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 ARAB 002,2,Arabic II,Open,Eman Hussein,DGH-110,"Tuesday, Thursday",9:40 AM - 11:00 AM
 ARAB 003,1,Arabic III,Open,Raslan Moutraji,LKH-B2,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
-ARAB 004-1 - Arabic IV,N/A,Arabic IV,Open,Eman Hussein,LKH-118,"Tuesday, Thursday",2:10 PM - 3:30 PM
+ARAB 004,1,Arabic IV,Open,Eman Hussein,LKH-118,"Tuesday, Thursday",2:10 PM - 3:30 PM
 ARAB 040,1,Grammar Review,Open,Eman Hussein,LKH-118,"Tuesday, Thursday",3:40 PM - 5:00 PM
 ARAB 051,1,Oral Expression II,Open,Eman Hussein,LKH-118,"Tuesday, Thursday",5:10 PM - 6:30 PM
 ARAB 190,1,Independent Study,Open,Raslan Moutraji,N/A,N/A,N/A
@@ -122,14 +122,14 @@ ARCH 211,1,Surv.of Architectural  Hist II,Open,David Sledge,HMB-201,"Tuesday, Th
 ARCH 232,1,Wmn in ARCH/Design-20th Cen,Open,Hazel Edwards,HMB-B02D,"Monday, Wednesday",10:10 AM - 11:30 AM
 ARCH 240,1,Building Materials & Methods,Open,Bradford Carpenter,HMB-201,"Tuesday, Thursday",10:40 AM - 12:00 PM
 ARCH 261,1,Architecture Design I,Open,David Sledge,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
-ARCH 261-2 - Architecture Design I,N/A,Architecture Design I,Closed,Cametrick Nesmith,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
-ARCH 261-3 - Architecture Design I,N/A,Architecture Design I,Open,Jorel Sanchez Soto,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
-ARCH 261-4 - Architecture Design I,N/A,Architecture Design I,Open,Brian Serrette,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
+ARCH 261,2,Architecture Design I,Closed,Cametrick Nesmith,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
+ARCH 261,3,Architecture Design I,Open,Jorel Sanchez Soto,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
+ARCH 261,4,Architecture Design I,Open,Brian Serrette,HMB-2nd year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
 ARCH 270,1,Digital Tools in Arch. I,Closed,Madison Summers,HMB-201,Tuesday,5:10 PM - 8:00 PM
 ARCH 270,2,Digital Tools in Arch. I,Closed,Rashard Willingham,HMB-201,Tuesday,5:10 PM - 8:00 PM
 ARCH 273,1,Digtal Tools III,Open,Toriano Davis,HMB-150,Tuesday,5:10 PM - 8:00 PM
-ARCH 273-2 - Digtal Tools III,N/A,Digtal Tools III,Open,Rashard Willingham,HMB-201,Thursday,5:10 PM - 8:00 PM
-ARCH 303-1 - ARCH History & Theory III,N/A,ARCH History & Theory III,Open,William Taylor,HMB-B02D,"Tuesday, Thursday",2:10 PM - 3:30 PM
+ARCH 273,2,Digtal Tools III,Open,Rashard Willingham,HMB-201,Thursday,5:10 PM - 8:00 PM
+ARCH 303,1,ARCH History & Theory III,Open,William Taylor,HMB-B02D,"Tuesday, Thursday",2:10 PM - 3:30 PM
 ARCH 340,1,Architect. Struct. I (Statics),Open,Eden Yemesegen,HMB-201,"Tuesday, Thursday",8:10 AM - 9:30 AM
 ARCH 342,1,Environmental Sys. in Arch.,Open,Nea Maloo,HMB-150,"Tuesday, Thursday",2:10 PM - 3:30 PM
 ARCH 364,1,Architecture Design III,Open,Yiselle Santos Rivera,HMB-3rd Year studio,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
@@ -140,7 +140,7 @@ ARCH 408,3,UG Architecture Indep. Study,Open,Farhana Ferdous,N/A,N/A,N/A
 ARCH 430,1,Health and Design,Open,Farhana Ferdous,HMB-150,"Wednesday, Friday",11:10 AM - 12:30 PM
 ARCH 466,1,Architecture Design V,Open,Kristina Crenshaw,HMB-206,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
 ARCH 466,3,Architecture Design V,Open,N/A,HMB-206,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
-ARCH 466-2 - Architecture Design V,N/A,Architecture Design V,Open,Otto Condon,HMB-206,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
+ARCH 466,2,Architecture Design V,Open,Otto Condon,HMB-206,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
 ARCH 542,1,Mng Sustain Dsgn & Decarb Proj,Open,Nea Maloo,HMB-252,"Tuesday, Thursday",3:40 PM - 5:00 PM
 ARCH 652,1,Urban Design Case Studies,Open,Kentrell Lodge,HMB-201,"Tuesday, Thursday",3:40 PM - 5:00 PM
 ARTA 011,1,Painting I,Waitlist,Summer Brown,LVC-2012,Wednesday,4:10 PM - 7:00 PM
@@ -282,9 +282,9 @@ BIOL 344,2,Plant Physiology Lec/Lab,Open,Herman Fennell,N/A,"Tuesday, Thursday",
 BIOL 390,1,Independent Investigations,Open,Courtney Robinson,N/A,N/A,N/A
 BIOL 390,2,Independent Investigations,Closed,Dominique Pritchett,N/A,Monday,5:10 PM - 6:00 PM
 BIOL 390,3,Independent Investigations,Closed,Hemayet Ullah,N/A,N/A,N/A
-BIOL 417-1 - Evolutionary Medicine Lec/Lab,N/A,Evolutionary Medicine Lec/Lab,Closed,Tanmoy Mondal,N/A,"Tuesday, Thursday",8:10 AM - 9:00 AM
+BIOL 417,1,Evolutionary Medicine Lec/Lab,Closed,Tanmoy Mondal,N/A,"Tuesday, Thursday",8:10 AM - 9:00 AM
 BIOL 420,1,Cancer Biology,Closed,Michael Thomas,EJH-224/226,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
-BIOL 430-1 - Biostatistics Lec/Lab,N/A,Biostatistics Lec/Lab,Closed,Fayuan Wen,N/A,Tuesday,12:40 PM - 2:00 PM
+BIOL 430,1,Biostatistics Lec/Lab,Closed,Fayuan Wen,N/A,Tuesday,12:40 PM - 2:00 PM
 BIOL 450,1,Molecular Genetics Lec/Lab,Closed,Atanu Duttaroy,EJH-316/318/320,"Tuesday, Thursday",2:10 PM - 3:00 PM
 BIOL 450,2,Molecular Genetics-Lec/Lab,Closed,Atanu Duttaroy,EJH-337,"Monday, Wednesday",3:10 PM - 5:00 PM
 BIOL 470,1,Omics: Big Data in Biology,Open,Shaolei Teng,N/A,"Tuesday, Thursday",8:10 AM - 9:30 AM
@@ -506,49 +506,49 @@ COMM 101,23,Principles of Speech,Closed,Tia Tyree,ASA-213,"Tuesday, Thursday",11
 COMM 101,24,Principles of Speech,Closed,Tia Tyree,ASA-214,"Tuesday, Thursday",9:40 AM - 11:00 AM
 COMM 101,25,Principles of Speech,Closed,Tia Tyree,ASA-214,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 COMM 101,26,Principles of Speech,Closed,Tia Tyree,ASA-214,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-COMM 102-1 - Fund. of Advert. & Storytellin,N/A,Fund. of Advert. & Storytellin,Closed,Charrosé King-Mathews,ASA-202,Thursday,2:10 PM - 3:00 PM
-COMM 103-1 - Fund. of Public Relations,N/A,Fund. of Public Relations,Open,Cherri Sinclair,ASA-213,Wednesday,4:10 PM - 7:00 PM
-COMM 202-1 - Intro to Comm. Theory,N/A,Intro to Comm. Theory,Open,Solyee Kim,ASA-202,Wednesday,2:10 PM - 5:00 PM
-COMM 202-2 - Intro to Comm. Theory,N/A,Intro to Comm. Theory,Open,Solyee Kim,ASA-202,Tuesday,2:10 PM - 5:00 PM
-COMM 202-3 - Intro to Comm. Theory,N/A,Intro to Comm. Theory,Open,Chukwuka Onwumechili,ASA-306,"Tuesday, Thursday",9:40 AM - 11:00 AM
+COMM 102,1,Fund. of Advert. & Storytellin,Closed,Charrosé King-Mathews,ASA-202,Thursday,2:10 PM - 3:00 PM
+COMM 103,1,Fund. of Public Relations,Open,Cherri Sinclair,ASA-213,Wednesday,4:10 PM - 7:00 PM
+COMM 202,1,Intro to Comm. Theory,Open,Solyee Kim,ASA-202,Wednesday,2:10 PM - 5:00 PM
+COMM 202,2,Intro to Comm. Theory,Open,Solyee Kim,ASA-202,Tuesday,2:10 PM - 5:00 PM
+COMM 202,3,Intro to Comm. Theory,Open,Chukwuka Onwumechili,ASA-306,"Tuesday, Thursday",9:40 AM - 11:00 AM
 COMM 203,2,Principles of Persuasion,Open,Gavette Richardson Duncan,ASA-202,Tuesday,5:10 PM - 8:00 PM
 COMM 203,3,Principles of Persuasion,Closed,Jean Claude Kwitonda,ASA-205,"Tuesday, Thursday",2:10 PM - 3:30 PM
 COMM 203,4,Principles of Persuasion,Open,Cherri Sinclair,ASA-203,Tuesday,4:10 PM - 7:00 PM
-COMM 231-1 - Mock Trial,N/A,Mock Trial,Closed,Angela Minor,ASA-205,Monday,9:30 AM - 12:20 PM
-COMM 250-1 - Intro:Leadership & Mgmt. Comm,N/A,Intro:Leadership & Mgmt. Comm,Open,Jae Eun Chung,ASA-201,Thursday,1:10 PM - 4:00 PM
-COMM 251-1 - Interpersonal Communication,N/A,Interpersonal Communication,Open,Nicole Dillard,ASA-201,Thursday,9:40 AM - 12:30 PM
+COMM 231,1,Mock Trial,Closed,Angela Minor,ASA-205,Monday,9:30 AM - 12:20 PM
+COMM 250,1,Intro:Leadership & Mgmt. Comm,Open,Jae Eun Chung,ASA-201,Thursday,1:10 PM - 4:00 PM
+COMM 251,1,Interpersonal Communication,Open,Nicole Dillard,ASA-201,Thursday,9:40 AM - 12:30 PM
 COMM 252,1,Intro to Health Communications,Open,Jae Eun Chung,ASA-203,Thursday,10:10 AM - 12:30 PM
 COMM 301,4,Intercultural / Int'l Comm,Closed,Uchenna Onuzulike,ASA-201,Friday,12:10 PM - 3:00 PM
-COMM 301-1 - Intercultural / Int'l Comm,N/A,Intercultural / Int'l Comm,Closed,Sidney Ribeau,ASA-104,"Monday, Wednesday",8:10 AM - 9:30 AM
-COMM 301-2 - Intercultural / Int'l Comm,N/A,Intercultural / Int'l Comm,Open,Chukwuka Onwumechili,ASA-202,"Tuesday, Thursday",8:10 AM - 9:30 AM
-COMM 301-3 - Intercultural / Int'l Comm,N/A,Intercultural / Int'l Comm,Open,Jean Claude Kwitonda,ASA-201,Tuesday,9:30 AM - 12:40 PM
-COMM 302-1 - Intro to Sport Comm,N/A,Intro to Sport Comm,Open,Keena Blackmon,ASA-101,Wednesday,11:10 AM - 2:40 PM
+COMM 301,1,Intercultural / Int'l Comm,Closed,Sidney Ribeau,ASA-104,"Monday, Wednesday",8:10 AM - 9:30 AM
+COMM 301,2,Intercultural / Int'l Comm,Open,Chukwuka Onwumechili,ASA-202,"Tuesday, Thursday",8:10 AM - 9:30 AM
+COMM 301,3,Intercultural / Int'l Comm,Open,Jean Claude Kwitonda,ASA-201,Tuesday,9:30 AM - 12:40 PM
+COMM 302,1,Intro to Sport Comm,Open,Keena Blackmon,ASA-101,Wednesday,11:10 AM - 2:40 PM
 COMM 307,1,ST: Found. of Comm. Design,Open,Charrosé King-Mathews,ASA-104,"Tuesday, Thursday",11:10 AM - 12:40 PM
-COMM 311-1 - Basic PR Writing,N/A,Basic PR Writing,Open,Shamilla Amulega,ASB-105,Monday,11:10 AM - 2:00 PM
-COMM 311-2 - Basic PR Writing,N/A,Basic PR Writing,Open,Shamilla Amulega,ASA-105,Monday,8:00 AM - 11:00 AM
+COMM 311,1,Basic PR Writing,Open,Shamilla Amulega,ASB-105,Monday,11:10 AM - 2:00 PM
+COMM 311,2,Basic PR Writing,Open,Shamilla Amulega,ASA-105,Monday,8:00 AM - 11:00 AM
 COMM 312,1,Advanced PR Writing,Open,Brandale Mills Cox,ASA-203,Wednesday,9:40 AM - 12:00 PM
 COMM 312,2,Advanced PR Writing,Open,Brandale Mills Cox,ASA-203,Wednesday,1:00 PM - 3:50 PM
-COMM 321-1 - Advertising Sales,N/A,Advertising Sales,Open,Sheryl Johnson,ASA-203,Monday,3:10 PM - 6:00 PM
+COMM 321,1,Advertising Sales,Open,Sheryl Johnson,ASA-203,Monday,3:10 PM - 6:00 PM
 COMM 322,1,Visual Storytelling and Design,Open,Charrosé King-Mathews,ASA-109,"Tuesday, Thursday",4:10 PM - 5:30 PM
-COMM 324-1 - Media Planning & Buying,N/A,Media Planning & Buying,Open,Sheryl Johnson,ASA-203,Monday,12:10 PM - 3:00 PM
-COMM 325-1 - Co-Curricular,N/A,Co-Curricular,Open,Solyee Kim,ASA-202,Wednesday,11:10 AM - 12:00 PM
-COMM 331-1 - Communications Law,N/A,Communications Law,Closed,Angela Minor,ASA-101,Monday,1:00 PM - 3:50 PM
+COMM 324,1,Media Planning & Buying,Open,Sheryl Johnson,ASA-203,Monday,12:10 PM - 3:00 PM
+COMM 325,1,Co-Curricular,Open,Solyee Kim,ASA-202,Wednesday,11:10 AM - 12:00 PM
+COMM 331,1,Communications Law,Closed,Angela Minor,ASA-101,Monday,1:00 PM - 3:50 PM
 COMM 332,2,Intro to Legal Research,Closed,Kehbuma Langmia,ASA-306,Wednesday,9:40 AM - 12:30 PM
-COMM 332-1 - Intro to Legal Research,N/A,Intro to Legal Research,Open,Nicole Dillard,ASA-201,Tuesday,9:30 AM - 12:40 PM
-COMM 351-1 - Advanced Public Speaking,N/A,Advanced Public Speaking,Closed,Michael Roy,ASA-100,"Tuesday, Thursday",12:40 PM - 2:00 PM
-COMM 351-2 - Advanced Public Speaking,N/A,Advanced Public Speaking,Open,Michael Roy,ASA-101,"Tuesday, Thursday",2:10 PM - 3:30 PM
+COMM 332,1,Intro to Legal Research,Open,Nicole Dillard,ASA-201,Tuesday,9:30 AM - 12:40 PM
+COMM 351,1,Advanced Public Speaking,Closed,Michael Roy,ASA-100,"Tuesday, Thursday",12:40 PM - 2:00 PM
+COMM 351,2,Advanced Public Speaking,Open,Michael Roy,ASA-101,"Tuesday, Thursday",2:10 PM - 3:30 PM
 COMM 352,1,Intro to Org Comm,Open,Samantha Powers,ASA-209,"Tuesday, Thursday",11:30 AM - 12:50 PM
-COMM 401-1 - Practicum-Internship: Pub Rels,N/A,Practicum-Internship: Pub Rels,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
-COMM 402-1 - Practicum-Internshp: Advert.,N/A,Practicum-Internshp: Advert.,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
-COMM 403-1 - Practicum-Internshp: Legal Com,N/A,Practicum-Internshp: Legal Com,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
-COMM 404-1 - Practicum-Internshp: Media Mgm,N/A,Practicum-Internshp: Media Mgm,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
-COMM 405-1 - Practicum-Internshp: Org. Comm,N/A,Practicum-Internshp: Org. Comm,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
+COMM 401,1,Practicum-Internship: Pub Rels,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
+COMM 402,1,Practicum-Internshp: Advert.,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
+COMM 403,1,Practicum-Internshp: Legal Com,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
+COMM 404,1,Practicum-Internshp: Media Mgm,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
+COMM 405,1,Practicum-Internshp: Org. Comm,Open,Samantha Powers,ASA-100,Thursday,3:40 PM - 4:30 PM
 COMM 410,1,Social Media & Integrated MKTG,Open,Tia Tyree,ASA-208,"Tuesday, Thursday",9:40 AM - 11:00 AM
 COMM 410,2,Social Media & Integrated MKTG,Open,Tia Tyree,ASA-105,"Tuesday, Thursday",11:10 AM - 12:30 PM
 COMM 412,1,Strategic Communications Research,Open,Sheryl Johnson,ASA-202,Monday,9:10 AM - 12:00 PM
 COMM 431,1,Conflict Mgmt & Neg,Open,Nicole Dillard,ASA-201,Tuesday,2:00 PM - 4:50 PM
 COMM 441,1,Broadcast Management,Open,DANIELLE RICKS,ASA-202,Friday,8:10 AM - 11:00 AM
-COMM 490-1 - Comm. Research Methods,N/A,Comm. Research Methods,Closed,Jean Claude Kwitonda,ASA-202,Thursday,9:40 AM - 12:30 PM
+COMM 490,1,Comm. Research Methods,Closed,Jean Claude Kwitonda,ASA-202,Thursday,9:40 AM - 12:30 PM
 COMM 491,1,CapComm Lab,Open,Brandale Mills Cox,ASA-101,Tuesday,9:40 AM - 12:30 PM
 COMM 492,1,Capstone Research,Open,Jae Eun Chung,ASA-203,Tuesday,9:40 AM - 12:30 PM
 COMP 002,1,Planetary Science Lec/Lab 01,Open,Norma Small-Warren,N/A,"Monday, Wednesday",9:10 AM - 10:10 AM
@@ -576,7 +576,7 @@ CSCI 201,1,Computer Organization I,Open,Linwei Niu,HMB-G01 (Innovation Space),"T
 CSCI 201,2,Computer Organization I,Closed,Jiang Li,LKD-2110,"Tuesday, Thursday",12:40 PM - 2:00 PM
 CSCI 340,1,Robotics Linear Algebra,Open,Todd Shurn,LKD-2110,"Monday, Wednesday",4:10 PM - 5:30 PM
 CSCI 341,1,Theory of Computation,Open,Chunmei Liu,LKD-1017,"Tuesday, Thursday",11:10 AM - 12:30 PM
-CSCI 342-1 - Robotics:Autonomous Navigation,N/A,Robotics:Autonomous Navigation,Open,Todd Shurn,LKD-2110,"Monday, Wednesday",2:10 PM - 3:30 PM
+CSCI 342,1,Robotics:Autonomous Navigation,Open,Todd Shurn,LKD-2110,"Monday, Wednesday",2:10 PM - 3:30 PM
 CSCI 354,2,Computer Science III,Open,Harry Keeling,LKD-2110,"Monday, Wednesday",11:10 AM - 12:30 PM
 CSCI 363,1,Large Scale Programming,Open,Bernard Woolfolk,LKD-2114,Monday,6:10 PM - 8:30 PM
 CSCI 365,1,Cloud Computing,Open,Guy Lingani,HMB-G01 (Innovation Space),"Monday, Wednesday",5:10 PM - 6:30 PM
@@ -641,7 +641,7 @@ EDUC 412,1,Research Foundations & Methods,Open,Jia Lin,MIN-211,Monday,5:10 PM - 
 EDUC 450,1,Internship and Classroom Mgmt,Open,Alicia Renix,N/A,"Monday, Tuesday, Wednesday, Thursday, Friday",8:00 AM - 4:00 PM
 EDUC 600,3,Independent Study,Open,Jacqueline Stallworth,N/A,Tuesday,4:00 PM - 5:00 PM
 EECE 101,1,Fac.-Student Team Proj. (VIP),Open,Charles Kim,LKD-3105,Friday,8:00 AM - 9:00 AM
-EECE 201-1 - Fac.-Student Team Proj. (VIP),N/A,Fac.-Student Team Proj. (VIP),Open,Charles Kim,LKD-3105,Friday,9:00 AM - 10:00 AM
+EECE 201,1,Fac.-Student Team Proj. (VIP),Open,Charles Kim,LKD-3105,Friday,9:00 AM - 10:00 AM
 EECE 212,1,Fundamental of Digital Systems,Open,Wenjie Che,LKD-2113/2117B,"Tuesday, Thursday",4:10 PM - 6:00 PM
 EECE 218,1,Fund of Digital Systems Lab,Open,Wenjie Che,LKD-2113/2117B,Thursday,6:10 PM - 8:00 PM
 EECE 302,1,Fac-Student Team Proj (VIP),Open,Charles Kim,LKD-3105,Friday,10:00 AM - 11:00 AM
@@ -907,10 +907,10 @@ FINA 320,1,Prin of Pers Financial Plan,Waitlist,Denise Streeter,CB4-428,"Tuesday
 FINA 325,2,Capital Markets,Open,Arturo Balana,CB4-417,"Tuesday, Thursday",3:40 PM - 5:00 PM
 FINA 330,2,Principles of Investments,Closed,B. Paul Choi,CB4-216,"Monday, Wednesday",11:10 AM - 12:30 PM
 FINA 330,4,Principles of Investments,Closed,Jin-Gil Jeong,CB4-400,"Monday, Wednesday",2:10 PM - 3:30 PM
-FINA 330-3 - Principles of Investments,N/A,Principles of Investments,Open,Denise Streeter,CB4-418,"Tuesday, Thursday",2:10 PM - 3:30 PM
+FINA 330,3,Principles of Investments,Open,Denise Streeter,CB4-418,"Tuesday, Thursday",2:10 PM - 3:30 PM
 FINA 355,1,Tax Planning for Wealth Building,Open,Dawn Mabery Chestnut,CB4-400,"Tuesday, Thursday",12:40 PM - 2:00 PM
 FINA 363,1,Financial Modeling,Open,Arturo Balana,CB4-217,"Tuesday, Thursday",2:10 PM - 3:30 PM
-FINA 363-2 - Financial Modeling,N/A,Financial Modeling,Open,Sandip Mukherji,CB4-400,"Monday, Wednesday",11:10 AM - 12:30 PM
+FINA 363,2,Financial Modeling,Open,Sandip Mukherji,CB4-400,"Monday, Wednesday",11:10 AM - 12:30 PM
 FINA 364,1,Investment Banking,Open,Marcus Shaw,CB4-400,"Monday, Wednesday",5:10 PM - 6:30 PM
 FINA 366,1,Investment Management,Open,William Barbee,CB4-567,"Tuesday, Thursday",2:10 PM - 3:30 PM
 FINA 371,1,Venture Capital,Closed,N/A,CB4-216,"Tuesday, Thursday",5:10 PM - 6:30 PM
@@ -1185,7 +1185,7 @@ INTD 098,1,Env Factors of Interior Design,Open,Jacqueline Carmichael,HMB-B32A,"T
 INTD 100,1,Fund Drafting of Interior,Open,Evan Watson,HMB-B02C,Wednesday,4:00 PM - 7:00 PM
 INTD 102,1,History of Interiors & Arch.,Open,Carol Rhodes Dyson,LVC-2004,"Monday, Wednesday",2:10 PM - 3:30 PM
 INTD 106,1,CAD for Interiors I,Open,Maria Linares Trelles,UGL-L036,Wednesday,5:00 PM - 8:00 PM
-INTD 111-1 - Resident Interior Design I,N/A,Resident Interior Design I,Open,Lorra Rivers,HMB-B02C,Tuesday,5:10 PM - 8:10 PM
+INTD 111,1,Resident Interior Design I,Open,Lorra Rivers,HMB-B02C,Tuesday,5:10 PM - 8:10 PM
 INTD 113,1,Office Interior Design,Open,Evan Watson,HMB-B32A,Monday,4:00 PM - 7:00 PM
 INTD 116,1,Lighting of Interior Spaces,Open,Lorra Rivers,HMB-B02C,Thursday,5:00 PM - 8:00 PM
 INTD 168,1,Research in Interior Design,Open,Maria Linares Trelles,HMB-B32A,Wednesday,1:00 PM - 4:00 PM
@@ -1201,7 +1201,7 @@ JAPN 052,1,Reading Writing Workshop,Open,Miki Reed,DGH-218,"Tuesday, Thursday",5
 KORE 001,1,Korean I,Open,Kukjin Cheon,LKH-323,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 KORE 001,2,Korean I,Open,Kukjin Cheon,LKH-323,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 KORE 003,2,Korean III,Open,Kukjin Cheon,LKH-323,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-KORE 050-1 - Oral Expression I,N/A,Oral Expression I,Open,Kukjin Cheon,LKH-208,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+KORE 050,1,Oral Expression I,Open,Kukjin Cheon,LKH-208,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 MATH 005,1,College Algebra I WR,Closed,Lifoma Salaam,LKH-242,"Monday, Wednesday",11:10 AM - 12:00 PM
 MATH 005,2,College Algebra I WR,Closed,IDRISSA ABDEL KADER,LKH-118,"Monday, Wednesday",3:10 PM - 4:00 PM
 MATH 005,3,College Algebra I WR,Closed,Gabriel Ayine,LKH-118,"Monday, Wednesday",4:10 PM - 5:00 PM
@@ -1367,8 +1367,8 @@ MGMT 301,4,Management & OB,Waitlist,Cathy House,CB4-218,"Monday, Wednesday",2:10
 MGMT 301,5,Management & OB,Open,Stephanie Leonard,CB4-216,"Tuesday, Thursday",12:40 PM - 2:00 PM
 MGMT 301,6,Management & OB,Waitlist,Cathy House,CB4-317,"Monday, Wednesday",9:40 AM - 11:00 AM
 MGMT 301,7,Management & OB,Open,Cathy House,CB4-218,"Monday, Wednesday",3:40 PM - 5:00 PM
-MGMT 302-1 - Adv Organizational Behavior,N/A,Adv Organizational Behavior,Open,Amanda Hinojosa,CB4-317,"Tuesday, Thursday",9:40 AM - 11:00 AM
-MGMT 303-1 - Human Resources Mgmt,N/A,Human Resources Mgmt,Open,Charles Pugh,CB4-217,"Monday, Wednesday",5:10 PM - 6:30 PM
+MGMT 302,1,Adv Organizational Behavior,Open,Amanda Hinojosa,CB4-317,"Tuesday, Thursday",9:40 AM - 11:00 AM
+MGMT 303,1,Human Resources Mgmt,Open,Charles Pugh,CB4-217,"Monday, Wednesday",5:10 PM - 6:30 PM
 MGMT 316,1,Business Ethics,Closed,Raymond Smith,N/A,"Monday, Wednesday",12:40 PM - 2:00 PM
 MGMT 331,1,Decision Making,Waitlist,Raymond Smith,N/A,"Monday, Wednesday",2:10 PM - 3:30 PM
 MGMT 350,1,Management of Small Business,Closed,Cathy House,CB4-322,"Monday, Wednesday",11:10 AM - 12:30 PM
@@ -1411,7 +1411,7 @@ MJFC 223,4,Film & TV Production,Open,Jolene Carter,WHUT-108,"Monday, Wednesday",
 MJFC 223,5,Film & TV Production,Closed,Joshua Lowery,WHUT-112,"Tuesday, Thursday",11:10 AM - 12:30 PM
 MJFC 223,6,Film & TV Production,Open,Akosua Adoma Owusu,WHUT-112,Wednesday,9:40 AM - 12:00 PM
 MJFC 225,1,History of  Broadcast & Film,Open,Vasilios Papaioannu,ASA-202,Tuesday,9:40 AM - 12:30 PM
-MJFC 225-2 - History of  Broadcast & Film,N/A,History of  Broadcast & Film,Waitlist,Jami Ramberan,ASA-202,Wednesday,5:10 PM - 8:00 PM
+MJFC 225,2,History of  Broadcast & Film,Waitlist,Jami Ramberan,ASA-202,Wednesday,5:10 PM - 8:00 PM
 MJFC 301,1,Co-Curricular Audio,Open,Sonja Williams,WHUT-207,Wednesday,10:10 AM - 11:00 AM
 MJFC 305,1,Co-Curricular: Truth be Told,Open,Ericka Blount,ASA-109,"Tuesday, Thursday",2:10 PM - 3:30 PM
 MJFC 309,1,Co-Curricular: 101 Magazine II,Open,Ericka Blount,ASA-104,"Tuesday, Thursday",9:40 AM - 11:00 AM
@@ -1488,7 +1488,7 @@ MKTG 361,1,Marketing Analytics,Waitlist,RAMIN BAGHERZADEH,CB4-218,"Tuesday, Thur
 MKTG 370,1,Services Marketing,Open,Lily Zeng,CB4-426,"Tuesday, Thursday",3:40 PM - 5:00 PM
 MKTG 380,1,Sports Marketing,Closed,Delancy Bennett,CB4-415,"Monday, Wednesday",2:10 PM - 3:30 PM
 MKTG 385,1,Multi-Cultural Marketing,Closed,Johnny Graham,CB4-417,"Tuesday, Thursday",5:10 PM - 6:30 PM
-MKTG 399-1 - Marketing Planning & Strategy,N/A,Marketing Planning & Strategy,Closed,Delancy Bennett,CB4-300B,"Monday, Wednesday",9:40 AM - 11:00 AM
+MKTG 399,1,Marketing Planning & Strategy,Closed,Delancy Bennett,CB4-300B,"Monday, Wednesday",9:40 AM - 11:00 AM
 MUSB 001,1,Fundamentals of Music,Open,Michael Fili,LVC-305,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 MUSB 003,1,Elementary ET/SS I,Waitlist,Anthony Randolph,LVC-303,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 MUSB 004,1,Elementary ET/SS II,Open,Michael Fili,LVC-305,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
@@ -1514,7 +1514,7 @@ MUSC 100,5,Introduction to Music,Open,Amyr Joyner,LVC-308,"Monday, Wednesday, Fr
 MUSC 100,6,Introduction to Music,Open,Amyr Joyner,LVC-308,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
 MUSC 110,1,Global Popular Music,Open,Matthew Franke,LVC-308,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 MUSC 207,1,Individual Research,Open,Matthew Franke,N/A,N/A,N/A
-MUSD 051-1 - Elementary Choral Conducting,N/A,Elementary Choral Conducting,Open,Eric Poole,LVC-306,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+MUSD 051,1,Elementary Choral Conducting,Open,Eric Poole,LVC-306,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 MUSE 001,1,Piano for Non-majors I,Closed,Natalia Kazaryan,LVC-304,Tuesday,11:10 AM - 12:00 PM
 MUSE 002,1,Piano for Non-majors II,Open,Natalia Kazaryan,LVC-304,Thursday,11:10 AM - 12:00 PM
 MUSE 003,1,Fundamentals of Piano,Open,Natalia Kazaryan,LVC-304,"Tuesday, Thursday",1:40 PM - 2:30 PM
@@ -1992,7 +1992,7 @@ SPAN 052,2,Reading & Writing,Open,Mesi Bakari Walton,ILH-118,"Tuesday, Thursday"
 SPAN 060,1,Textual Analysis,Open,Monica Styles,LKH-202,"Tuesday, Thursday",12:40 PM - 2:00 PM
 SPAN 064,1,Spanish for the News Media,Open,Clement Akassi,LKH-242,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 SPAN 084,1,Cont Hispanic America,Open,Roberto Perez,LKH-257,"Tuesday, Thursday",11:10 AM - 12:30 PM
-SPAN 085-1 - Hispano-Africana Cult. Produc.,N/A,Hispano-Africana Cult. Produc.,Open,Clement Akassi,LKH-304,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+SPAN 085,1,Hispano-Africana Cult. Produc.,Open,Clement Akassi,LKH-304,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 SPAN 087,2,Black Lives in Latin America through Literature and Film,Open,Monica Styles,LKH-323,"Tuesday, Thursday",2:10 PM - 3:30 PM
 SPAN 089,1,Hispanic Peoples & Cultures,Open,Mesi Bakari Walton,LKH-253,"Tuesday, Thursday",12:40 PM - 2:00 PM
 SWAH 001,1,Swahili I,Open,Leonard Muaka,LKH-304,"Tuesday, Thursday",12:40 PM - 2:00 PM

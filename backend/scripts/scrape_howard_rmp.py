@@ -1,5 +1,8 @@
 import csv
 import requests
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 url = "https://www.ratemyprofessors.com/graphql"
 
@@ -156,7 +159,7 @@ while has_next_page:
 
 # Write all collected professors to the CSV
 with open(
-    "/Users/leul/opti-class/backend/data/processed/howard_professors_rmp.csv", "w", newline="", encoding="utf-8"
+    BASE_DIR / "backend" / "data" / "processed" / "howard_professors_rmp.csv", "w", newline="", encoding="utf-8"
 ) as file:
     writer = csv.DictWriter(
         file,
