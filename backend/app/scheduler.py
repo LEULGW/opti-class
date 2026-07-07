@@ -8,9 +8,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 @dataclass
 class TimeSlot:
-    day: int        # 0=Mon, 1=Tue, 2=Wed, 3=Thu, 4=Fri
-    start_min: int  # Minutes from midnight
-    end_min: int
+    day: int        # 0=Mon, 1=Tue, etc.
+    start_time: str # "HH:MM" military time
+    end_time: str   # "HH:MM" military time
 
 @dataclass
 class Section:
@@ -21,17 +21,34 @@ class Section:
     rating: float
     time_slots: List[TimeSlot]
 
-def parse_time_to_minutes(time_str: str) -> int:
-    """Converts a time string like '4:10 PM' to minutes since midnight."""
+def parse_time_to_military(time_str: str) -> str:
+    """Converts a time string like '4:10 PM' to a 24-hour 'HH:MM' string."""
     time_str = time_str.strip()
     t = datetime.strptime(time_str, "%I:%M %p")
-    return t.hour * 60 + t.minute
+    return t.strftime("%H:%M")
+
 
 def parse_days(days_str: str) -> List[int]:
     """Maps day strings like 'Monday, Wednesday' to integers [0, 2]."""
     day_map = {"Monday": 0, "Tuesday": 1, "Wednesday": 2, "Thursday": 3, "Friday": 4, "Saturday": 5, "Sunday": 6}
     # Split by comma since Workday uses comma-separated strings for multi-day courses
     return [day_map[day.strip()] for day in days_str.split(',')]
+
+def have_conflict(section1: Section, section2: Section) -> bool:
+    """Returns True if there is a time overlap between any timeslots of two sections."""
+    for slot1 in section1.time_slots:
+        for slot2 in section2.time_slots:
+            if slot1.day == slot2.day:
+                start1, end1 = slot1.start_time, slot1.end_time
+                start2, end2 = slot2.start_time, slot2.end_time
+
+                if start1 < start2:
+                    if start2 < end1:
+                        return True
+                else:
+                    if start1 < end2:
+                        return True
+    return False
 
 def load_and_merge_data(courses_path: str, rmp_path: str) -> Dict[str, List[Section]]:
     """Loads CSVs, links professor ratings, and groups sections by Course_Code."""
@@ -51,15 +68,15 @@ def load_and_merge_data(courses_path: str, rmp_path: str) -> Dict[str, List[Sect
         # Parse time range (e.g., "4:10 PM - 5:00 PM")
         try:
             start_str, end_str = row['Time'].split('-')
-            start_min = parse_time_to_minutes(start_str)
-            end_min = parse_time_to_minutes(end_str)
+            start_time = parse_time_to_military(start_str)
+            end_time = parse_time_to_military(end_str)
         except Exception:
             continue 
             
         # Extract days and map them to their numeric values
         days = parse_days(str(row['Days']))
-        slots = [TimeSlot(day=d, start_min=start_min, end_min=end_min) for d in days]
-        
+        slots = [TimeSlot(day=d, start_time=start_time, end_time=end_time) for d in days]
+
         # Match professor rating (assign None if missing from your RMP data)
         prof_name = str(row['Instructor']).strip().lower()
         rating = prof_ratings.get(prof_name, None)
