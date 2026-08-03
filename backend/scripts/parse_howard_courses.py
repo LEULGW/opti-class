@@ -4,7 +4,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-INPUT_FILE = BASE_DIR /"backend"/ "data" / "raw_data" / "howard_course_sections_workday.html"
+INPUT_FILE = BASE_DIR /"backend"/ "data" / "raw_data" / "howard_course_sections_workday2.html"
 OUTPUT_FILE = BASE_DIR /"backend"/ "data" /"processed"/"howard_courses.csv"
 
 
@@ -66,22 +66,38 @@ def main():
         status      = sub_parts[1] if len(sub_parts) > 1 else "N/A"
         instructor  = sub_parts[2] if len(sub_parts) > 2 else "N/A"
 
-        # Meeting info from title containing a time pattern
-        meeting_raw = next(
-            (t for t in titles if re.search(r"\d{1,2}:\d{2}\s*(AM|PM)", t)), "N/A"
-        )
-        room, days, time_val = parse_meeting(meeting_raw)
+        # Meeting info: a section can have MORE THAN ONE meeting pattern
+        # (e.g. a lecture that meets Tue/Thu at one time, plus an extra
+        # Thursday session at a different time). Collect every distinct
+        # time-containing title in this card, not just the first one.
+        time_titles = [t for t in titles if re.search(r"\d{1,2}:\d{2}\s*(AM|PM)", t)]
 
-        rows.append({
-            "Course_Code": course_code or "N/A",
-            "Section":     section     or "N/A",
-            "Course_Name": course_name or "N/A",
-            "Status":      status      or "N/A",
-            "Instructor":  instructor  or "N/A",
-            "Room":        room,
-            "Days":        days,
-            "Time":        time_val,
-        })
+        # The same title text can appear more than once in the DOM (preview
+        # + detail views both render it) - keep only unique patterns, but
+        # preserve the order they first appeared in.
+        unique_meeting_titles = []
+        for t in time_titles:
+            if t not in unique_meeting_titles:
+                unique_meeting_titles.append(t)
+
+        if len(unique_meeting_titles) == 0:
+            unique_meeting_titles = ["N/A"]
+
+        # Emit one row per meeting pattern, all sharing the same course
+        # code/section so they can be recombined into one Section later.
+        for meeting_raw in unique_meeting_titles:
+            room, days, time_val = parse_meeting(meeting_raw)
+
+            rows.append({
+                "Course_Code": course_code or "N/A",
+                "Section":     section     or "N/A",
+                "Course_Name": course_name or "N/A",
+                "Status":      status      or "N/A",
+                "Instructor":  instructor  or "N/A",
+                "Room":        room,
+                "Days":        days,
+                "Time":        time_val,
+            })
 
     # Clean up with pandas
     df = pd.DataFrame(rows)

@@ -9,10 +9,7 @@ from typing import Dict, List
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
-# =========================
 # Data Models
-# =========================
-
 @dataclass
 class TimeSlot:
     day: int
@@ -41,10 +38,7 @@ class HardConstraints:
     earliest_start_time: str | None = None  # e.g. "10:00" means no class before 10am
 
 
-# =========================
 # Parsing Helpers
-# =========================
-
 DAY_MAP = {
     "Monday": 0,
     "Tuesday": 1,
@@ -79,17 +73,28 @@ def parse_days(days_str: str) -> List[int]:
     return day_numbers
 
 
-# =========================
-# Schedule Generation (Hard Constraint: no time conflicts)
-# =========================
-
 def have_conflict(section1: Section, section2: Section) -> bool:
     """Return True if two sections overlap in time on the same day."""
 
-    for slot1 in section1.time_slots:
-        for slot2 in section2.time_slots:
+    days1 = set()
+    for slot in section1.time_slots:
+        days1.add(slot.day)
 
-            if slot1.day != slot2.day:
+    days2 = set()
+    for slot in section2.time_slots:
+        days2.add(slot.day)
+
+    shared_days = days1 & days2
+
+    if len(shared_days) == 0:
+        return False
+
+    for slot1 in section1.time_slots:
+        if slot1.day not in shared_days:
+            continue
+
+        for slot2 in section2.time_slots:
+            if slot2.day != slot1.day:
                 continue
 
             if slot1.start_time < slot2.end_time and slot2.start_time < slot1.end_time:
@@ -142,11 +147,8 @@ def generate_valid_schedules(
     return schedules
 
 
-# =========================
 # Additional Hard Constraints
 # (these run AFTER generate_valid_schedules, BEFORE scoring)
-# =========================
-
 def has_unrated_professor(schedule: List[Section]) -> bool:
     """Returns True if any section in the schedule has no RMP rating (None)."""
 
@@ -228,19 +230,15 @@ def filter_schedules_by_hard_constraints(
     return filtered
 
 
-# =========================
-# Data Loading
-# =========================
 
 def load_and_merge_data(
     courses_path: str | Path,
     rmp_path: str | Path,
 ) -> Dict[str, List[Section]]:
     """
-    Load course data and professor ratings, and group sections by course code.
-
-    Returns:
-        Dict[course_code, List[Section]]
+    Load course data and professor ratings, merge rows that belong to the
+    same section (a section can span multiple rows if it has more than one
+    meeting pattern), and group sections by course code.
     """
 
     courses_df = pd.read_csv(courses_path)
@@ -253,7 +251,10 @@ def load_and_merge_data(
         )
     )
 
-    grouped_courses = defaultdict(list)
+    # First pass: build a lookup of (course_code, section_num) -> Section,
+    # so rows belonging to the same real section get merged together
+    # instead of creating duplicate Section objects.
+    sections_by_key = {}
 
     for _, row in courses_df.iterrows():
 
@@ -269,31 +270,39 @@ def load_and_merge_data(
 
         days = parse_days(str(row["Days"]))
 
-        slots = []
+        new_slots = []
         for day in days:
-            slots.append(TimeSlot(day=day, start_time=start_time, end_time=end_time))
+            new_slots.append(TimeSlot(day=day, start_time=start_time, end_time=end_time))
 
         instructor = str(row["Instructor"]).strip()
         rating = professor_ratings.get(instructor.lower())
 
-        section = Section(
-            course_code=row["Course_Code"],
-            section_num=str(row["Section"]),
-            course_name=row["Course_Name"],
-            instructor=instructor,
-            rating=rating,
-            time_slots=slots,
-        )
+        key = (row["Course_Code"], str(row["Section"]))
 
-        grouped_courses[row["Course_Code"]].append(section)
+        if key in sections_by_key:
+            # This section already exists from an earlier row - just add
+            # this row's TimeSlots onto it, don't create a duplicate Section.
+            sections_by_key[key].time_slots.extend(new_slots)
+        else:
+            sections_by_key[key] = Section(
+                course_code=row["Course_Code"],
+                section_num=str(row["Section"]),
+                course_name=row["Course_Name"],
+                instructor=instructor,
+                rating=rating,
+                time_slots=new_slots,
+            )
+
+    # Second pass: group the now-merged sections by course code.
+    grouped_courses = defaultdict(list)
+    for key in sections_by_key:
+        section = sections_by_key[key]
+        grouped_courses[section.course_code].append(section)
 
     return dict(grouped_courses)
 
 
-# =========================
 # Student Input (placeholders - real versions come from the frontend later)
-# =========================
-
 def get_student_selection() -> List[str]:
     """Placeholder. Later this will come from the frontend."""
     return [
@@ -314,11 +323,8 @@ def get_hard_constraints() -> HardConstraints:
     )
 
 
-# =========================
 # Schedule Scoring (Soft Constraints - only runs on schedules that already
 # passed the hard constraints above)
-# =========================
-
 def score_professor_rating(schedule: List[Section]) -> float:
     """Average professor rating across the schedule, scaled from a 0-5 range to 0-100.
     Sections with no rating (None) are skipped rather than counted as 0."""
@@ -400,10 +406,7 @@ def score_schedule(
     return weighted_sum / total_weight
 
 
-# =========================
 # Main
-# =========================
-
 def main():
 
     grouped_courses = load_and_merge_data(
