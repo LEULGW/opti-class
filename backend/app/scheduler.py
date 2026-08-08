@@ -33,6 +33,7 @@ class HardConstraints:
     (never even reaches scoring)."""
 
     allow_unrated_professors: bool = True
+    min_prof_rating: float | None = None
     excluded_days: List[int] = field(default_factory=list)
     max_days_on_campus: int | None = None
     earliest_start_time: str | None = None  # e.g. "10:00" means no class before 10am
@@ -147,13 +148,21 @@ def generate_valid_schedules(
     return schedules
 
 
-# Additional Hard Constraints
-# (these run AFTER generate_valid_schedules, BEFORE scoring)
+
 def has_unrated_professor(schedule: List[Section]) -> bool:
     """Returns True if any section in the schedule has no RMP rating (None)."""
 
     for section in schedule:
         if section.rating is None:
+            return True
+
+    return False
+
+def has_professor_below_min_rating(schedule: List[Section], min_rating: float) -> bool:
+    """Returns True if any section in the schedule has a professor rating below the specified minimum."""
+
+    for section in schedule:
+        if section.rating is not None and section.rating < min_rating:
             return True
 
     return False
@@ -198,6 +207,10 @@ def schedule_passes_hard_constraints(schedule: List[Section], constraints: HardC
 
     if not constraints.allow_unrated_professors:
         if has_unrated_professor(schedule):
+            return False
+    
+    if constraints.min_prof_rating is not None:
+        if has_professor_below_min_rating(schedule, constraints.min_prof_rating):
             return False
 
     if len(constraints.excluded_days) > 0:
@@ -317,6 +330,7 @@ def get_hard_constraints() -> HardConstraints:
     below to test different constraints locally."""
     return HardConstraints(
         allow_unrated_professors=True,
+        min_prof_rating=None,
         excluded_days=[],
         max_days_on_campus=None,
         earliest_start_time=None,
