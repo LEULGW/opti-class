@@ -25,6 +25,7 @@ class Section:
     instructor: str
     rating: float | None
     time_slots: List[TimeSlot]
+    busy_mask: int = 0 
 
 
 @dataclass
@@ -58,6 +59,14 @@ def parse_time_to_military(time_str: str) -> str:
     return parsed_time.strftime("%H:%M")
 
 
+def time_to_minutes(time_str: str) -> int:
+    """Convert 'HH:MM' -> minutes since midnight. '16:10' -> 970."""
+    parts = time_str.split(":")
+    hours = int(parts[0])
+    minutes = int(parts[1])
+    return hours * 60 + minutes
+
+
 def parse_days(days_str: str) -> List[int]:
     """Convert 'Monday, Wednesday' -> [0, 2]."""
 
@@ -74,34 +83,40 @@ def parse_days(days_str: str) -> List[int]:
     return day_numbers
 
 
-def have_conflict(section1: Section, section2: Section) -> bool:
-    """Return True if two sections overlap in time on the same day."""
 
-    days1 = set()
-    for slot in section1.time_slots:
-        days1.add(slot.day)
-
-    days2 = set()
-    for slot in section2.time_slots:
-        days2.add(slot.day)
-
-    shared_days = days1 & days2
-
-    if len(shared_days) == 0:
-        return False
-
-    for slot1 in section1.time_slots:
-        if slot1.day not in shared_days:
-            continue
-
-        for slot2 in section2.time_slots:
-            if slot2.day != slot1.day:
-                continue
-
-            if slot1.start_time < slot2.end_time and slot2.start_time < slot1.end_time:
-                return True
-
-    return False
+# Bitmask Conflict Detection
+#
+# Each Section gets one big integer (busy_mask) representing every 5-minute
+# block of the week it's in class. Bit 0 = Monday 00:00-00:05, and so on,
+# moving forward through the week.
+#
+ 
+BLOCK_SIZE_MINUTES = 5
+MINUTES_PER_DAY = 24 * 60
+ 
+ 
+def build_busy_mask(section: Section) -> int:
+    """Builds the busy_mask for one section from its time_slots.
+ 
+    Example: a Tuesday 11:10-12:00 class sets the bits covering that
+    specific 50-minute window on Tuesday, and nothing else.
+    """
+ 
+    mask = 0
+ 
+    for slot in section.time_slots:
+        start_minutes = time_to_minutes(slot.start_time)
+        end_minutes = time_to_minutes(slot.end_time)
+ 
+        day_offset_minutes = slot.day * MINUTES_PER_DAY
+ 
+        start_block = (day_offset_minutes + start_minutes) // BLOCK_SIZE_MINUTES
+        end_block = (day_offset_minutes + end_minutes) // BLOCK_SIZE_MINUTES
+ 
+        for block in range(start_block, end_block):
+            mask = mask | (1 << block)
+ 
+    return mask
 
 
 def generate_valid_schedules(
@@ -120,7 +135,7 @@ def generate_valid_schedules(
 
     schedules = []
 
-    def dfs(path: List[Section]):
+    def dfs(path: List[Section], occupied_mask: int):
 
         if len(path) == len(selected_courses):
             schedules.append(path.copy())
@@ -130,20 +145,14 @@ def generate_valid_schedules(
 
         for section in grouped_courses[course_code]:
 
-            conflict_found = False
-            for chosen in path:
-                if have_conflict(section, chosen):
-                    conflict_found = True
-                    break
-
-            if conflict_found:
+            if (occupied_mask & section.busy_mask) != 0:
                 continue
 
             path.append(section)
-            dfs(path)
+            dfs(path, occupied_mask | section.busy_mask)
             path.pop()
-
-    dfs([])
+    
+    dfs([], 0)
 
     return schedules
 
@@ -310,6 +319,7 @@ def load_and_merge_data(
     grouped_courses = defaultdict(list)
     for key in sections_by_key:
         section = sections_by_key[key]
+        section.busy_mask = build_busy_mask(section)
         grouped_courses[section.course_code].append(section)
 
     return dict(grouped_courses)
