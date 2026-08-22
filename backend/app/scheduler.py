@@ -25,7 +25,7 @@ class Section:
     instructor: str
     rating: float | None
     time_slots: List[TimeSlot]
-    busy_mask: int = 0 
+    busy_mask: int = 0  # computed once in load_and_merge_data, used for fast conflict checks
 
 
 @dataclass
@@ -83,47 +83,58 @@ def parse_days(days_str: str) -> List[int]:
     return day_numbers
 
 
-
 # Bitmask Conflict Detection
 #
 # Each Section gets one big integer (busy_mask) representing every 5-minute
 # block of the week it's in class. Bit 0 = Monday 00:00-00:05, and so on,
 # moving forward through the week.
 #
- 
+# Checking whether two sections (or a whole schedule) conflict becomes a
+# single bitwise AND instead of looping through time slots. This matters
+# most inside generate_valid_schedules, where a running "occupied_mask" is
+# carried through the backtracking search, so each new candidate is checked
+# against everything picked so far in O(1) instead of comparing it against
+# every already-chosen section one at a time.
+
 BLOCK_SIZE_MINUTES = 5
 MINUTES_PER_DAY = 24 * 60
- 
- 
+
+
 def build_busy_mask(section: Section) -> int:
     """Builds the busy_mask for one section from its time_slots.
- 
+
     Example: a Tuesday 11:10-12:00 class sets the bits covering that
     specific 50-minute window on Tuesday, and nothing else.
     """
- 
+
     mask = 0
- 
+
     for slot in section.time_slots:
         start_minutes = time_to_minutes(slot.start_time)
         end_minutes = time_to_minutes(slot.end_time)
- 
+
         day_offset_minutes = slot.day * MINUTES_PER_DAY
- 
+
         start_block = (day_offset_minutes + start_minutes) // BLOCK_SIZE_MINUTES
         end_block = (day_offset_minutes + end_minutes) // BLOCK_SIZE_MINUTES
- 
+
         for block in range(start_block, end_block):
             mask = mask | (1 << block)
- 
+
     return mask
 
-
+# Schedule Generation (Hard Constraint: no time conflicts)
 def generate_valid_schedules(
     selected_courses: List[str],
     grouped_courses: Dict[str, List[Section]],
 ) -> List[List[Section]]:
-    """Generate every schedule with no time conflicts, one section per selected course."""
+    """Generate every schedule with no time conflicts, one section per selected course.
+
+    Uses each Section's precomputed busy_mask and carries a running
+    occupied_mask through the search, so checking a candidate against
+    everything already chosen is one bitwise AND, regardless of how many
+    courses are already picked.
+    """
 
     missing = []
     for course in selected_courses:
@@ -146,17 +157,19 @@ def generate_valid_schedules(
         for section in grouped_courses[course_code]:
 
             if (occupied_mask & section.busy_mask) != 0:
-                continue
+                continue  # conflicts with something already chosen
 
             path.append(section)
             dfs(path, occupied_mask | section.busy_mask)
             path.pop()
-    
+
     dfs([], 0)
 
     return schedules
 
 
+# Additional Hard Constraints
+# (these run AFTER generate_valid_schedules, BEFORE scoring)
 
 def has_unrated_professor(schedule: List[Section]) -> bool:
     """Returns True if any section in the schedule has no RMP rating (None)."""
@@ -166,6 +179,7 @@ def has_unrated_professor(schedule: List[Section]) -> bool:
             return True
 
     return False
+
 
 def has_professor_below_min_rating(schedule: List[Section], min_rating: float) -> bool:
     """Returns True if any section in the schedule has a professor rating below the specified minimum."""
@@ -217,7 +231,7 @@ def schedule_passes_hard_constraints(schedule: List[Section], constraints: HardC
     if not constraints.allow_unrated_professors:
         if has_unrated_professor(schedule):
             return False
-    
+
     if constraints.min_prof_rating is not None:
         if has_professor_below_min_rating(schedule, constraints.min_prof_rating):
             return False
@@ -252,7 +266,7 @@ def filter_schedules_by_hard_constraints(
     return filtered
 
 
-
+# Data Loading
 def load_and_merge_data(
     courses_path: str | Path,
     rmp_path: str | Path,
@@ -260,7 +274,8 @@ def load_and_merge_data(
     """
     Load course data and professor ratings, merge rows that belong to the
     same section (a section can span multiple rows if it has more than one
-    meeting pattern), and group sections by course code.
+    meeting pattern), compute each section's busy_mask, and group sections
+    by course code.
     """
 
     courses_df = pd.read_csv(courses_path)
@@ -315,7 +330,8 @@ def load_and_merge_data(
                 time_slots=new_slots,
             )
 
-    # Second pass: group the now-merged sections by course code.
+    # Second pass: now that every section's full time_slots list is final
+    # (all rows merged in), compute its busy_mask and group by course code.
     grouped_courses = defaultdict(list)
     for key in sections_by_key:
         section = sections_by_key[key]
@@ -329,7 +345,7 @@ def load_and_merge_data(
 def get_student_selection() -> List[str]:
     """Placeholder. Later this will come from the frontend."""
     return [
-        "SWAH 001",
+        "CSCI 136",
         "ACCT 201",
         "ACAD 100",
     ]
@@ -349,6 +365,104 @@ def get_hard_constraints() -> HardConstraints:
 
 # Schedule Scoring (Soft Constraints - only runs on schedules that already
 # passed the hard constraints above)
+
+def sections_by_day(schedule: List[Section]) -> Dict[int, List[TimeSlot]]:
+    """Takes a full schedule and groups all its TimeSlots by day of week,
+    with each day's slots sorted earliest-to-latest. Shared helper used by
+    score_gap_time and score_compactness below."""
+
+    by_day = {}
+
+    for section in schedule:
+        for slot in section.time_slots:
+            if slot.day not in by_day:
+                by_day[slot.day] = []
+            by_day[slot.day].append(slot)
+
+    for day in by_day:
+        day_slots = by_day[day]
+        day_slots.sort(key=lambda s: s.start_time)
+
+    return by_day
+
+
+def total_gap_minutes(schedule: List[Section]) -> int:
+    """Adds up all the idle time between consecutive classes on the same day,
+    across the whole week."""
+
+    by_day = sections_by_day(schedule)
+    total_gap = 0
+
+    for day in by_day:
+        day_slots = by_day[day]
+
+        for i in range(len(day_slots) - 1):
+            current_slot = day_slots[i]
+            next_slot = day_slots[i + 1]
+
+            current_end_minutes = time_to_minutes(current_slot.end_time)
+            next_start_minutes = time_to_minutes(next_slot.start_time)
+
+            gap = next_start_minutes - current_end_minutes
+
+            if gap > 0:
+                total_gap = total_gap + gap
+
+    return total_gap
+
+
+def score_gap_time(schedule: List[Section], max_tolerable_gap_minutes: int = 480) -> float:
+    """Lower total gap time results in a higher score. max_tolerable_gap_minutes
+    is the worst-case gap we expect (default 480 = 8 hours per week), used to
+    scale the score between 0 and 100."""
+
+    gap = total_gap_minutes(schedule)
+
+    score = 100 - (gap / max_tolerable_gap_minutes * 100)
+
+    if score < 0:
+        score = 0
+
+    return score
+
+
+def score_compactness(schedule: List[Section], max_tolerable_span_minutes: int = 480) -> float:
+    """Rewards schedules where each day's total span (first class start to
+    last class end) is short. Different from score_gap_time - this measures
+    how spread out a single day is, not idle time between classes."""
+
+    by_day = sections_by_day(schedule)
+
+    if len(by_day) == 0:
+        return 0
+
+    day_spans = []
+
+    for day in by_day:
+        day_slots = by_day[day]
+        first_slot = day_slots[0]
+        last_slot = day_slots[len(day_slots) - 1]
+
+        start_minutes = time_to_minutes(first_slot.start_time)
+        end_minutes = time_to_minutes(last_slot.end_time)
+
+        span = end_minutes - start_minutes
+        day_spans.append(span)
+
+    total_span = 0
+    for span in day_spans:
+        total_span = total_span + span
+
+    average_span = total_span / len(day_spans)
+
+    score = 100 - (average_span / max_tolerable_span_minutes * 100)
+
+    if score < 0:
+        score = 0
+
+    return score
+
+
 def score_professor_rating(schedule: List[Section]) -> float:
     """Average professor rating across the schedule, scaled from a 0-5 range to 0-100.
     Sections with no rating (None) are skipped rather than counted as 0."""
@@ -399,21 +513,21 @@ def score_schedule(
     schedule: List[Section],
     preferences: dict | None = None,
 ) -> float:
-    """
-    Combines sub-scores into one weighted score, 0-100.
-
-    Still a work in progress - gap time and compactness scoring not added yet.
-    """
+    """Combines every sub-score into one weighted score, 0-100."""
 
     if preferences is None:
         preferences = {
             "professor_rating": 1,
             "days_on_campus": 1,
+            "gap_time": 1,
+            "compactness": 1,
         }
 
     subscores = {
         "professor_rating": score_professor_rating(schedule),
         "days_on_campus": score_days_on_campus(schedule),
+        "gap_time": score_gap_time(schedule),
+        "compactness": score_compactness(schedule),
     }
 
     total_weight = 0
