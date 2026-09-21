@@ -1,17 +1,13 @@
 """
 Entry point for the backend. Run with:
     uvicorn app.main:app --reload
-
-No Pydantic here on purpose - request bodies are read as plain dicts,
-and responses are built as plain dicts/lists. FastAPI just needs
-regular JSON-serializable Python (dicts, lists, strings, numbers) to
-turn into a response - it doesn't require any special classes.
 """
 
 from pathlib import Path
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 from app.scheduler import (
     HardConstraints,
@@ -32,7 +28,7 @@ app.add_middleware(
 )
 
 # Loaded once at startup, reused by every request below.
-DATA_DIR = Path(__file__).resolve().parent / "data" / "processed"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "processed"
 grouped_courses: dict[str, list[Section]] = {}
 
 
@@ -45,20 +41,57 @@ def load_data_on_startup():
     )
 
 
-def section_to_dict(section: Section) -> dict:
-    """Turns one Section object into a plain dict, since dataclass
-    instances aren't automatically JSON-serializable."""
-    return {
-        "course_code": section.course_code,
-        "section_num": section.section_num,
-        "course_name": section.course_name,
-        "instructor": section.instructor,
-        "rating": section.rating,
-        "time_slots": [
+# What the frontend sends us, and what we send back.
+# Declaring these is what makes /docs able to auto-generate a fillable
+# request body - that's the piece that broke when we dropped Pydantic.
+
+class HardConstraintsIn(BaseModel):
+    allow_unrated_professors: bool = True
+    min_prof_rating: float | None = None
+    excluded_days: list[int] = []
+    max_days_on_campus: int | None = None
+    earliest_start_time: str | None = None
+
+
+class PreferencesIn(BaseModel):
+    professor_rating: float = 5
+    days_on_campus: float = 5
+    compactness: float = 5
+
+
+class ScheduleRequest(BaseModel):
+    selected_courses: list[str]
+    constraints: HardConstraintsIn = HardConstraintsIn()
+    preferences: PreferencesIn = PreferencesIn()
+    max_results: int = 20
+
+
+class SectionOut(BaseModel):
+    course_code: str
+    section_num: str
+    course_name: str
+    instructor: str
+    rating: float | None
+    time_slots: list[dict]
+
+
+class ScheduleResponse(BaseModel):
+    score: float
+    sections: list[SectionOut]
+
+
+def section_to_out(section: Section) -> SectionOut:
+    return SectionOut(
+        course_code=section.course_code,
+        section_num=section.section_num,
+        course_name=section.course_name,
+        instructor=section.instructor,
+        rating=section.rating,
+        time_slots=[
             {"day": s.day, "start_time": s.start_time, "end_time": s.end_time}
             for s in section.time_slots
         ],
-    }
+    )
 
 
 @app.get("/courses")
@@ -67,34 +100,11 @@ def list_courses():
 
 
 @app.post("/schedules")
-async def get_schedules(request: Request):
-    # request.json() reads and parses the raw JSON body the frontend sent.
-    # body is just a plain dict at this point - e.g.
-    # {"selected_courses": ["CS101"], "constraints": {...}, "preferences": {...}}
-    body = await request.json()
+def get_schedules(req: ScheduleRequest):
+    constraints = HardConstraints(**req.constraints.model_dump())
+    preference_weights = req.preferences.model_dump()
 
-    selected_courses = body["selected_courses"]
-
-    # .get(key, default) reads a key if it's there, otherwise falls back -
-    # this is doing by hand what Pydantic was doing automatically before.
-    constraints_in = body.get("constraints", {})
-    constraints = HardConstraints(
-        allow_unrated_professors=constraints_in.get("allow_unrated_professors", True),
-        min_prof_rating=constraints_in.get("min_prof_rating"),
-        excluded_days=constraints_in.get("excluded_days", []),
-        max_days_on_campus=constraints_in.get("max_days_on_campus"),
-        earliest_start_time=constraints_in.get("earliest_start_time"),
-    )
-
-    preference_weights = body.get("preferences", {
-        "professor_rating": 5,
-        "days_on_campus": 5,
-        "compactness": 5,
-    })
-
-    max_results = body.get("max_results", 20)
-
-    all_schedules = generate_valid_schedules(selected_courses, grouped_courses)
+    all_schedules = generate_valid_schedules(req.selected_courses, grouped_courses)
     valid_schedules = filter_schedules_by_hard_constraints(all_schedules, constraints)
 
     ranked = sorted(
@@ -103,12 +113,12 @@ async def get_schedules(request: Request):
         reverse=True,
     )
 
-    top = ranked[:max_results]
+    top = ranked[: req.max_results]
 
     return [
-        {
-            "score": score_schedule(schedule, preference_weights),
-            "sections": [section_to_dict(s) for s in schedule],
-        }
+        ScheduleResponse(
+            score=score_schedule(schedule, preference_weights),
+            sections=[section_to_out(s) for s in schedule],
+        )
         for schedule in top
     ]
