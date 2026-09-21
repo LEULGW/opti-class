@@ -341,35 +341,13 @@ def load_and_merge_data(
     return dict(grouped_courses)
 
 
-# Student Input (placeholders - real versions come from the frontend later)
-def get_student_selection() -> List[str]:
-    """Placeholder. Later this will come from the frontend."""
-    return [
-        "CSCI 136",
-        "ACCT 201",
-        "ACAD 100",
-    ]
-
-
-def get_hard_constraints() -> HardConstraints:
-    """Placeholder. Later this will come from the frontend. Change the values
-    below to test different constraints locally."""
-    return HardConstraints(
-        allow_unrated_professors=True,
-        min_prof_rating=None,
-        excluded_days=[],
-        max_days_on_campus=None,
-        earliest_start_time=None,
-    )
-
-
 # Schedule Scoring (Soft Constraints - only runs on schedules that already
 # passed the hard constraints above)
 
 def sections_by_day(schedule: List[Section]) -> Dict[int, List[TimeSlot]]:
     """Takes a full schedule and groups all its TimeSlots by day of week,
     with each day's slots sorted earliest-to-latest. Shared helper used by
-    score_gap_time and score_compactness below."""
+    score_compactness below."""
 
     by_day = {}
 
@@ -386,50 +364,11 @@ def sections_by_day(schedule: List[Section]) -> Dict[int, List[TimeSlot]]:
     return by_day
 
 
-def total_gap_minutes(schedule: List[Section]) -> int:
-    """Adds up all the idle time between consecutive classes on the same day,
-    across the whole week."""
-
-    by_day = sections_by_day(schedule)
-    total_gap = 0
-
-    for day in by_day:
-        day_slots = by_day[day]
-
-        for i in range(len(day_slots) - 1):
-            current_slot = day_slots[i]
-            next_slot = day_slots[i + 1]
-
-            current_end_minutes = time_to_minutes(current_slot.end_time)
-            next_start_minutes = time_to_minutes(next_slot.start_time)
-
-            gap = next_start_minutes - current_end_minutes
-
-            if gap > 0:
-                total_gap = total_gap + gap
-
-    return total_gap
-
-
-def score_gap_time(schedule: List[Section], max_tolerable_gap_minutes: int = 480) -> float:
-    """Lower total gap time results in a higher score. max_tolerable_gap_minutes
-    is the worst-case gap we expect (default 480 = 8 hours per week), used to
-    scale the score between 0 and 100."""
-
-    gap = total_gap_minutes(schedule)
-
-    score = 100 - (gap / max_tolerable_gap_minutes * 100)
-
-    if score < 0:
-        score = 0
-
-    return score
-
-
 def score_compactness(schedule: List[Section], max_tolerable_span_minutes: int = 480) -> float:
-    """Rewards schedules where each day's total span (first class start to
-    last class end) is short. Different from score_gap_time - this measures
-    how spread out a single day is, not idle time between classes."""
+    """Rewards schedules where each day's total time on campus (first class
+    start to last class end) is short. E.g. 11am-3pm scores well, 8am-6pm
+    scores poorly, even if the actual class time is identical - this
+    measures how spread out a day is, not how much is idle vs. in class."""
 
     by_day = sections_by_day(schedule)
 
@@ -519,14 +458,12 @@ def score_schedule(
         preferences = {
             "professor_rating": 1,
             "days_on_campus": 1,
-            "gap_time": 1,
             "compactness": 1,
         }
 
     subscores = {
         "professor_rating": score_professor_rating(schedule),
         "days_on_campus": score_days_on_campus(schedule),
-        "gap_time": score_gap_time(schedule),
         "compactness": score_compactness(schedule),
     }
 
@@ -542,56 +479,3 @@ def score_schedule(
         return 0.0
 
     return weighted_sum / total_weight
-
-
-# Main
-def main():
-
-    grouped_courses = load_and_merge_data(
-        BASE_DIR / "backend" / "data" / "processed" / "howard_courses.csv",
-        BASE_DIR / "backend" / "data" / "processed" / "howard_professors_rmp.csv",
-    )
-
-    selected_courses = get_student_selection()
-
-    # Step 1: generate every combination with no time conflicts
-    schedules = generate_valid_schedules(
-        selected_courses,
-        grouped_courses,
-    )
-    print(f"{len(schedules)} schedules before hard constraints")
-
-    # Step 2: drop anything that fails a hard constraint (ratings, excluded
-    # days, max days on campus, earliest start time)
-    constraints = get_hard_constraints()
-    schedules = filter_schedules_by_hard_constraints(
-        schedules,
-        constraints,
-    )
-    print(f"{len(schedules)} schedules after hard constraints")
-
-    # Step 3: score and rank only what survived filtering
-    scored_schedules = []
-    for schedule in schedules:
-        score = score_schedule(schedule)
-        scored_schedules.append((schedule, score))
-
-    scored_schedules.sort(key=lambda pair: pair[1], reverse=True)
-
-    print(f"\nFound {len(scored_schedules)} valid schedules")
-
-    for schedule, score in scored_schedules[:3]:
-
-        print(f"\nScore: {score:.1f}")
-
-        for section in schedule:
-            print(
-                f"{section.course_code} | "
-                f"Section {section.section_num} | "
-                f"{section.instructor} | "
-                f"rating={section.rating}"
-            )
-
-
-if __name__ == "__main__":
-    main()
