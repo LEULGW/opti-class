@@ -4,6 +4,7 @@ Entry point for the backend. Run with:
 """
 
 from pathlib import Path
+from datetime import datetime
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -63,7 +64,7 @@ class ScheduleRequest(BaseModel):
     selected_courses: list[str]
     constraints: HardConstraintsIn = HardConstraintsIn()
     preferences: PreferencesIn = PreferencesIn()
-    max_results: int = 20
+    max_results: int = 5
 
 
 class SectionOut(BaseModel):
@@ -80,6 +81,10 @@ class ScheduleResponse(BaseModel):
     sections: list[SectionOut]
 
 
+def format_time(time_str: str) -> str:
+    return datetime.strptime(time_str, "%H:%M").strftime("%I:%M %p").lstrip("0")
+
+
 def section_to_out(section: Section) -> SectionOut:
     return SectionOut(
         course_code=section.course_code,
@@ -88,7 +93,11 @@ def section_to_out(section: Section) -> SectionOut:
         instructor=section.instructor,
         rating=section.rating,
         time_slots=[
-            {"day": s.day, "start_time": s.start_time, "end_time": s.end_time}
+            {
+                "day": s.day,
+                "start_time": format_time(s.start_time),
+                "end_time": format_time(s.end_time),
+            }
             for s in section.time_slots
         ],
     )

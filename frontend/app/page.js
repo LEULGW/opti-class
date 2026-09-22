@@ -15,6 +15,7 @@ export default function Home() {
   const [excludedDays, setExcludedDays] = useState([]);
   const [maxDays, setMaxDays] = useState("");
   const [earliestStart, setEarliestStart] = useState("");
+  const [maxResults, setMaxResults] = useState(5);
 
   useEffect(() => {
     async function loadCourses() {
@@ -45,6 +46,11 @@ export default function Home() {
   }
 
   async function getSchedules() {
+    if (selected.length === 0) {
+      alert("Please select at least one course.");
+      return;
+    }
+
     const res = await fetch("http://localhost:8000/schedules", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -62,6 +68,7 @@ export default function Home() {
           days_on_campus: daysOnCampus,
           compactness: compactness,
         },
+        max_results: maxResults === "" ? 5 : Number(maxResults),
       }),
     });
     const data = await res.json();
@@ -69,90 +76,97 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <h1>Pick your courses</h1>
+    <div className="container">
+      <h1>Course Scheduler</h1>
 
-      <input
-        list="course-options"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-      />
-      <datalist id="course-options">
-        {courses.map((code) => (
-          <option key={code} value={code} />
-        ))}
-      </datalist>
-      <button onClick={addCourse}>Add</button>
+      <div className="course-picker">
+        <input
+          type="text"
+          list="course-options"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          placeholder="Type a course code..."
+        />
+        <datalist id="course-options">
+          {courses.map((code) => (
+            <option key={code} value={code} />
+          ))}
+        </datalist>
+        <button onClick={addCourse}>Add</button>
+      </div>
 
-      <ul>
+      <ul className="selected-list">
         {selected.map((code) => (
           <li key={code}>
-            {code} <button onClick={() => removeCourse(code)}>Remove</button>
+            {code}
+            <button className="remove-btn" onClick={() => removeCourse(code)}>
+              Remove
+            </button>
           </li>
         ))}
       </ul>
 
       <h2>Constraints</h2>
 
-      <label>
-        <input
-          type="checkbox"
-          checked={allowUnrated}
-          onChange={(e) => setAllowUnrated(e.target.checked)}
-        />
-        Allow unrated professors
-      </label>
-      <br />
+      <div className="checkbox-row">
+        <label>
+          <input
+            type="checkbox"
+            checked={allowUnrated}
+            onChange={(e) => setAllowUnrated(e.target.checked)}
+          />
+          Allow unrated professors
+        </label>
+      </div>
 
-      <label>
-        Minimum professor rating:
+      <div className="field-row">
+        <label>Minimum professor rating</label>
         <input
           type="number"
           step="0.1"
           value={minRating}
           onChange={(e) => setMinRating(e.target.value)}
         />
-      </label>
-      <br />
+      </div>
 
-      <p>Exclude days:</p>
-      {/* The index (0-4) is what gets stored and sent. Confirm this matches
-          how scheduler.py represents days (0 = Mon?). If it uses names like
-          "Mon", change toggleDay/excludedDays to use `label` instead of `day`. */}
-      {["Mon", "Tue", "Wed", "Thu", "Fri"].map((label, day) => (
-        <label key={day}>
-          <input
-            type="checkbox"
-            checked={excludedDays.includes(day)}
-            onChange={() => toggleDay(day)}
-          />
-          {label}
-        </label>
-      ))}
-      <br />
+      <div className="field-row">
+        <label>Exclude days</label>
+        <div className="checkbox-row">
+          {["Mon", "Tue", "Wed", "Thu", "Fri"].map((label, day) => (
+            <label key={day}>
+              <input
+                type="checkbox"
+                checked={excludedDays.includes(day)}
+                onChange={() => toggleDay(day)}
+              />
+              {label}
+            </label>
+          ))}
+        </div>
+      </div>
 
-      <label>
-        Max days on campus:
+      <div className="field-row">
+        <label>Max days on campus</label>
         <input
           type="number"
           value={maxDays}
           onChange={(e) => setMaxDays(e.target.value)}
         />
-      </label>
-      <br />
+      </div>
 
-      <label>
-        Earliest start time:
+      <div className="field-row">
+        <label>Earliest start time</label>
         <input
           type="time"
           value={earliestStart}
           onChange={(e) => setEarliestStart(e.target.value)}
         />
-      </label>
+      </div>
 
       <h2>Preferences</h2>
-      <label>
-        Professor rating importance: {professorRating}
+
+      <div className="field-row">
+        <label>Professor rating importance: {professorRating}</label>
         <input
           type="range"
           min="1"
@@ -160,10 +174,10 @@ export default function Home() {
           value={professorRating}
           onChange={(e) => setProfessorRating(Number(e.target.value))}
         />
-      </label>
-      <br />
-      <label>
-        Fewer days on campus importance: {daysOnCampus}
+      </div>
+
+      <div className="field-row">
+        <label>Fewer days on campus importance: {daysOnCampus}</label>
         <input
           type="range"
           min="1"
@@ -171,10 +185,10 @@ export default function Home() {
           value={daysOnCampus}
           onChange={(e) => setDaysOnCampus(Number(e.target.value))}
         />
-      </label>
-      <br />
-      <label>
-        Compactness importance: {compactness}
+      </div>
+
+      <div className="field-row">
+        <label>Compactness importance: {compactness}</label>
         <input
           type="range"
           min="1"
@@ -182,38 +196,49 @@ export default function Home() {
           value={compactness}
           onChange={(e) => setCompactness(Number(e.target.value))}
         />
-      </label>
+      </div>
 
-      <br />
-      <button onClick={getSchedules}>Get Schedules</button>
+      <div className="field-row">
+        <label>How many results do you want?</label>
+        <input
+          type="number"
+          min="1"
+          value={maxResults}
+          onChange={(e) => setMaxResults(e.target.value)}
+        />
+      </div>
+
+      <button className="get-schedules-btn" onClick={getSchedules}>
+        Get Schedules
+      </button>
 
       <h2>Results</h2>
-      {results && results.length === 0 && <p>No valid schedules found.</p>}
+      {results && results.length === 0 && (
+        <p className="empty-note">No valid schedules found.</p>
+      )}
 
       {results &&
         results.map((schedule, i) => (
-          <div
-            key={i}
-            style={{ border: "1px solid black", margin: "10px", padding: "10px" }}
-          >
-            <h3>
-              Option {i + 1} — Score: {schedule.score.toFixed(1)}
-            </h3>
-            <ul>
+          <div key={i} className="schedule-card">
+            <div style={{ flex: 1 }}>
+              <h3>Option {i + 1}</h3>
               {schedule.sections.map((section) => (
-                <li key={section.course_code}>
-                  {section.course_code} — {section.course_name} (
-                  {section.instructor}, rating: {section.rating ?? "N/A"})
-                  <ul>
-                    {section.time_slots.map((slot, j) => (
-                      <li key={j}>
-                        Day {slot.day}: {slot.start_time}–{slot.end_time}
-                      </li>
-                    ))}
-                  </ul>
-                </li>
+                <div key={section.course_code} className="section-entry">
+                  <div className="section-title">
+                    {section.course_code} — {section.course_name}
+                  </div>
+                  <div className="section-meta">
+                    {section.instructor}, rating: {section.rating ?? "N/A"}
+                  </div>
+                  {section.time_slots.map((slot, j) => (
+                    <div key={j} className="time-slot">
+                      Day {slot.day}: {slot.start_time}–{slot.end_time}
+                    </div>
+                  ))}
+                </div>
               ))}
-            </ul>
+            </div>
+            <div className="schedule-score">{schedule.score.toFixed(1)}</div>
           </div>
         ))}
     </div>
