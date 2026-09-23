@@ -19,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     async function loadCourses() {
-      const res = await fetch("http://localhost:8000/courses");
+      const res = await fetch("https://opti-class.onrender.com/courses");
       const data = await res.json();
       setCourses(data);
     }
@@ -51,7 +51,7 @@ export default function Home() {
       return;
     }
 
-    const res = await fetch("http://localhost:8000/schedules", {
+    const res = await fetch("https://opti-class.onrender.com/schedules", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
