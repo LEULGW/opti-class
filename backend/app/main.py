@@ -86,6 +86,8 @@ def format_time(time_str: str) -> str:
 
 
 def section_to_out(section: Section) -> SectionOut:
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
     return SectionOut(
         course_code=section.course_code,
         section_num=section.section_num,
@@ -94,7 +96,7 @@ def section_to_out(section: Section) -> SectionOut:
         rating=section.rating,
         time_slots=[
             {
-                "day": s.day,
+                "day": days[s.day],
                 "start_time": format_time(s.start_time),
                 "end_time": format_time(s.end_time),
             }

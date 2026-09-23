@@ -232,7 +232,7 @@ export default function Home() {
                   </div>
                   {section.time_slots.map((slot, j) => (
                     <div key={j} className="time-slot">
-                      Day {slot.day}: {slot.start_time}–{slot.end_time}
+                      {slot.day}: {slot.start_time}–{slot.end_time}
                     </div>
                   ))}
                 </div>
