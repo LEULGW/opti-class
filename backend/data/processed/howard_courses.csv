@@ -23,16 +23,15 @@ ACCT 341,1,Auditing II,Open,Lucy Lim,CB4-418,"Tuesday, Thursday",2:10 PM - 3:30 
 ACCT 365,1,Financial Data Analytics,Open,Lucy Lim,CB4-400,"Tuesday, Thursday",9:40 AM - 11:00 AM
 AFRO 005,1,Intro to Afro-American Studies I,Open,Lila Ammons,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
 AFRO 005,2,Intro to Afro-American Studies I,Open,Greg Carr,EJH-G09A,"Tuesday, Thursday",8:10 AM - 9:30 AM
-AFRO 005,3,Intro to Afro-American Studies I,Open,Lila Ammons,N/A,"Tuesday, Thursday",11:10 AM - 12:30 PM
+AFRO 005,3,Intro to Afro-American Studies I,Waitlist,Lila Ammons,N/A,"Tuesday, Thursday",11:10 AM - 12:30 PM
 AFRO 005,4,Intro to Afro-American Studies I,Closed,LaTasha Levy,LKH-242,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-AFRO 005,5,Intro to Afro-American Studies I,Open,Joshua Myers,LKH-236,"Tuesday, Thursday",2:10 PM - 3:30 PM
 AFRO 006,3,Intro to Afro-American Studies II,Open,Joshua Myers,LKH-208,"Tuesday, Thursday",9:40 AM - 11:00 AM
 AFRO 085,1,Soph Directed Readings-Honors,Open,Greg Carr,N/A,N/A,N/A
 AFRO 091,1,Honors Social Science Seminar,Open,Joshua Myers,DGH-7,"Tuesday, Thursday",12:40 PM - 2:00 PM
 AFRO 101,1,Exploitation of Third World,Open,Nikongo Nikongo,DGH-104,"Tuesday, Thursday",8:10 AM - 9:30 AM
-AFRO 121,2,ST: The Civil Rights Movement,Open,Joe Leonard,ILH-107,Wednesday,5:10 PM - 7:30 PM
+AFRO 121,2,ST: The Civil Rights Movement,Waitlist,Joe Leonard,ILH-107,Wednesday,5:10 PM - 7:30 PM
 AFRO 123,1,Intro to Egyptian Hieroglyphs,Open,Mario Beatty,LKH-105/107,"Tuesday, Thursday",12:40 PM - 2:00 PM
-AFRO 128,1,Hip Hop,Open,Greg Carr,LKH-105/107,"Tuesday, Thursday",3:40 PM - 5:00 PM
+AFRO 128,1,Hip Hop,Closed,Greg Carr,LKH-105/107,"Tuesday, Thursday",3:40 PM - 5:00 PM
 AFRO 132,1,Politics of Blk Autobiography,Open,Lila Ammons,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
 AFRO 134,1,20th Century Black Social and Political Thought,Open,Joshua Myers,LKH-253,"Tuesday, Thursday",11:10 AM - 12:30 PM
 AFRO 159,1,Senior Seminar for Majors,Open,Mario Beatty,DGH-122,"Tuesday, Thursday",2:10 PM - 3:30 PM
@@ -42,15 +41,29 @@ AFRO 170,3,Directed Research,Open,Greg Carr,N/A,N/A,N/A
 AFRO 170,4,Directed Research,Open,LaTasha Levy,N/A,N/A,N/A
 AFRO 170,5,Directed Research,Open,Nikongo Nikongo,N/A,N/A,N/A
 AFRO 170,6,Directed Research,Open,Sheneese Thompson,N/A,N/A,N/A
-AFRO 185,1,Black Women in America,Open,Valethia Watkins,ILH-116,"Tuesday, Thursday",3:40 PM - 5:00 PM
-AFRO 187,2,"Women, Culture, and Power",Waitlist,Valethia Watkins,ILH-116,"Tuesday, Thursday",2:10 PM - 3:30 PM
+AFRO 185,1,Black Women in America,Closed,Valethia Watkins,ILH-116,"Tuesday, Thursday",3:40 PM - 5:00 PM
+AFRO 187,2,"Women, Culture, and Power",Closed,Valethia Watkins,ILH-116,"Tuesday, Thursday",2:10 PM - 3:30 PM
 AFRO 301,1,"Racism, Law & Injustice",Open,Nikongo Nikongo,DGH-215/217,"Tuesday, Thursday",12:40 PM - 2:00 PM
 AFRO 775,1,Prep-Prac.-Writing (3rd Wrtg),Open,Sheneese Thompson,DGH-114,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+AFST 101,1,Intro to Cont. Africa,Open,Francis Wiafe-Amoako,DGH-215/217,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+AFST 101,5,Intro to Contemporary Africa,Open,Francis Wiafe-Amoako,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+AFST 101,6,Intro to Contemporary Africa,Open,Josepha Musabyemariya Nelson,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+AFST 101,7,Intro to Contemporary Africa,Open,Francis Wiafe-Amoako,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+AFST 101,9,Intro to Contemporary Africa,Open,Traci Wyatt,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+AFST 101,10,Intro to Contemporary Africa,Open,Phiwokuhle Mnyandu,N/A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+AFST 101,12,Intro to Contemporary Africa,Open,Josepha Musabyemariya Nelson,N/A,"Tuesday, Thursday",10:10 AM - 11:30 AM
+AFST 101,13,Intro to Contemporary Africa,Open,Josepha Musabyemariya Nelson,N/A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+AFST 101,14,Intro to Contemporary Africa,Open,Josepha Musabyemariya Nelson,N/A,"Wednesday, Friday",11:10 AM - 12:30 PM
+AFST 101,15,Intro to Contemporary Africa,Open,Vanessa Perry-Seho,LKH-105/107,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
+AFST 101,16,Intro to Contemporary Africa,Open,Vanessa Perry-Seho,LKH-105/107,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+AFST 121,1,Environ & Society in Africa,Open,Florie Bugarin,N/A,"Tuesday, Thursday",12:40 PM - 2:00 PM
+AFST 122,1,Special Topics,Open,Mohamed Camara,N/A,N/A,N/A
+AFST 890,1,Study Abroad,Waitlist,Esther Lisanza,DGH-17/19,"Tuesday, Thursday",12:40 PM - 2:00 PM
 AHCC 003,1,Medical Terminology,Open,Lennox Graham,N/A,N/A,N/A
 AHCC 003,2,Medical Terminology,Open,Lori Garibay,N/A,Monday,6:00 PM - 7:40 PM
 AHCC 110,1,General Orientation,Open,Lennox Graham,N/A,Monday,10:10 AM - 11:50 AM
 AHCC 301,1,Ethics for Health Professionals,Open,Oral John,N/A,Wednesday,5:30 PM - 7:20 PM
-AHCC 301,2,Ethics for Health Professionals,Open,Karen Turner,N/A,Wednesday,5:30 PM - 7:20 PM
+AHCC 301,2,Ethics for Health Professionals,Closed,Karen Turner,N/A,Wednesday,5:30 PM - 7:20 PM
 AKAN 001,1,Akan Twi I,Open,Sally Akomabea Vianna,DGH-215/217,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 AKAN 002,1,Akan Twi II,Open,Sally Akomabea Vianna,DGH-211,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 AMHR 001,1,Amharic I,Open,Tafessework Gebeyehu,LKH-300,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
@@ -84,7 +97,7 @@ ARCH 354,1,Urban Design Principles,Open,Farhana Ferdous,HMB-G01 (Innovation Spac
 ARCH 402,1,Building Construction II,Open,Bradford Carpenter,HMB-201,"Tuesday, Thursday",9:40 AM - 10:55 AM
 ARCH 421,1,Housing Design & Equity,Open,Julia Hustwit,HMB-218,Tuesday,5:10 PM - 8:00 PM
 ARCH 438,1,Architecture Rsch. Methods,Open,Hazel Edwards,HMB-G-09,"Monday, Wednesday",9:40 AM - 10:55 AM
-ARCH 440,1,Ecology and Architecture,Open,Nea Maloo,HMB-150,"Tuesday, Thursday",3:40 PM - 4:55 PM
+ARCH 440,1,Ecology and Architecture,Closed,Nea Maloo,HMB-150,"Tuesday, Thursday",3:40 PM - 4:55 PM
 ARCH 446,1,Construction Representation,Waitlist,Kristina Crenshaw,HMB-150,Monday,5:10 PM - 7:55 PM
 ARCH 446,2,Construction Representation,Open,Telicious Robinson,HMB-G-09,Monday,5:10 PM - 7:55 PM
 ARCH 467,1,Arch Design VI Integ. Design,Waitlist,Kristina Crenshaw,HMB-206,"Monday, Wednesday, Friday",2:10 PM - 5:00 PM
@@ -96,13 +109,13 @@ ARCH 902,1,Design Portfolio & Marketing,Open,John Odhiambo Onyango,HMB-150,Thurs
 ARTA 012,1,Painting II,Open,Ronald Anderson,LVC-206,Monday,4:00 PM - 7:00 PM
 ARTA 014,1,Watercolor I,Open,Summer Brown,LVC-206,Wednesday,4:10 PM - 7:00 PM
 ARTA 020,1,Public Art II,Open,James Phillips,LVC-220,Thursday,2:00 PM - 5:00 PM
-ARTC 123,1,Ceramics III,Open,Reginald Pointer,LVC-200,Wednesday,4:00 PM - 7:00 PM
+ARTC 123,1,Ceramics III,Closed,Reginald Pointer,LVC-200,Wednesday,4:00 PM - 7:00 PM
 ARTC 124,1,Ceramics IV,Open,Reginald Pointer,LVC-200,Tuesday,5:00 PM - 8:00 PM
 ARTD 104,1,Intro to Digital Design,Open,Sydnea Lewis,LVC-219,Wednesday,9:00 AM - 12:00 PM
 ARTD 107,1,Design for Advertising II,Open,Jo Spiker,LVC-219,Monday,1:00 PM - 4:00 PM
 ARTD 108,2,Typography II,Open,Jo Spiker,LVC-218,Tuesday,5:00 PM - 8:00 PM
 ARTD 108,3,Typography II,Open,Mark Bartley,LVC-218,Tuesday,9:40 AM - 12:30 PM
-ARTD 111,1,Illustration,Open,Rahsaan Jackson,LVC-219,Monday,4:00 PM - 7:00 PM
+ARTD 111,1,Illustration,Closed,Rahsaan Jackson,LVC-219,Monday,4:00 PM - 7:00 PM
 ARTD 116,2,History of Design II: Blk Prsp,Open,Cheryl Miller,N/A,Monday,9:00 AM - 12:00 PM
 ARTD 119,1,Internship in Design,Open,Mark Bartley,N/A,N/A,N/A
 ARTD 122,1,Digital Design II,Open,Sydnea Lewis,LVC-219,Thursday,9:40 AM - 12:30 PM
@@ -120,20 +133,21 @@ ARTF 088,1,Two Dimensional Concepts II,Open,James Phillips,LVC-206,Wednesday,9:0
 ARTF 088,3,Two Dimensional Concepts II,Open,Summer Brown,LVC-206,Wednesday,1:00 PM - 4:00 PM
 ARTF 090,1,3-D Concepts II,Open,Mark Bartley,LVC-220,Monday,9:00 AM - 12:00 PM
 ARTF 090,2,3-D Concepts II,Open,Ronald Anderson,LVC-206,Monday,1:00 PM - 4:00 PM
-ARTH 161,2,Art Appreciation,Open,Sandy Bellamy,N/A,"Tuesday, Thursday",5:40 PM - 7:00 PM
+ARTH 161,2,Art Appreciation,Closed,Sandy Bellamy,N/A,"Tuesday, Thursday",5:40 PM - 7:00 PM
 ARTH 161,3,Art Appreciation,Closed,ERIN JONES,N/A,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
 ARTH 161,4,Art Appreciation,Closed,Sandy Bellamy,N/A,Wednesday,4:10 PM - 7:00 PM
-ARTH 161,7,Art Appreciation,Open,Ana Tallone,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+ARTH 161,7,Art Appreciation,Closed,Ana Tallone,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 ARTH 162,1,Intro to African Art History,Open,Lanisa Kitchiner,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
 ARTH 165,1,"Global Art, Design and Architecture II",Open,Ana Tallone,LVC-217,"Tuesday, Thursday",10:40 AM - 12:00 PM
 ARTH 165,2,"Global Art, Design and Architecture II",Open,ERIN JONES,N/A,"Tuesday, Thursday",5:40 PM - 7:10 PM
 ARTH 169,1,Latin Am & Caribbean Art,Open,Ana Tallone,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 ARTH 172,1,West African Art,Open,Kathryn Coney,LVC-217,Wednesday,3:10 PM - 6:00 PM
 ARTH 179,1,African American Art II,Open,Melanee Harvey,LVC-217,"Monday, Wednesday",10:10 AM - 11:30 AM
+ARTP 031,1,Printmaking I,Open,Reginald Pointer,Sculpture Studio Workshop,Tuesday,2:00 PM - 5:00 PM
 ARTP 050,1,Basic Black &White Photography,Open,Allen Jackson,LVC-203,"Monday, Wednesday",9:10 AM - 12:00 PM
 ARTP 050,5,Basic Black&White Photography,Open,Allen Jackson,LVC-203,"Monday, Wednesday",1:10 PM - 4:00 PM
 ARTP 050,6,Basic Black&White Photography,Open,Alanna Fields,LVC-203,"Tuesday, Thursday",9:40 AM - 12:40 PM
-ARTP 051,1,Intermediate Photography,Open,Larry Cook,LVC-203,"Tuesday, Thursday",2:10 PM - 5:00 PM
+ARTP 051,1,Intermediate Photography,Closed,Larry Cook,LVC-203,"Tuesday, Thursday",2:10 PM - 5:00 PM
 ARTP 055,1,Photo Intern I,Open,Larry Cook,N/A,N/A,N/A
 ARTP 057,1,Senior Photography I,Open,Larry Cook,LVC-203,Thursday,5:10 PM - 8:00 PM
 ARTP 061,1,IS: Study in Photo II,Open,Alanna Fields,N/A,N/A,N/A
@@ -141,17 +155,18 @@ ARTP 085,2,Digital Photo,Open,Alanna Fields,LVC-219,Thursday,2:10 PM - 5:00 PM
 ARTP 085,3,Digital Photo,Open,Alanna Fields,LVC-219,Tuesday,2:10 PM - 5:00 PM
 ARTP 096,1,Documentary Photo,Open,Larry Cook,LVC-203,Tuesday,5:10 PM - 8:00 PM
 ARTP 603,2,Digital Darkroom,Open,Rahsaan Jackson,LVC-219,Wednesday,4:10 PM - 7:00 PM
-ARTR 004,1,Drawing IV,Open,Charles Jean Pierre,LVC-206,Friday,4:00 PM - 7:00 PM
+ARTR 004,1,Drawing IV,Closed,Charles Jean Pierre,LVC-206,Friday,4:00 PM - 7:00 PM
+ARTS 141,1,Sculpture I: Modeling & Cast,Open,Reginald Pointer,Sculpture Studio Workshop,Wednesday,1:00 PM - 4:00 PM
 BCOM 320,1,Business Communications,Open,Sia Rose-Robinson,CB4-400,"Tuesday, Thursday",8:10 AM - 9:30 AM
-BCOM 320,2,Business Communications,Open,Kapriatta Jenkins,CB4-415,"Tuesday, Thursday",2:10 PM - 3:30 PM
+BCOM 320,2,Business Communications,Waitlist,Kapriatta Jenkins,CB4-415,"Tuesday, Thursday",2:10 PM - 3:30 PM
 BCOM 320,3,Business Communications,Open,Lily Zeng,CB4-417,"Monday, Wednesday",9:40 AM - 11:00 AM
 BCOM 320,4,Business Communications,Open,Lily Zeng,CB4-417,"Monday, Wednesday",8:10 AM - 9:30 AM
-BCOM 320,5,Business Communications,Open,Kapriatta Jenkins,CB4-417,"Tuesday, Thursday",12:40 PM - 2:00 PM
+BCOM 320,5,Business Communications,Closed,Kapriatta Jenkins,CB4-417,"Tuesday, Thursday",12:40 PM - 2:00 PM
 BECN 330,2,Managerial Economics,Open,Eunpyo Hong,CB4-417,"Monday, Wednesday",3:40 PM - 5:00 PM
-BIOL 003,2,Life Science Non-Mjrs Biology,Open,Uvetta Dozier,N/A,"Monday, Wednesday",6:10 PM - 8:00 PM
-BIOL 003,3,Life Science Non-Mjrs Biology,Open,Uvetta Dozier,N/A,"Monday, Wednesday",6:10 PM - 8:00 PM
+BIOL 003,2,Life Science Non-Mjrs Biology,Closed,Uvetta Dozier,N/A,"Monday, Wednesday",6:10 PM - 8:00 PM
+BIOL 003,3,Life Science Non-Mjrs Biology,Closed,Uvetta Dozier,N/A,"Monday, Wednesday",6:10 PM - 8:00 PM
 BIOL 003,7,Life Science Non-Mjrs Biology,Closed,Laricca London,N/A,"Tuesday, Thursday",5:10 PM - 7:00 PM
-BIOL 003,8,Life Science Non-Mjrs Biology,Open,Laricca London,N/A,"Tuesday, Thursday",5:10 PM - 7:00 PM
+BIOL 003,8,Life Science Non-Mjrs Biology,Closed,Laricca London,N/A,"Tuesday, Thursday",5:10 PM - 7:00 PM
 BIOL 003,9,Life Science,Open,Swagota Roy,EJH-316/318/320,Monday,5:10 PM - 7:00 PM
 BIOL 003,9,Life Science,Open,Swagota Roy,EJH-112,Wednesday,10:10 AM - 12:00 PM
 BIOL 003,10,Life Science,Open,Swagota Roy,EJH-316/318/320,Monday,5:10 PM - 7:00 PM
@@ -176,8 +191,8 @@ BIOL 101,7,General Biology Lec/Lab,Open,Rachelle Allen-McFarlane,EJH-G09A,"Monda
 BIOL 101,7,General Biology Lec/Lab,Open,Rachelle Allen-McFarlane,EJH-125/131,Friday,9:10 AM - 12:00 PM
 BIOL 101,8,General Biology Lec/Lab,Open,Rachelle Allen-McFarlane,EJH-G09A,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 BIOL 101,8,General Biology Lec/Lab,Open,Rachelle Allen-McFarlane,EJH-125/131,Friday,1:10 PM - 4:00 PM
-BIOL 102,1,General Biology Lec/Lab,Open,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
-BIOL 102,1,General Biology Lec/Lab,Open,Douglas White,EJH-112,Tuesday,8:10 AM - 11:00 AM
+BIOL 102,1,General Biology Lec/Lab,Closed,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+BIOL 102,1,General Biology Lec/Lab,Closed,Douglas White,EJH-112,Tuesday,8:10 AM - 11:00 AM
 BIOL 102,2,General Biology Lec/ Lab,Open,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 BIOL 102,2,General Biology Lec/ Lab,Open,Douglas White,EJH-117/123,Tuesday,8:10 AM - 11:00 AM
 BIOL 102,3,General Biology Lec/ Lab,Open,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
@@ -216,54 +231,54 @@ BIOL 102,26,General Biology II Lec/ Lab,Open,Theodros Tadese,N/A,"Monday, Wednes
 BIOL 102,26,General Biology II Lec/ Lab,Open,Theodros Tadese,EJH-112,Thursday,2:10 PM - 5:00 PM
 BIOL 102,27,General Biology II Lec/ Lab,Open,Theodros Tadese,N/A,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
 BIOL 102,27,General Biology II Lec/ Lab,Open,Theodros Tadese,N/A,Thursday,5:10 PM - 8:00 PM
-BIOL 102,28,General Biology II Lec/ Lab,Open,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
-BIOL 102,28,General Biology II Lec/ Lab,Open,Douglas White,EJH-112,Tuesday,11:10 AM - 2:00 PM
+BIOL 102,28,General Biology II Lec/ Lab,Closed,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+BIOL 102,28,General Biology II Lec/ Lab,Closed,Douglas White,EJH-112,Tuesday,11:10 AM - 2:00 PM
 BIOL 102,29,General Biology II Lec/ Lab,Open,Douglas White,EJH-G09A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 BIOL 102,29,General Biology II Lec/ Lab,Open,Douglas White,EJH-112,Thursday,11:10 AM - 2:00 PM
-BIOL 200,1,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
-BIOL 200,1,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Wednesday,8:10 AM - 11:00 AM
+BIOL 200,1,Genetics Lec/Lab,Waitlist,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+BIOL 200,1,Genetics Lec/Lab,Waitlist,Ginger Hunter,EJH-143,Wednesday,8:10 AM - 11:00 AM
 BIOL 200,2,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
 BIOL 200,2,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Wednesday,2:10 PM - 5:00 PM
 BIOL 200,3,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
 BIOL 200,3,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Friday,8:10 AM - 11:00 AM
-BIOL 200,5,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
-BIOL 200,5,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Friday,11:10 AM - 2:00 PM
+BIOL 200,5,Genetics Lec/Lab,Closed,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+BIOL 200,5,Genetics Lec/Lab,Closed,Ginger Hunter,EJH-143,Friday,11:10 AM - 2:00 PM
 BIOL 200,6,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Monday,8:10 AM - 9:00 AM
 BIOL 200,6,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
-BIOL 200,7,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Monday,11:10 AM - 2:00 PM
-BIOL 200,7,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+BIOL 200,7,Genetics Lec/Lab,Closed,Ginger Hunter,EJH-143,Monday,11:10 AM - 2:00 PM
+BIOL 200,7,Genetics Lec/Lab,Closed,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
 BIOL 200,8,Genetics Lec/Lab,Open,Ginger Hunter,EJH-143,Monday,2:10 PM - 5:00 PM
 BIOL 200,8,Genetics Lec/Lab,Open,Ginger Hunter,EJH-G09A,"Tuesday, Thursday",9:40 AM - 11:00 AM
-BIOL 202,1,Plant Diversity Lec/Lab,Open,Janelle Burke,EJH-344,Tuesday,8:10 AM - 9:00 AM
-BIOL 202,1,Plant Diversity Lec/Lab,Open,Janelle Burke,EJH-308/312,Tuesday,9:40 AM - 11:00 AM
-BIOL 202,1,Plant Diversity Lec/Lab,Open,Janelle Burke,N/A,Thursday,8:10 AM - 9:00 AM
+BIOL 202,1,Plant Diversity Lec/Lab,Closed,Janelle Burke,EJH-344,Tuesday,8:10 AM - 9:00 AM
+BIOL 202,1,Plant Diversity Lec/Lab,Closed,Janelle Burke,EJH-308/312,Tuesday,9:40 AM - 11:00 AM
+BIOL 202,1,Plant Diversity Lec/Lab,Closed,Janelle Burke,N/A,Thursday,8:10 AM - 9:00 AM
 BIOL 204,1,Science & Public Policy,Closed,Thomas Hardy,N/A,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 BIOL 204,2,Science & Public Policy,Closed,Thomas Hardy,N/A,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 BIOL 218,1,Direct Readings for Sophomores,Open,Lotanna Micah Nneji,EJH-G09A,Wednesday,12:10 PM - 1:00 PM
-BIOL 220,1,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-BIOL 220,1,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-209,"Tuesday, Thursday",9:40 AM - 11:30 AM
-BIOL 220,2,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-BIOL 220,2,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-209,"Wednesday, Friday",2:10 PM - 4:00 PM
-BIOL 220,3,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-BIOL 220,3,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-209,"Tuesday, Thursday",5:10 PM - 7:00 PM
-BIOL 220,4,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-BIOL 220,4,General Microbiology Lec/Lab,Open,Broderick Eribo,EJH-209,"Wednesday, Friday",9:10 AM - 11:00 AM
-BIOL 230,1,Ecology Lec/Lab,Open,Kwaku Aduse-Poku,EJH-224/226,"Tuesday, Thursday",8:10 AM - 9:30 AM
-BIOL 230,1,Ecology Lec/Lab,Open,Kwaku Aduse-Poku,EJH-117/123,Friday,3:10 PM - 6:00 PM
+BIOL 220,1,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+BIOL 220,1,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-209,"Tuesday, Thursday",9:40 AM - 11:30 AM
+BIOL 220,2,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+BIOL 220,2,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-209,"Wednesday, Friday",2:10 PM - 4:00 PM
+BIOL 220,3,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+BIOL 220,3,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-209,"Tuesday, Thursday",5:10 PM - 7:00 PM
+BIOL 220,4,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-G09A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+BIOL 220,4,General Microbiology Lec/Lab,Closed,Broderick Eribo,EJH-209,"Wednesday, Friday",9:10 AM - 11:00 AM
+BIOL 230,1,Ecology Lec/Lab,Closed,Kwaku Aduse-Poku,EJH-224/226,"Tuesday, Thursday",8:10 AM - 9:30 AM
+BIOL 230,1,Ecology Lec/Lab,Closed,Kwaku Aduse-Poku,EJH-117/123,Friday,3:10 PM - 6:00 PM
 BIOL 310,1,Cell Biology,Closed,Sara Kalifa,N/A,Thursday,4:10 PM - 7:00 PM
 BIOL 310,1,Cell Biology,Closed,Sara Kalifa,EJH-337,Friday,2:10 PM - 5:00 PM
-BIOL 310,2,Cell Biology,Open,Sara Kalifa,N/A,Thursday,4:10 PM - 7:00 PM
-BIOL 310,2,Cell Biology,Open,Sara Kalifa,EJH-337,Friday,5:10 PM - 8:00 PM
+BIOL 310,2,Cell Biology,Closed,Sara Kalifa,N/A,Thursday,4:10 PM - 7:00 PM
+BIOL 310,2,Cell Biology,Closed,Sara Kalifa,EJH-337,Friday,5:10 PM - 8:00 PM
 BIOL 318,1,Direct Readings in Jr Honors,Open,Ginger Hunter,EJH-G09A,Wednesday,12:10 PM - 1:00 PM
 BIOL 320,1,Molecular Biology Lec/Lab,Open,Michael Thomas,EJH-316/318/320,"Monday, Wednesday",10:10 AM - 11:30 AM
 BIOL 320,1,Molecular Biology Lec/Lab,Open,Michael Thomas,EJH-337,"Tuesday, Thursday",10:10 AM - 12:00 PM
 BIOL 320,2,Molecular Biology Lec/Lab,Open,Michael Thomas,EJH-316/318/320,"Monday, Wednesday",10:10 AM - 11:30 AM
 BIOL 320,2,Molecular Biology Lec/Lab,Open,Michael Thomas,EJH-337,"Monday, Friday",12:10 PM - 2:00 PM
-BIOL 341,1,Animal Physiology,Open,Cheryl Rust,EJH-337,Tuesday,3:10 PM - 6:00 PM
-BIOL 341,1,Animal Physiology,Open,Cheryl Rust,EJH-316/318/320,"Tuesday, Thursday",11:10 AM - 12:30 PM
-BIOL 341,2,Animal Physiology,Open,Cheryl Rust,EJH-316/318/320,"Tuesday, Thursday",11:10 AM - 12:30 PM
-BIOL 341,2,Animal Physiology,Open,Cheryl Rust,EJH-337,Thursday,3:10 PM - 6:00 PM
-BIOL 344,1,Plant Physiology Lec/Lab,Open,Herman Fennell,N/A,"Tuesday, Thursday",5:10 PM - 7:00 PM
+BIOL 341,1,Animal Physiology,Closed,Cheryl Rust,EJH-337,Tuesday,3:10 PM - 6:00 PM
+BIOL 341,1,Animal Physiology,Closed,Cheryl Rust,EJH-316/318/320,"Tuesday, Thursday",11:10 AM - 12:30 PM
+BIOL 341,2,Animal Physiology,Closed,Cheryl Rust,EJH-316/318/320,"Tuesday, Thursday",11:10 AM - 12:30 PM
+BIOL 341,2,Animal Physiology,Closed,Cheryl Rust,EJH-337,Thursday,3:10 PM - 6:00 PM
+BIOL 344,1,Plant Physiology Lec/Lab,Closed,Herman Fennell,N/A,"Tuesday, Thursday",5:10 PM - 7:00 PM
 BIOL 344,2,Plant Physiology Lec/Lab,Open,Herman Fennell,N/A,"Tuesday, Thursday",5:10 PM - 7:00 PM
 BIOL 390,1,Independent Investigations,Open,Mildred Pointer,N/A,N/A,N/A
 BIOL 390,2,Independent Investigations,Open,Lotanna Micah Nneji,N/A,N/A,N/A
@@ -286,24 +301,24 @@ BIOL 475,1,Human Evolutionary Bio Lec/Lab,Closed,Rui Diogo,EJH-224/226,Monday,1:
 BIOL 475,1,Human Evolutionary Bio Lec/Lab,Closed,Rui Diogo,EJH-308/312,Tuesday,1:10 PM - 4:00 PM
 BIOL 482,1,Machine Learning in Biology,Open,Fayuan Wen,N/A,"Tuesday, Thursday",11:10 AM - 1:30 PM
 BIOL 492,1,Honors Thesis,Open,Stacy Farina,N/A,N/A,N/A
-BIOL 494,1,Senior Seminar,Open,Courtney Robinson,EJH-224/226,Tuesday,1:10 PM - 2:00 PM
+BIOL 494,1,Senior Seminar,Closed,Courtney Robinson,EJH-224/226,Tuesday,1:10 PM - 2:00 PM
 BIOL 494,2,Senior Seminar,Open,Hemayet Ullah,EJH-224/226,Wednesday,3:10 PM - 4:00 PM
 BIOL 494,3,Senior Seminar,Closed,Clarence Lee,N/A,Wednesday,3:10 PM - 4:00 PM
 BIOL 494,4,Senior Seminar,Open,Shaolei Teng,N/A,Wednesday,8:10 AM - 9:00 AM
-BIOL 500,3,Topics Cell & Molecular Biol,Open,Shaolei Teng,N/A,Wednesday,10:10 AM - 11:00 AM
+BIOL 500,3,Topics Cell & Molecular Biol,Closed,Shaolei Teng,N/A,Wednesday,10:10 AM - 11:00 AM
 BIOL 501,2,Topics (Anat & Physiology),Closed,Dominique Pritchett,EJH-224/226,Wednesday,2:10 PM - 3:00 PM
-BIOL 501,4,Topics (Anat & Physiology),Open,Jinrui Xu,N/A,Wednesday,11:10 AM - 12:00 PM
+BIOL 501,4,Topics (Anat & Physiology),Closed,Jinrui Xu,N/A,Wednesday,11:10 AM - 12:00 PM
 BIOL 705,1,Organismal Biomech Lec/Lab,Open,Stacy Farina,EJH-344,"Tuesday, Thursday",12:40 PM - 2:00 PM
 BIOL 705,1,Organismal Biomech Lec/Lab,Open,Stacy Farina,EJH-308/312,Thursday,9:10 AM - 12:00 PM
-BIOL 801,1,Environmental Studies I,Open,Olukayode Banmeke,N/A,"Tuesday, Thursday",7:40 PM - 9:00 PM
-BIOL 801,2,Environmental Studies I,Open,Olukayode Banmeke,N/A,"Tuesday, Thursday",7:40 PM - 9:00 PM
+BIOL 801,1,Environmental Studies I,Closed,Olukayode Banmeke,N/A,"Tuesday, Thursday",7:40 PM - 9:00 PM
+BIOL 801,2,Environmental Studies I,Closed,Olukayode Banmeke,N/A,"Tuesday, Thursday",7:40 PM - 9:00 PM
 BLAW 305,1,Business Law I,Open,Arlene Grant,CB4-417,"Tuesday, Thursday",6:40 PM - 8:00 PM
-BLAW 305,2,Business Law I,Open,Samuel Paschall,CB4-216,"Tuesday, Thursday",12:40 PM - 2:00 PM
+BLAW 305,2,Business Law I,Waitlist,Samuel Paschall,CB4-216,"Tuesday, Thursday",12:40 PM - 2:00 PM
 BLAW 305,3,Business Law I,Open,Samuel Paschall,CB4-417,"Tuesday, Thursday",3:40 PM - 5:00 PM
 BLAW 305,4,Business Law I,Open,Samuel Paschall,CB4-417,"Tuesday, Thursday",5:10 PM - 6:30 PM
-BLAW 305,5,Business Law I,Open,Andre Cotten,CB4-322,"Monday, Wednesday",5:10 PM - 6:30 PM
-BLAW 305,6,Business Law I,Open,Andre Cotten,CB4-322,"Monday, Wednesday",6:40 PM - 8:00 PM
-BLAW 307,3,The Law & Business of Sports,Open,Jean Wells,N/A,"Monday, Wednesday",9:40 AM - 11:00 AM
+BLAW 305,5,Business Law I,Closed,Andre Cotten,CB4-322,"Monday, Wednesday",5:10 PM - 6:30 PM
+BLAW 305,6,Business Law I,Closed,Andre Cotten,CB4-322,"Monday, Wednesday",6:40 PM - 8:00 PM
+BLAW 307,3,The Law & Business of Sports,Closed,Jean Wells,N/A,"Monday, Wednesday",9:40 AM - 11:00 AM
 CHEG 102,1,Intro to Engineering Design,Open,John Tharakan,LKD-1002/1004,"Tuesday, Thursday",11:10 AM - 12:30 PM
 CHEG 202,1,Chem Eng Energy Balances,Open,Preethi Chandran,LKD-1002/1004,"Monday, Wednesday",9:40 AM - 11:00 AM
 CHEG 302,1,Heat Transfer,Open,Solmaz Tabtabaei,LKD-2002/2004,"Tuesday, Thursday",9:40 AM - 11:00 AM
@@ -324,8 +339,8 @@ CHEM 003,2,Gen Chemistry I,Open,Shawn Abernathy,CHB-108,"Monday, Wednesday, Frid
 CHEM 003,2,Gen Chemistry I,Open,Shawn Abernathy,CHB-G8/G9,Wednesday,11:10 AM - 12:00 PM
 CHEM 003,3,Gen Chemistry I,Open,Shawn Abernathy,CHB-108,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 CHEM 003,3,Gen Chemistry I,Open,Shawn Abernathy,CHB-G8/G9,Friday,11:10 AM - 12:00 PM
-CHEM 003,4,Gen Chemistry I,Open,Gossa Fao,CHB-305,Tuesday,1:10 PM - 2:00 PM
-CHEM 003,4,Gen Chemistry I,Open,Gossa Fao,CHB-108,"Tuesday, Thursday",3:40 PM - 5:00 PM
+CHEM 003,4,Gen Chemistry I,Waitlist,Gossa Fao,CHB-305,Tuesday,1:10 PM - 2:00 PM
+CHEM 003,4,Gen Chemistry I,Waitlist,Gossa Fao,CHB-108,"Tuesday, Thursday",3:40 PM - 5:00 PM
 CHEM 003,5,Gen Chemistry I,Open,Gossa Fao,CHB-108,"Tuesday, Thursday",3:40 PM - 5:00 PM
 CHEM 003,5,Gen Chemistry I,Open,Gossa Fao,CHB-305,Thursday,1:10 PM - 2:00 PM
 CHEM 003,6,Gen Chemistry I,Open,Gossa Fao,CHB-305,Monday,4:10 PM - 5:00 PM
@@ -352,12 +367,12 @@ CHEM 003,18,Gen Chemistry I,Open,Fanella Zamcho,CHB-108,"Monday, Wednesday, Frid
 CHEM 003,18,Gen Chemistry I,Open,Fanella Zamcho,CHB-305,Wednesday,1:10 PM - 2:00 PM
 CHEM 003,19,Gen Chemistry I,Open,Fanella Zamcho,CHB-108,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 CHEM 003,19,Gen Chemistry I,Open,Fanella Zamcho,CHB-305,Friday,11:10 AM - 12:00 PM
-CHEM 004,1,Gen Chemistry II,Open,Gossa Fao,CHB-102,Monday,1:10 PM - 2:00 PM
-CHEM 004,1,Gen Chemistry II,Open,Gossa Fao,CHB-108,"Tuesday, Thursday",2:10 PM - 3:30 PM
-CHEM 004,2,Gen Chemistry II,Open,Gossa Fao,CHB-108,"Tuesday, Thursday",2:10 PM - 3:30 PM
-CHEM 004,2,Gen Chemistry II,Open,Gossa Fao,CHB-G8/G9,Wednesday,3:40 PM - 4:30 PM
-CHEM 004,3,Gen Chemistry II,Open,Gossa Fao,CHB-108,"Tuesday, Thursday",2:10 PM - 3:30 PM
-CHEM 004,3,Gen Chemistry II,Open,Gossa Fao,CHB-306,Thursday,12:10 PM - 1:00 PM
+CHEM 004,1,Gen Chemistry II,Waitlist,Gossa Fao,CHB-102,Monday,1:10 PM - 2:00 PM
+CHEM 004,1,Gen Chemistry II,Waitlist,Gossa Fao,CHB-108,"Tuesday, Thursday",2:10 PM - 3:30 PM
+CHEM 004,2,Gen Chemistry II,Waitlist,Gossa Fao,CHB-108,"Tuesday, Thursday",2:10 PM - 3:30 PM
+CHEM 004,2,Gen Chemistry II,Waitlist,Gossa Fao,CHB-G8/G9,Wednesday,3:40 PM - 4:30 PM
+CHEM 004,3,Gen Chemistry II,Closed,Gossa Fao,CHB-108,"Tuesday, Thursday",2:10 PM - 3:30 PM
+CHEM 004,3,Gen Chemistry II,Closed,Gossa Fao,CHB-306,Thursday,12:10 PM - 1:00 PM
 CHEM 004,4,Gen Chemistry II,Open,Frances Stump,CHB-305,Monday,10:10 AM - 11:00 AM
 CHEM 004,4,Gen Chemistry II,Open,Frances Stump,CHB-108,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 CHEM 004,5,Gen Chemistry II,Open,Frances Stump,CHB-108,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
@@ -393,26 +408,26 @@ CHEM 005,9,Gen Chem Lab I,Open,Loay Abdulrahman,CHB-204,Friday,8:00 AM - 11:00 A
 CHEM 005,11,Gen Chem Lab I,Open,Loay Abdulrahman,CHB-207,Thursday,5:00 PM - 8:00 PM
 CHEM 005,12,Gen Chem Lab I,Open,Lewis Lott,CHB-208,Thursday,5:00 PM - 8:00 PM
 CHEM 005,13,Gen Chem Lab I,Open,Fanella Zamcho,CHB-207,Monday,8:00 AM - 11:00 AM
-CHEM 005,14,Gen Chem Lab I,Waitlist,Gossa Fao,CHB-204,Wednesday,1:00 PM - 4:00 PM
+CHEM 005,14,Gen Chem Lab I,Closed,Gossa Fao,CHB-204,Wednesday,1:00 PM - 4:00 PM
 CHEM 005,15,Gen Chem Lab I,Open,Joseph Williams,CHB-204,Thursday,5:40 PM - 8:30 PM
 CHEM 005,16,Gen Chem Lab I,Open,Helen De Clercq,CHB-204,Friday,1:00 PM - 4:00 PM
 CHEM 005,17,Gen Chem Lab I,Open,Yousef Hijji,CHB-208,Monday,8:00 AM - 11:00 AM
 CHEM 005,18,General Chemistry Laboratory I,Open,Alexandra Johnson,CHB-208,Friday,8:00 AM - 11:00 AM
-CHEM 006,1,General Chem Lab II,Open,Frances Stump,CHB-207,Tuesday,8:00 AM - 11:00 AM
-CHEM 006,2,General Chem Lab II,Open,Alexandra Johnson,CHB-208,Tuesday,8:00 AM - 11:00 AM
-CHEM 006,3,General Chem Lab II,Open,Frances Stump,CHB-207,Tuesday,12:40 PM - 3:30 PM
+CHEM 006,1,General Chem Lab II,Closed,Frances Stump,CHB-207,Tuesday,8:00 AM - 11:00 AM
+CHEM 006,2,General Chem Lab II,Waitlist,Alexandra Johnson,CHB-208,Tuesday,8:00 AM - 11:00 AM
+CHEM 006,3,General Chem Lab II,Closed,Frances Stump,CHB-207,Tuesday,12:40 PM - 3:30 PM
 CHEM 006,4,General Chem Lab II,Open,Henderson Cleaves,CHB-208,Tuesday,12:40 PM - 3:30 PM
-CHEM 006,5,General Chem Lab II,Open,Frances Stump,CHB-207,Wednesday,1:00 PM - 4:00 PM
-CHEM 006,6,General Chem Lab II,Waitlist,Lewis Lott,CHB-208,Wednesday,1:00 PM - 4:00 PM
+CHEM 006,5,General Chem Lab II,Closed,Frances Stump,CHB-207,Wednesday,1:00 PM - 4:00 PM
+CHEM 006,6,General Chem Lab II,Closed,Lewis Lott,CHB-208,Wednesday,1:00 PM - 4:00 PM
 CHEM 006,7,General Chem Lab II,Open,Loay Abdulrahman,CHB-207,Wednesday,8:00 AM - 11:00 AM
 CHEM 006,8,General Chem Lab II,Open,Yousef Hijji,CHB-208,Wednesday,8:00 AM - 11:00 AM
 CHEM 006,9,General Chem Lab II,Open,Fanella Zamcho,CHB-207,Wednesday,5:00 PM - 8:00 PM
 CHEM 006,11,Gen Chem Lab II (Chem Majors),Open,Dharmaraj Raghavan,CHB-207,Monday,1:00 PM - 4:00 PM
-CHEM 006,16,General Chem Lab II,Open,Lewis Lott,CHB-204,Tuesday,5:40 PM - 8:30 PM
-CHEM 006,19,General Chem Lab II,Open,Claudia Mouamba,CHB-204,Thursday,1:00 PM - 4:00 PM
+CHEM 006,16,General Chem Lab II,Closed,Lewis Lott,CHB-204,Tuesday,5:40 PM - 8:30 PM
+CHEM 006,19,General Chem Lab II,Closed,Claudia Mouamba,CHB-204,Thursday,1:00 PM - 4:00 PM
 CHEM 006,21,General Chemistry Laboratory II,Open,Steven Cummings,CHB-208,Monday,1:00 PM - 4:00 PM
-CHEM 006,22,General Chemistry Laboratory II,Open,Lewis Lott,CHB-204,Wednesday,5:00 PM - 8:00 PM
-CHEM 006,23,General Chemistry Laboratory II,Open,Frances Stump,CHB-208,Thursday,8:00 AM - 11:00 AM
+CHEM 006,22,General Chemistry Laboratory II,Closed,Lewis Lott,CHB-204,Wednesday,5:00 PM - 8:00 PM
+CHEM 006,23,General Chemistry Laboratory II,Waitlist,Frances Stump,CHB-208,Thursday,8:00 AM - 11:00 AM
 CHEM 085,1,Directed Reading Soph,Open,Raymond Butcher,N/A,N/A,N/A
 CHEM 092,1,Senior Dept Honors,Open,Raymond Butcher,N/A,N/A,N/A
 CHEM 093,1,Senior Dept Honors,Open,Raymond Butcher,N/A,N/A,N/A
@@ -424,23 +439,23 @@ CHEM 127,1,Instr Methods of Analysis Lab,Waitlist,Berhanu Zewde,CHB-215/216,"Mon
 CHEM 127,2,Instr Methods of Analysis Lab,Open,Berhanu Zewde,CHB-215/216,"Monday, Wednesday",2:10 PM - 5:00 PM
 CHEM 141,1,Organic Chemistry I (Lecture),Open,Yousef Hijji,CHB-108,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
 CHEM 141,2,Organic Chemistry I (Lecture),Open,Gagandeep Kaur,CHB-108,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
-CHEM 141,3,Organic Chemistry I (Lecture),Open,Yousef Hijji,CHB-108,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
-CHEM 142,1,Organic Chemistry II,Open,Oladapo Bakare,CHB-108,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-CHEM 142,2,Organic Chem II (Chem Maj),Open,Jason Matthews,CHB-108,"Tuesday, Thursday",9:40 AM - 11:00 AM
-CHEM 142,3,Organic Chemistry II,Waitlist,Alexandra Johnson,CHB-108,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+CHEM 141,3,Organic Chemistry I (Lecture),Closed,Yousef Hijji,CHB-108,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+CHEM 142,1,Organic Chemistry II,Closed,Oladapo Bakare,CHB-108,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+CHEM 142,2,Organic Chem II,Waitlist,Jason Matthews,CHB-108,"Tuesday, Thursday",9:40 AM - 11:00 AM
+CHEM 142,3,Organic Chemistry II,Closed,Alexandra Johnson,CHB-108,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
 CHEM 145,1,Organic Chem Lab,Closed,Dinari Harris,CHB-306,Monday,1:10 PM - 2:00 PM
 CHEM 145,1,Organic Chem Lab,Closed,Dinari Harris,CHB-311,"Monday, Wednesday",2:10 PM - 5:00 PM
-CHEM 145,2,Organic Chem Lab,Open,Oladapo Bakare,CHB-300/301,Monday,1:10 PM - 2:00 PM
-CHEM 145,2,Organic Chem Lab,Open,Oladapo Bakare,CHB-312,"Monday, Wednesday",2:10 PM - 5:00 PM
+CHEM 145,2,Organic Chem Lab,Closed,Oladapo Bakare,CHB-300/301,Monday,1:10 PM - 2:00 PM
+CHEM 145,2,Organic Chem Lab,Closed,Oladapo Bakare,CHB-312,"Monday, Wednesday",2:10 PM - 5:00 PM
 CHEM 145,7,Organic Chem Lab,Closed,Alexandra Johnson,CHB-306,Monday,8:10 AM - 9:00 AM
 CHEM 145,7,Organic Chem Lab,Closed,Alexandra Johnson,CHB-311,"Monday, Wednesday",9:10 AM - 12:00 PM
 CHEM 145,8,Organic Chem Lab,Closed,Gagandeep Kaur,CHB-305,Monday,8:10 AM - 9:00 AM
 CHEM 145,8,Organic Chem Lab,Closed,Gagandeep Kaur,CHB-312,"Monday, Wednesday",9:10 AM - 12:00 PM
 CHEM 145,9,Organic Chem Lab,Closed,Claudia Mouamba,CHB-305,Tuesday,4:10 PM - 5:00 PM
 CHEM 145,9,Organic Chem Lab,Closed,Claudia Mouamba,CHB-311,"Tuesday, Thursday",5:10 PM - 8:00 PM
-CHEM 145,10,Organic Chem Lab,Waitlist,Joseph Williams,CHB-306,Monday,4:10 PM - 5:00 PM
-CHEM 145,10,Organic Chem Lab,Waitlist,Joseph Williams,CHB-311,"Monday, Wednesday",5:10 PM - 8:00 PM
-CHEM 151,2,Biochemistry I,Open,Sung Kim,CHB-108,"Tuesday, Thursday",5:00 PM - 6:30 PM
+CHEM 145,10,Organic Chem Lab,Closed,Joseph Williams,CHB-306,Monday,4:10 PM - 5:00 PM
+CHEM 145,10,Organic Chem Lab,Closed,Joseph Williams,CHB-311,"Monday, Wednesday",5:10 PM - 8:00 PM
+CHEM 151,2,Biochemistry I,Closed,Sung Kim,CHB-108,"Tuesday, Thursday",5:00 PM - 6:30 PM
 CHEM 152,1,Biochemistry II,Open,Dinari Harris,CHB-102,"Tuesday, Thursday",11:10 AM - 12:30 PM
 CHEM 172,1,Physical Chemistry  II,Open,Mirza Galib,CHB-108,"Tuesday, Thursday",11:10 AM - 12:30 PM
 CHEM 174,1,Physical Chemistry Lab II,Open,Sung Kim,CHB-305,Tuesday,12:10 PM - 1:00 PM
@@ -491,7 +506,7 @@ CLAS 013,1,Intermediate Greek IV,Open,Caroline Stark,UGL-L010,"Monday, Wednesday
 CLAS 030,1,Vocabulary Building,Open,Gil Renberg,DGH-211,"Tuesday, Thursday",9:40 AM - 11:00 AM
 CLAS 051,1,IH: Ancient Greece and Rome,Open,Caroline Stark,ILH-118,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 CLAS 092,1,Senior Departmental Honors,Open,Caroline Stark,DGH-113,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-CLAS 102,1,Roman Literature in English,Open,Katheryn Whitcomb,N/A,"Tuesday, Thursday",12:40 PM - 2:00 PM
+CLAS 102,1,Roman Literature in English,Closed,Katheryn Whitcomb,N/A,"Tuesday, Thursday",12:40 PM - 2:00 PM
 CLAS 104,1,Greek Civilization,Open,Maria Papaioannou,LL-101,"Tuesday, Thursday",9:40 AM - 11:00 AM
 CLAS 105,1,Roman Civilization,Open,Katheryn Whitcomb,N/A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 CLAS 106,2,Leadership in Ancient World,Open,Gil Renberg,DGH-106/108,"Tuesday, Thursday",12:40 PM - 2:00 PM
@@ -499,8 +514,8 @@ CLAS 109,3,Classical  Mythology,Open,Gil Renberg,DGH-114,"Tuesday, Thursday",2:1
 CLAS 109,4,Classical  Mythology,Open,Gil Renberg,DGH-110,"Tuesday, Thursday",5:10 PM - 6:30 PM
 CLAS 111,1,Satire and Comedy,Open,Amy Lewis,DGH-102/DGH-103,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
 CLAS 112,1,Law & Pol in the Ancient World,Open,Wesley Hanson,UGL-L010,"Tuesday, Thursday",2:10 PM - 3:30 PM
-CLAS 113,1,Women in the Ancient World,Waitlist,Maria Papaioannou,N/A,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-CLAS 113,2,Women in the Ancient World,Waitlist,Maria Papaioannou,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+CLAS 113,1,Women in the Ancient World,Closed,Maria Papaioannou,N/A,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+CLAS 113,2,Women in the Ancient World,Closed,Maria Papaioannou,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 CLAS 114,1,Love in Antiquity,Closed,Maria Papaioannou,N/A,"Tuesday, Thursday",11:10 AM - 12:30 PM
 CLAS 126,1,Christians & Jews-1st Cen C.E.,Open,Katheryn Whitcomb,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 CLAS 126,2,Christians & Jews-1st Cen C.E.,Open,Katheryn Whitcomb,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
@@ -529,30 +544,31 @@ CLLS 416,1,Clin Diagnostic Microbiolgy II,Open,Amber Kimble,801 NC-415,"Monday, 
 CLLS 416,1,Clin Diagnostic Microbiolgy II,Open,Amber Kimble,801 NC-416,"Tuesday, Thursday",3:10 PM - 5:00 PM
 CLLS 418,1,Clin Lab Mgmt Decision Making,Open,Marguerite Neita,801 NC-415,Tuesday,4:10 PM - 6:00 PM
 CLLS 423,1,Senior Recitation,Open,Marguerite Neita,801 NC-416,Friday,12:10 PM - 1:00 PM
-COMM 101,2,Principles of Speech,Open,Jourdan Wooden,ASA-201,"Monday, Wednesday, Friday",9:00 AM - 10:00 AM
-COMM 101,6,Principles of Speech,Open,Tereva Parham,ASA-202,"Monday, Wednesday, Friday",10:00 AM - 11:00 AM
-COMM 101,10,Principles of Speech,Waitlist,Joslynn White,ASA-202,"Tuesday, Thursday",2:00 PM - 3:30 PM
-COMM 101,18,Principles of Speech,Open,Mary Holiman,ASA-202,"Monday, Wednesday, Friday",11:00 AM - 12:00 PM
-COMM 101,25,Principles of Speech,Open,Jeffrey Ohene Darko,ASA-202,"Monday, Wednesday, Friday",12:00 PM - 1:00 PM
-COMM 101,26,Principles of Speech,Open,Jeffrey Ohene Darko,ASA-201,"Monday, Wednesday, Friday",1:00 PM - 2:00 PM
-COMM 101,27,Principles of Speech,Open,Mary Holiman,ASA-201,"Monday, Wednesday, Friday",12:00 PM - 1:00 PM
+COMM 101,2,Principles of Speech,Waitlist,Jourdan Wooden,ASA-201,"Monday, Wednesday, Friday",9:00 AM - 10:00 AM
+COMM 101,6,Principles of Speech,Closed,Tereva Parham,ASA-202,"Monday, Wednesday, Friday",10:00 AM - 11:00 AM
+COMM 101,10,Principles of Speech,Closed,Joslynn White,ASA-202,"Tuesday, Thursday",2:00 PM - 3:30 PM
+COMM 101,18,Principles of Speech,Closed,Mary Holiman,ASA-202,"Monday, Wednesday, Friday",11:00 AM - 12:00 PM
+COMM 101,25,Principles of Speech,Closed,Jeffrey Ohene Darko,ASA-202,"Monday, Wednesday, Friday",12:00 PM - 1:00 PM
+COMM 101,26,Principles of Speech,Waitlist,Jeffrey Ohene Darko,ASA-201,"Monday, Wednesday, Friday",1:00 PM - 2:00 PM
+COMM 101,27,Principles of Speech,Waitlist,Mary Holiman,ASA-201,"Monday, Wednesday, Friday",12:00 PM - 1:00 PM
 COMM 101,28,Principles of Speech,Open,Enock Magack,ASA-213,"Monday, Wednesday, Friday",10:00 AM - 11:00 AM
-COMM 101,29,Principles of Speech,Open,Enock Magack,ASA-201,"Monday, Wednesday, Friday",11:00 AM - 12:00 PM
+COMM 101,29,Principles of Speech,Waitlist,Enock Magack,ASA-201,"Monday, Wednesday, Friday",11:00 AM - 12:00 PM
 COMM 101,31,Principles of Speech,Open,Tevon Blair,ASA-202,"Monday, Wednesday, Friday",9:00 AM - 10:00 AM
-COMM 101,32,Principles of Speech,Waitlist,Natalie Weathers-Green,ASA-201,"Tuesday, Thursday",2:00 PM - 3:30 PM
+COMM 101,32,Principles of Speech,Closed,Natalie Weathers-Green,ASA-201,"Tuesday, Thursday",2:00 PM - 3:30 PM
 COMM 101,43,Principles of Speech,Open,antonio mercurius,ASA-201,"Tuesday, Thursday",8:00 AM - 9:30 AM
 COMM 101,44,Principles of Speech,Open,Joslynn White,ASA-201,"Tuesday, Thursday",3:30 PM - 5:00 PM
 COMM 101,45,Principles of Speech,Open,antonio mercurius,ASA-201,"Tuesday, Thursday",11:00 AM - 12:30 PM
 COMM 101,46,Principles of Speech,Open,Tereva Parham,ASA-213,"Monday, Wednesday, Friday",2:00 PM - 3:00 PM
 COMM 101,47,Principles of Speech,Open,Jourdan Wooden,ASA-201,"Monday, Wednesday, Friday",8:00 AM - 9:00 AM
 COMM 101,48,Principles of Speech,Open,Tevon Blair,ASA-202,"Monday, Wednesday, Friday",8:00 AM - 9:00 AM
-COMM 101,49,Principles of Speech,Open,Natalie Weathers-Green,ASA-202,"Tuesday, Thursday",8:00 AM - 9:30 AM
+COMM 101,49,Principles of Speech,Waitlist,Natalie Weathers-Green,ASA-202,"Tuesday, Thursday",8:00 AM - 9:30 AM
 COMM 101,50,Principles of Speech,Open,Nicholas Uptgrow,ASA-213,"Tuesday, Thursday",8:00 AM - 9:30 AM
-COMM 101,51,Principles of Speech,Open,Nicholas Uptgrow,ASA-201,"Tuesday, Thursday",9:30 AM - 11:00 AM
-COMM 101,52,Principles of Speech,Open,Asiah Williams,ASA-202,"Monday, Wednesday, Friday",1:00 PM - 2:00 PM
+COMM 101,51,Principles of Speech,Waitlist,Nicholas Uptgrow,ASA-201,"Tuesday, Thursday",9:30 AM - 11:00 AM
+COMM 101,52,Principles of Speech,Waitlist,Asiah Williams,ASA-202,"Monday, Wednesday, Friday",1:00 PM - 2:00 PM
 COMM 101,53,Principles of Speech,Open,Asiah Williams,ASA-202,"Monday, Wednesday, Friday",2:00 PM - 3:00 PM
-COMM 101,54,Principles of Speech,Open,Marie Chery,ASA-202,"Tuesday, Thursday",11:00 AM - 12:30 PM
-COMM 101,55,Principles of Speech,Open,Marie Chery,ASA-202,"Tuesday, Thursday",9:30 AM - 11:00 AM
+COMM 101,54,Principles of Speech,Closed,Marie Chery,ASA-202,"Tuesday, Thursday",11:00 AM - 12:30 PM
+COMM 101,55,Principles of Speech,Waitlist,Marie Chery,ASA-202,"Tuesday, Thursday",9:30 AM - 11:00 AM
+COMM 102,1,Fund. of Advert. & Storytellin,Open,Sheryl Johnson,ASA-213,Monday,9:10 AM - 10:00 AM
 COMM 103,1,Fund. of Public Relations,Open,DANIELLE RICKS,ASA-100,Friday,11:10 AM - 12:00 PM
 COMM 202,2,Intro to Comm. Theory,Open,Jean Claude Kwitonda,ASA-205,Tuesday,9:40 AM - 12:30 PM
 COMM 202,3,Intro to Comm. Theory,Open,Jae Eun Chung,ASA-205,Thursday,10:00 AM - 1:00 PM
@@ -577,10 +593,10 @@ COMM 321,1,Advertising Sales,Open,Roger Caruth,ASA-208,Wednesday,9:00 AM - 12:00
 COMM 322,1,Visual Storytelling and Design,Open,Roger Caruth,ASA-208,Tuesday,3:10 PM - 6:00 PM
 COMM 325,2,Co-Curricular,Open,Solyee Kim,ASA-100,Wednesday,11:10 AM - 12:00 PM
 COMM 330,1,Constitutional Law,Open,Angela Minor,ASA-100,Monday,1:00 PM - 4:00 PM
-COMM 332,1,Intro to Legal Research,Open,Nicole Dillard,ASA-214,Thursday,2:10 PM - 5:00 PM
+COMM 332,1,Intro to Legal Research,Closed,Nicole Dillard,ASA-214,Thursday,2:10 PM - 5:00 PM
 COMM 343,1,Programming,Open,DANIELLE RICKS,ASA-101,Friday,8:10 AM - 11:00 AM
-COMM 351,1,Advanced Public Speaking,Open,Michael Roy,ASA-214,"Tuesday, Thursday",12:40 PM - 2:00 PM
-COMM 410,1,Social Media & Integrated MKTG,Open,Charrosé King-Mathews,ASA-306,"Tuesday, Thursday",4:10 PM - 5:40 PM
+COMM 351,1,Advanced Public Speaking,Closed,Michael Roy,ASA-214,"Tuesday, Thursday",12:40 PM - 2:00 PM
+COMM 410,1,Social Media & Integrated MKTG,Waitlist,Charrosé King-Mathews,ASA-306,"Tuesday, Thursday",4:10 PM - 5:40 PM
 COMM 412,1,Strategic Communications Research,Open,Sheryl Johnson,ASA-208,Monday,10:10 AM - 12:50 PM
 COMM 441,1,Broadcast Management,Open,Gavette Richardson Duncan,ASA-213,Tuesday,5:10 PM - 8:00 PM
 COMM 490,1,Comm. Research Methods,Open,Jean Claude Kwitonda,ASA-213,"Tuesday, Thursday",2:10 PM - 3:30 PM
@@ -603,15 +619,15 @@ CSCI 135,2,Computer Science I,Open,Legand Burge,HMB-201,Monday,12:10 PM - 2:00 P
 CSCI 135,2,Computer Science I,Open,Legand Burge,HMB-201,"Monday, Wednesday",9:10 AM - 10:30 AM
 CSCI 136,1,Computer Science II (Python),Open,Vijay Chaudhary,LKD-2110,"Tuesday, Thursday",10:10 AM - 11:30 AM
 CSCI 136,2,Computer Science II,Open,Vijay Chaudhary,LKD-2110,"Tuesday, Thursday",11:40 AM - 1:00 PM
-CSCI 172,51,Interview Prep,Open,Harry Keeling,N/A,Monday,5:10 PM - 6:00 PM
+CSCI 172,51,Interview Prep,Closed,Harry Keeling,N/A,Monday,5:10 PM - 6:00 PM
 CSCI 201,1,Computer Organization I,Open,Jiang Li,LKD-1017,"Tuesday, Thursday",11:10 AM - 12:30 PM
 CSCI 202,1,Computer Organization II,Open,Linwei Niu,LKD-2113/2117B,"Monday, Wednesday",3:40 PM - 5:00 PM
 CSCI 213,1,Linux Lab,Open,Glenwood Elam,LKD-1017,Monday,12:10 PM - 1:00 PM
 CSCI 213,2,Linux Lab,Open,Glenwood Elam,LKD-1017,Monday,2:10 PM - 3:00 PM
 CSCI 340,1,Robotics Linear Algebra,Open,Todd Shurn,LKD-2110,"Monday, Wednesday",3:10 PM - 4:30 PM
 CSCI 343,1,Robotics: Operating Systems Concepts,Open,Harry Keeling,LKD-2110,"Monday, Wednesday",1:40 PM - 3:00 PM
-CSCI 350,1,Structure of Program Language,Open,Linwei Niu,LKD-2114,"Monday, Wednesday",9:10 AM - 10:30 AM
-CSCI 350,2,Structure of Program Language,Open,Desta Haileselassie Hagos,LKD-2113/2117B,"Monday, Wednesday",12:10 PM - 1:30 PM
+CSCI 350,1,Structure of Program Language,Open,Desta Haileselassie Hagos,LKD-2114,"Monday, Wednesday",9:10 AM - 10:30 AM
+CSCI 350,2,Structure of Program Language,Closed,Desta Haileselassie Hagos,LKD-2113/2117B,"Monday, Wednesday",12:10 PM - 1:30 PM
 CSCI 354,1,Computer Science III (Python),Open,Desta Haileselassie Hagos,LKD-2114,"Monday, Wednesday",2:10 PM - 3:30 PM
 CSCI 354,2,Computer Science III (C++),Open,Desta Haileselassie Hagos,LKD-2113/2117B,"Monday, Wednesday",10:10 AM - 11:30 AM
 CSCI 363,1,Large Scale Programming,Open,Bernard Woolfolk,LKD-1017,Thursday,6:10 PM - 8:30 PM
@@ -648,19 +664,19 @@ ECON 085,1,Sophomores Honors,Open,Gaminie Meepagala,N/A,N/A,N/A
 ECON 089,1,Junior Honors,Open,Andria Smythe,N/A,N/A,N/A
 ECON 093,1,Senior Honors,Open,Mika Kato,N/A,N/A,N/A
 ECON 095,1,Internship,Open,Gaminie Meepagala,N/A,N/A,N/A
-ECON 170,1,Intermediate Microeconomics Theory,Open,David NdoloJr.,DGH-102/DGH-103,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
-ECON 171,1,Intermediate Macroeconomic Theory,Open,Gerald Daniels,LKH-P08,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+ECON 170,1,Intermediate Microeconomics Theory,Closed,David NdoloJr.,DGH-102/DGH-103,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+ECON 171,1,Intermediate Macroeconomic Theory,Closed,Gerald Daniels,LKH-P08,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 ECON 180,1,Statistics-Bus & Econ,Open,Jones Paintsil,LKH-B21,"Tuesday, Thursday",12:40 PM - 2:00 PM
 ECON 180,2,Statistics-Bus & Econ,Open,Gaminie Meepagala,LKH-105/107,"Tuesday, Thursday",9:40 AM - 11:00 AM
-ECON 180,3,Statistics-Bus & Econ,Open,Gbadebo Odularu,LKH-B21,"Tuesday, Thursday",3:40 PM - 5:00 PM
+ECON 180,3,Statistics-Bus & Econ,Closed,Gbadebo Odularu,LKH-B21,"Tuesday, Thursday",3:40 PM - 5:00 PM
 ECON 180,4,Statistics-Bus & Econ,Open,Isaiah Okiemen,DGH-120,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
 ECON 180,5,Statistics-Bus & Econ,Open,Tewodros Gutema,LKH-B21,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 ECON 181,1,Statistical Programming  in R,Open,Durronjae Boothe,DGH-104,"Tuesday, Thursday",9:40 AM - 11:00 AM
 ECON 184,1,Intro to Econometrics,Open,Deniz Baglan,BUR-2013,"Tuesday, Thursday",12:40 PM - 2:00 PM
 ECON 185,1,Labor Economics,Open,Digna Mosquera Cuesta,BUR-2011,"Tuesday, Thursday",3:40 PM - 5:00 PM
 ECON 188,1,The Econ of Blk Community Dev,Open,Keisha Solomon,LKH-P08,"Tuesday, Thursday",11:10 AM - 12:30 PM
-ECON 191,1,International Economics,Open,Elizabeth Asiedu,BUR-2011,"Tuesday, Thursday",2:10 PM - 3:30 PM
-ECON 194,1,Theory of Economic Development,Open,Gbadebo Odularu,MIN-123,"Tuesday, Thursday",12:40 PM - 2:00 PM
+ECON 191,1,International Economics,Closed,Elizabeth Asiedu,BUR-2011,"Tuesday, Thursday",2:10 PM - 3:30 PM
+ECON 194,1,Theory of Economic Development,Closed,Gbadebo Odularu,MIN-123,"Tuesday, Thursday",12:40 PM - 2:00 PM
 ECON 890,1,Study Abroad: Theory of Econ. Development,Closed,Gbadebo Odularu,N/A,"Tuesday, Thursday",12:40 PM - 2:00 PM
 EDUC 120,1,Intl Ed for Contemp Soc,Open,Deena Khalil,MIN-212,Wednesday,12:10 PM - 2:00 PM
 EDUC 212,1,Educational Psychology: Learning & African American Learners,Open,Helen Bond,MIN-211,"Tuesday, Thursday",2:10 PM - 3:30 PM
@@ -706,14 +722,14 @@ EECE 460,1,Wireless Communication,Open,Fadel Lashhab,LKD-3113,"Monday, Wednesday
 EECE 471,1,Design Integrated Circuits,Open,Eric Seabron,LKD-3121,"Monday, Wednesday",12:40 PM - 2:00 PM
 EECE 479,1,Cybersecurity Network CPS/IoT,Open,Danda Rawat,LKD-2113/2117B,"Monday, Wednesday",2:10 PM - 3:30 PM
 EECE 481,1,Adv. Integrated Circuit Design,Open,Muhammad Khan,LKD-3113,"Monday, Wednesday",3:40 PM - 5:00 PM
-EEED 101,1,Intro. to Environmental Studies,Open,Amy Yeboah Quarkume,UGL-L010,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+EEED 101,1,Intro. to Environmental Studies,Waitlist,Amy Yeboah Quarkume,UGL-L010,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 EEED 101,2,Intro. to Environmental Studies,Open,Janelle Burke,UGL-L010,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 EEED 180,1,Global Climate Change,Open,Janelle Burke,EJH-344,"Tuesday, Thursday",3:40 PM - 5:00 PM
 EEED 199,1,Environmental Inequality,Open,Janelle Burke,UGL-L010,"Tuesday, Thursday",11:10 AM - 12:30 PM
 EEED 204,1,Science & Public Policy,Open,Lemir Teron,DGH-105/107,"Tuesday, Thursday",9:40 AM - 11:00 AM
 EEED 210,1,Introduction to Oceanography,Open,Osinachi Ajoku,UGL-L010,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 EEED 230,1,Earth System Processes,Open,Christopher Boxe,DGH-110,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
-EEED 290,1,Honors Directed Readings- Soph.,Closed,Janelle Burke,DGH-122,Thursday,12:40 PM - 1:30 PM
+EEED 290,1,Honors Directed Readings- Soph.,Open,Janelle Burke,DGH-122,Thursday,12:40 PM - 1:30 PM
 EEED 351,2,Current Topics in Environmental Studies,Open,Aurelia Skipwith Giacometto,DGH-208/210,Friday,12:10 PM - 1:00 PM
 EEED 390,1,Honors Directed Readings - Jr.,Open,Janelle Burke,N/A,N/A,N/A
 EEED 470,1,Independent Study,Open,Janelle Burke,N/A,N/A,N/A
@@ -724,7 +740,7 @@ EEED 890,2,Study Abroad,Closed,Rubin Patterson,N/A,Thursday,2:10 PM - 3:30 PM
 EGPP 421,1,Intro to AI Tools and Techniques,Open,Anietie Andy,LKD-2114,"Monday, Wednesday",12:10 PM - 1:30 PM
 EGPP 422,1,Ethical and Responsible AI,Open,Talitha Washington,LKD-2113/2117B,"Tuesday, Thursday",11:10 AM - 12:30 PM
 EGPP 494,1,Bison Acc: Launch & Iterate,Open,Legand Burge,LKD-2114,Friday,3:10 PM - 5:00 PM
-ENGL 009,1,Tech Pre-Prof 3rd Wrtg Course,Open,Kyr Mack,LKH-208,"Tuesday, Thursday",11:10 AM - 12:30 PM
+ENGL 009,1,Tech Pre-Prof 3rd Wrtg Course,Closed,Kyr Mack,LKH-208,"Tuesday, Thursday",11:10 AM - 12:30 PM
 ENGL 009,2,Tech Writing Pre-Professional,Open,John Harris,LKH-B2,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 ENGL 009,4,Tech Pre-Prof 3rd Wrtg Course,Open,Thomas Ohno-Machado,LKH-200,"Tuesday, Thursday",11:10 AM - 12:30 PM
 ENGL 009,5,Tech Pre-Prof 3rd Wrtg Course,Open,John Harris,LKH-B2,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
@@ -733,10 +749,10 @@ ENGL 009,7,Tech Writing Pre-Professional,Open,Nico Penaranda,LKH-208,"Monday, We
 ENGL 009,9,Tech Writing Pre-Professional,Open,Nico Penaranda,LKH-200,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 ENGL 009,10,Tech Writing Pre-Professional,Open,Susan Mockler,LKH-242,"Tuesday, Thursday",2:10 PM - 3:30 PM
 ENGL 009,12,Tech Writing Pre-Professional,Open,Nico Penaranda,LKH-200,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-ENGL 009,13,Tech Writing Pre-Professional,Open,Marina del Sol,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+ENGL 009,13,Tech Writing Pre-Professional,Closed,Marina del Sol,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 ENGL 009,14,Tech Writing Pre-Professional,Open,Sadia Yasmin,LKH-242,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 ENGL 009,15,Tech Writing Pre-Professional,Open,Sadia Yasmin,LKH-244,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-ENGL 009,16,Tech Writing Pre-Professional,Open,Travis Sharp,DGH-113,"Tuesday, Thursday",9:40 AM - 11:00 AM
+ENGL 009,16,Tech Writing Pre-Professional,Waitlist,Travis Sharp,DGH-113,"Tuesday, Thursday",9:40 AM - 11:00 AM
 ENGL 009,17,Tech Writing Pre-Professional,Open,Travis Sharp,LKH-B2,"Tuesday, Thursday",12:40 PM - 2:00 PM
 ENGL 009,20,Tech Writing Pre-Professional,Open,Travis Sharp,LKH-257,"Tuesday, Thursday",2:10 PM - 3:30 PM
 ENGL 009,21,Tech Writing Pre-Professional,Open,Travis Sharp,LKH-B21,"Tuesday, Thursday",8:10 AM - 9:30 AM
@@ -758,7 +774,7 @@ ENGL 010,10,Tech Writing Pre-Law Students,Open,Allison Matulli,N/A,"Tuesday, Thu
 ENGL 014,2,Intro to Humanities I,Open,Johnson Ige,LKH-118,"Tuesday, Thursday",9:40 AM - 11:00 AM
 ENGL 014,3,Intro to Humanities I,Open,Johnson Ige,LKH-118,"Tuesday, Thursday",11:10 AM - 12:30 PM
 ENGL 014,4,Intro to Humanities I,Open,Arti Mehta,DGH-110,"Tuesday, Thursday",6:40 PM - 8:00 PM
-ENGL 014,5,Intro to Humanities I,Open,Alexander Tulin,N/A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+ENGL 014,5,Intro to Humanities I,Closed,Alexander Tulin,N/A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 ENGL 014,9,Intro to Humanities I,Open,Carolivia Herron,LKH-118,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
 ENGL 015,1,Humanities II,Open,Carolivia Herron,LKH-118,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 ENGL 015,2,Humanities II,Open,Carolivia Herron,LKH-118,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
@@ -766,6 +782,8 @@ ENGL 015,3,Humanities II,Open,Carolivia Herron,LKH-118,"Monday, Wednesday, Frida
 ENGL 015,9,Humanities II,Open,Arti Mehta,DGH-114,"Tuesday, Thursday",5:10 PM - 6:30 PM
 ENGL 015,10,Humanities II: HONORS,Open,Alexander Tulin,N/A,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
 ENGL 054,2,Afro-American Lit to 1940,Open,Miriam Gyimah,LKH-244,"Monday, Wednesday",3:40 PM - 5:00 PM
+ENGL 054,3,Afro-American Lit to 1940,Open,Miriam Gyimah,BUR-2011,"Monday, Wednesday",2:00 PM - 3:30 PM
+ENGL 054,8,Afro-American Lit to 1940,Open,Miriam Gyimah,BUR-2013,"Monday, Wednesday",2:10 PM - 3:00 PM
 ENGL 055,1,Afro-American Lit From 1940,Open,Barbara Griffin,N/A,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 ENGL 055,3,Afro-American Lit From 1940,Open,Barbara Griffin,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 ENGL 055,5,Afro-American Lit From 1940,Open,Barbra Chin,ILH-103,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
@@ -793,6 +811,7 @@ ENGL 130,1,Rhetoric: Theory and Practice,Open,Ja'La Wourman,LKH-257,"Tuesday, Th
 ENGL 139,1,Creative Writing – Nonfiction II,Open,Sufiya Abdur-Rahman,BUR-2011,"Tuesday, Thursday",11:10 AM - 12:30 PM
 ENGL 140,1,Crosscult-Drama,Open,Curdella Forbes,BUR-2020,"Tuesday, Thursday",9:40 AM - 11:00 AM
 ENGL 141,1,Poetry Across Cultures,Open,Teri Cross Davis,DGH-112,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+ENGL 201,1,Major American Author: Zora Neale Hurston HONORS,Open,Marina del Sol,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 ENGL 225,2,Modern Caribbean Lit,Open,Hannah Regis,LKH-P08,"Tuesday, Thursday",12:40 PM - 2:00 PM
 ENGL 255,1,20th Cen. Crime Fiction,Open,Alexander Tulin,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 ENGL 289,2,Topics in Lit and Writing,Open,Darlene Taylor,LKH-253,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
@@ -903,7 +922,7 @@ ENGW 105,56,Reflective Writing Portfolio,Open,Shantay Robinson,LKH-236,"Monday, 
 ENGW 105,63,Reflective Writing Portfolio,Open,Sean Pears,DGH-101,"Tuesday, Thursday",8:10 AM - 9:30 AM
 ENGW 105,67,Reflective Writing & Portfolios,Open,Sean Pears,BUR-2020,"Tuesday, Thursday",12:40 PM - 2:00 PM
 ENGW 105,68,Reflective Writing & Portfolios HONORS,Open,Ja'La Wourman,LKH-202,"Tuesday, Thursday",11:10 AM - 12:30 PM
-ENGW 105,69,Reflective Writing Portfolio,Open,Cyrus Hampton,LKH-200,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+ENGW 105,69,Reflective Writing Portfolio,Closed,Cyrus Hampton,LKH-200,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 ENGW 105,75,Reflective Writing Portfolio,Open,Alexis Harper,LKH-202,"Tuesday, Thursday",2:10 PM - 3:30 PM
 ENGW 105,77,Reflective Writing Portfolio,Open,Alexis Harper,LKH-202,"Tuesday, Thursday",3:40 PM - 5:00 PM
 FASH 162,1,Fashion Studio II,Open,Maria Fenton,LVC-204,"Tuesday, Thursday",9:40 AM - 12:30 PM
@@ -925,7 +944,7 @@ FINA 311,5,Finance Principles,Open,Michael Hudson-Vassell,CB4-218,"Monday, Wedne
 FINA 311,6,Finance Principles,Open,Michael Hudson-Vassell,CB4-217,"Monday, Wednesday",11:10 AM - 12:30 PM
 FINA 311,7,Finance Principles,Open,Jarrai Stephens,CB4-217,"Monday, Wednesday",8:10 AM - 9:30 AM
 FINA 311,8,Finance Principles,Open,Busra Agcayazi,CB4-200,"Tuesday, Thursday",11:10 AM - 12:30 PM
-FINA 313,1,Financial Management,Open,David Hodgson,CB4-400,"Tuesday, Thursday",11:10 AM - 12:30 PM
+FINA 313,1,Financial Management,Waitlist,David Hodgson,CB4-400,"Tuesday, Thursday",11:10 AM - 12:30 PM
 FINA 313,2,Financial Management,Open,David Hodgson,CB4-415,"Tuesday, Thursday",3:40 PM - 5:00 PM
 FINA 330,1,Principles of Investments,Open,Denise Streeter,CB4-200,"Tuesday, Thursday",2:10 PM - 3:30 PM
 FINA 330,2,Principles of Investments,Open,William Barbee,CB4-216,"Monday, Wednesday",2:10 PM - 3:30 PM
@@ -933,7 +952,7 @@ FINA 331,1,Applied Investment Analysis and Portfolio Management,Waitlist,N/A,CB4
 FINA 363,2,Financial Model & Analysis,Open,Sandip Mukherji,CB4-400,"Monday, Wednesday",12:40 PM - 2:00 PM
 FINA 363,3,Financial Model & Analysis,Open,Sandip Mukherji,CB4-400,"Monday, Wednesday",2:10 PM - 3:30 PM
 FINA 364,1,Investment Banking,Open,Xiankui Hu,CB4-217,"Tuesday, Thursday",11:10 AM - 12:30 PM
-FINA 380,1,Bus Fin Policy & Decision Mkg,Open,Busra Agcayazi,CB4-200,"Tuesday, Thursday",9:40 AM - 11:00 AM
+FINA 380,1,Business Finance Policy and Decision Making,Open,Busra Agcayazi,CB4-200,"Tuesday, Thursday",9:40 AM - 11:00 AM
 FINA 380,2,Business Finance Policy and Decision Making,Open,Busra Agcayazi,CB4-200,"Tuesday, Thursday",12:40 PM - 2:00 PM
 FREN 001,3,French I,Open,Clarisse Barbier,DGH-218,"Tuesday, Thursday",9:40 AM - 11:00 AM
 FREN 001,4,French I,Open,Clarisse Barbier,LKH-244,"Tuesday, Thursday",8:10 AM - 9:30 AM
@@ -943,10 +962,10 @@ FREN 001,7,French I,Open,Oumou Dat,DGH-104,"Monday, Wednesday, Friday",9:10 AM -
 FREN 002,2,French II,Open,Noura Benabdelouahab,ILH-118,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 FREN 002,3,French II,Open,Noura Benabdelouahab,DGH-208/210,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 FREN 002,4,French II,Open,Emma Chebinou,DGH-114,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
-FREN 002,6,French II,Open,Emma Chebinou,DGH-218,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+FREN 002,6,French II,Closed,Emma Chebinou,DGH-218,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 FREN 002,7,French II,Open,Ariane Ngabeu,ILH-103,"Tuesday, Thursday",2:10 PM - 3:30 PM
 FREN 003,1,French III,Open,Noura Benabdelouahab,DGH-110,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-FREN 003,2,French III,Open,Oumou Dat,DGH-114,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+FREN 003,2,French III,Closed,Oumou Dat,DGH-114,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 FREN 003,3,French III,Open,Clarisse Barbier,LKH-340,"Tuesday, Thursday",2:10 PM - 3:30 PM
 FREN 004,1,French IV,Open,Clarisse Barbier,LKH-340,"Tuesday, Thursday",3:40 PM - 5:00 PM
 FREN 004,3,French IV,Open,Emma Chebinou,DGH-114,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
@@ -967,9 +986,9 @@ GERM 004,1,German IV,Open,Tegan White-Nesbitt,LKH-365,"Monday, Wednesday, Friday
 GERM 040,1,Grammar Review,Open,Marie-Line Sephocle,LKH-359,"Tuesday, Thursday",12:40 PM - 2:00 PM
 GERM 065,1,Simultaneous Interp,Open,Marie-Line Sephocle,ILH-118,"Tuesday, Thursday",11:10 AM - 12:30 PM
 GERM 080,1,Intro to German Literature,Open,Marie-Line Sephocle,LKH-359,"Tuesday, Thursday",2:10 PM - 3:30 PM
-GERM 100,1,Individual & Society,Open,Tegan White-Nesbitt,LKH-365,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+GERM 100,1,Individual & Society,Closed,Tegan White-Nesbitt,LKH-365,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 GERM 100,3,Individual & Society,Open,Tegan White-Nesbitt,LKH-323,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
-GERM 100,4,Individual & Society,Open,Kevina King,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
+GERM 100,4,Individual & Society,Closed,Kevina King,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
 GERM 100,5,Individual & Society,Open,Kevina King,N/A,"Tuesday, Thursday",5:10 PM - 6:30 PM
 HACR 002,1,Haitian Creole II,Open,Marc Christophe,LKH-365,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 HACR 004,1,Haitian Creole IV,Open,Marc Christophe,LKH-359,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
@@ -977,27 +996,27 @@ HESC 102,1,Health System Mgmt,Open,Marquis Johns,801 NC-907,Tuesday,1:00 PM - 3:
 HESC 104,1,Kinesiology,Open,Michael Merrick,801 NC-709,"Tuesday, Thursday",1:00 PM - 2:30 PM
 HESC 111,1,Motor Learning,Open,Pamela Brown-White,801 NC-709,"Tuesday, Thursday",11:00 AM - 12:30 PM
 HESC 130,1,Exercise Physiology II,Open,Michael Merrick,801 NC-709,"Tuesday, Thursday",9:30 AM - 11:00 AM
-HESC 220,1,Intro to PT and Health Professions,Open,Pamela Brown-White,801 NC-907,Wednesday,1:00 PM - 3:00 PM
-HESC 404,1,Health Policy,Open,Marquis Johns,801 NC-524,Thursday,1:00 PM - 3:00 PM
-HESC 405,1,Fund of Scientific Inquiry,Open,Marquis Johns,801 NC-907,Monday,1:00 PM - 3:00 PM
+HESC 220,1,Intro to PT and Health Professions,Closed,Pamela Brown-White,801 NC-907,Wednesday,1:00 PM - 3:00 PM
+HESC 404,1,Health Policy,Closed,Marquis Johns,801 NC-524,Thursday,1:00 PM - 3:00 PM
+HESC 405,1,Fund of Scientific Inquiry,Closed,Marquis Johns,801 NC-907,Monday,1:00 PM - 3:00 PM
 HHPL 006,1,Life Guarding,Open,Alicia Allen,BUR-POOL,Friday,8:10 AM - 10:00 AM
-HHPL 007,1,Volleyball,Open,Deja Moorer,BUR-MGYM,"Monday, Wednesday",10:10 AM - 11:00 AM
+HHPL 007,1,Volleyball,Closed,Deja Moorer,BUR-MGYM,"Monday, Wednesday",10:10 AM - 11:00 AM
 HHPL 007,2,Volleyball,Closed,Deja Moorer,BUR-MGYM,"Monday, Wednesday",11:10 AM - 12:00 PM
-HHPL 011,1,Weight Training,Open,Bryan Williams,BUR-Cardio-Pulse,"Monday, Wednesday",9:10 AM - 10:00 AM
-HHPL 011,2,Weight Training,Open,Bryan Williams,BUR-Cardio-Pulse,"Monday, Wednesday",10:10 AM - 11:00 AM
-HHPL 011,3,Weight Training,Open,Bryan Williams,BUR-Cardio-Pulse,"Monday, Wednesday",11:10 AM - 12:00 PM
+HHPL 011,1,Weight Training,Closed,Bryan Williams,BUR-Cardio-Pulse,"Monday, Wednesday",9:10 AM - 10:00 AM
+HHPL 011,2,Weight Training,Closed,Bryan Williams,BUR-Cardio-Pulse,"Monday, Wednesday",10:10 AM - 11:00 AM
+HHPL 011,3,Weight Training,Closed,Bryan Williams,BUR-Cardio-Pulse,"Monday, Wednesday",11:10 AM - 12:00 PM
 HHPL 011,4,Weight Training,Open,Deborah Johnson,BUR-Cardio-Pulse,"Tuesday, Thursday",8:10 AM - 9:00 AM
-HHPL 014,1,Elementary Judo,Open,Rhadi Ferguson,N/A,"Tuesday, Thursday",12:10 PM - 1:00 PM
-HHPL 014,2,Elementary Judo,Open,Rhadi Ferguson,N/A,"Tuesday, Thursday",1:10 PM - 2:00 PM
-HHPL 014,3,Elementary Judo,Open,Rhadi Ferguson,N/A,"Tuesday, Thursday",2:10 PM - 3:00 PM
-HHPL 014,4,Elementary Judo,Open,Rhadi Ferguson,N/A,"Tuesday, Thursday",3:10 PM - 4:00 PM
+HHPL 014,1,Elementary Judo,Closed,Rhadi Ferguson,N/A,"Tuesday, Thursday",12:10 PM - 1:00 PM
+HHPL 014,2,Elementary Judo,Closed,Rhadi Ferguson,N/A,"Tuesday, Thursday",1:10 PM - 2:00 PM
+HHPL 014,3,Elementary Judo,Closed,Rhadi Ferguson,N/A,"Tuesday, Thursday",2:10 PM - 3:00 PM
+HHPL 014,4,Elementary Judo,Closed,Rhadi Ferguson,N/A,"Tuesday, Thursday",3:10 PM - 4:00 PM
 HHPL 038,1,Restrictive Activity IV,Open,Deborah Johnson,N/A,"Monday, Wednesday",5:10 PM - 6:00 PM
 HHPL 042,1,Tai Chi,Open,Darrell Fogan,CHS-Multipurpose,"Tuesday, Thursday",9:10 AM - 10:00 AM
 HHPL 042,2,Tai Chi,Open,Darrell Fogan,CHS-Multipurpose,"Tuesday, Thursday",10:10 AM - 11:00 AM
-HHPL 054,1,Fitness I,Open,Milton Yates,N/A,"Tuesday, Thursday",8:00 PM - 9:00 PM
+HHPL 054,1,Fitness I,Closed,Milton Yates,N/A,"Tuesday, Thursday",8:00 PM - 9:00 PM
 HHPL 054,2,Fitness I,Open,Deborah Johnson,BUR-Cardio-Pulse,"Tuesday, Thursday",9:10 AM - 10:00 AM
 HHPL 054,3,Fitness I,Open,Laurie Blackman,N/A,"Monday, Wednesday",7:10 AM - 8:00 AM
-HHPL 054,4,Fitness I,Open,Jonathan Brooks,N/A,"Monday, Wednesday",11:10 AM - 12:00 PM
+HHPL 054,4,Fitness I,Waitlist,Jonathan Brooks,N/A,"Monday, Wednesday",11:10 AM - 12:00 PM
 HHPL 055,1,Fitness II,Open,Milton Yates,N/A,"Friday, Saturday",7:10 AM - 8:00 AM
 HHPL 055,2,Fitness II,Open,Milton Yates,N/A,"Monday, Wednesday",7:10 AM - 8:00 AM
 HHPL 055,3,Fitness II,Open,Laurie Blackman,N/A,"Monday, Wednesday",8:10 AM - 9:00 AM
@@ -1005,11 +1024,11 @@ HHPL 055,4,Fitness II,Open,Laurie Blackman,N/A,"Monday, Wednesday",9:10 AM - 10:
 HHPL 055,5,Fitness II,Open,Jonathan Brooks,N/A,"Tuesday, Thursday",11:10 AM - 12:00 PM
 HHPL 061,1,Pilates,Closed,Bahiyyah Muhammad,CHS-Multipurpose,"Monday, Wednesday",9:10 AM - 10:00 AM
 HHPL 061,2,Pilates,Closed,Bahiyyah Muhammad,CHS-Multipurpose,"Monday, Wednesday",10:10 AM - 11:00 AM
-HHPL 102,1,Human Anatomy Lec/Lab,Open,Justin Wilson,N/A,"Monday, Wednesday",5:40 PM - 7:30 PM
+HHPL 102,1,Human Anatomy Lec/Lab,Closed,Justin Wilson,N/A,"Monday, Wednesday",5:40 PM - 7:30 PM
 HHPL 102,2,Human Anatomy Lec/Lab,Open,Naina Bhatia-Dey,BUR-2011,"Monday, Tuesday, Wednesday, Friday",8:10 AM - 9:00 AM
 HHPL 102,3,Human Anatomy Lec/Lab,Open,Naina Bhatia-Dey,N/A,"Monday, Tuesday, Wednesday, Friday",9:10 AM - 10:00 AM
 HHPL 103,1,Physiology,Open,Naina Bhatia-Dey,N/A,N/A,N/A
-HHPL 103,2,Physiology,Open,Justin Wilson,N/A,"Tuesday, Thursday",5:40 PM - 7:00 PM
+HHPL 103,2,Physiology,Closed,Justin Wilson,N/A,"Tuesday, Thursday",5:40 PM - 7:00 PM
 HHPL 103,4,Physiology,Open,Naina Bhatia-Dey,DGH-104,"Tuesday, Thursday",11:10 AM - 12:30 PM
 HHPL 104,1,Kinesiology,Open,Leroy Nickie,BUR-2011,"Tuesday, Thursday",7:40 PM - 9:00 PM
 HHPL 104,2,Kinesiology,Open,Portia Williams,BUR-2011,"Tuesday, Thursday",5:10 PM - 6:30 PM
@@ -1017,19 +1036,19 @@ HHPL 107,2,Exercise Physiology,Open,Seanta Cleveland,BUR-2011,"Monday, Wednesday
 HHPL 107,3,Exercise Physiology I,Open,Leroy Nickie,N/A,"Monday, Wednesday",5:40 PM - 7:30 PM
 HHPL 111,1,Motor Learning,Open,Leroy Nickie,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
 HHPL 111,2,Motor Learning,Open,Leroy Nickie,N/A,"Tuesday, Thursday",5:40 PM - 7:10 PM
-HHPL 112,1,First Aid & CPR,Open,Seanta Cleveland,BUR-2011,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-HHPL 112,3,First Aid & CPR,Open,Alicia Allen,BUR-2011,Saturday,10:00 AM - 12:50 PM
+HHPL 112,1,First Aid & CPR,Closed,Seanta Cleveland,BUR-2011,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+HHPL 112,3,First Aid & CPR,Closed,Alicia Allen,BUR-2011,Saturday,10:00 AM - 12:50 PM
 HHPL 118,1,Athletic Training I,Open,Seanta Cleveland,BUR-2013,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 HHPL 123,1,"Res & Stat-HLED,LEST,HUPF",Open,Robert Lyons,BUR-2013,"Tuesday, Thursday",2:10 PM - 3:30 PM
-HHPL 130,2,Exercise Physiology II,Open,Portia Williams,BUR-2013,"Tuesday, Thursday",3:40 PM - 5:00 PM
-HHPL 140,3,Human Growth & Development,Open,Alexis Williams,N/A,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
-HHPL 140,4,Human Growth & Development,Open,Alexis Williams,N/A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+HHPL 130,2,Exercise Physiology II,Closed,Portia Williams,BUR-2013,"Tuesday, Thursday",3:40 PM - 5:00 PM
+HHPL 140,3,Human Growth & Development,Closed,Alexis Williams,N/A,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
+HHPL 140,4,Human Growth & Development,Closed,Alexis Williams,N/A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 HHPL 141,1,Intro to Sport Management,Open,Aaron Livingston,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
 HHPL 141,2,Intro to Sport Management,Open,Robert Lyons,BUR-2013,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-HHPL 144,1,Sports Law,Open,William Hyde,DGH-120,Monday,6:10 PM - 8:40 PM
+HHPL 144,1,Sports Law,Closed,William Hyde,DGH-120,Monday,6:10 PM - 8:40 PM
 HHPL 145,1,Sports Marketing,Open,Cathy Jerome,BUR-2013,Wednesday,5:10 PM - 7:30 PM
 HHPL 147,1,Sports & Media,Open,Alois Clemons,BUR-2020,"Tuesday, Thursday",8:10 AM - 9:40 AM
-HHPL 147,2,Sports & Media,Open,Alois Clemons,BUR-2020,"Tuesday, Thursday",11:10 AM - 12:30 PM
+HHPL 147,2,Sports & Media,Closed,Alois Clemons,BUR-2020,"Tuesday, Thursday",11:10 AM - 12:30 PM
 HHPL 148,1,Governance,Open,Aaron Livingston,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 HHPL 150,1,Management and Leadership in Sports,Open,Jason Perry,BUR-2013,"Monday, Wednesday, Friday",11:00 AM - 12:00 PM
 HHPL 151,1,Sport Management Internship,Open,Edgar Jackson,N/A,Saturday,9:00 AM - 4:00 PM
@@ -1041,16 +1060,16 @@ HHPL 159,1,Health Science,Open,Lanice Williams,N/A,Thursday,5:40 PM - 7:20 PM
 HHPL 159,2,Health Science,Open,Lanice Williams,N/A,Wednesday,5:40 PM - 7:20 PM
 HHPL 159,3,Health Science,Open,N/A,BUR-2013,Monday,5:10 PM - 7:00 PM
 HHPL 159,4,Health Science,Open,N/A,BUR-2013,Thursday,5:40 PM - 7:00 PM
-HHPL 160,1,Women's Health,Open,Phronie Jackson,N/A,"Tuesday, Thursday",4:10 PM - 5:00 PM
-HHPL 160,2,Women's Health,Open,Lanice Williams,N/A,Tuesday,6:10 PM - 8:00 PM
-HHPL 162,1,Men's Health,Open,James Bridgers,N/A,"Monday, Wednesday",7:10 PM - 8:00 PM
+HHPL 160,1,Women's Health,Closed,Phronie Jackson,N/A,"Tuesday, Thursday",4:10 PM - 5:00 PM
+HHPL 160,2,Women's Health,Closed,Lanice Williams,N/A,Tuesday,6:10 PM - 8:00 PM
+HHPL 162,1,Men's Health,Waitlist,James Bridgers,N/A,"Monday, Wednesday",7:10 PM - 8:00 PM
 HHPL 162,2,Men's Health,Open,James Bridgers,N/A,"Monday, Wednesday",8:10 PM - 9:00 PM
 HHPL 162,3,Men's Health,Open,James Bridgers,N/A,"Tuesday, Thursday",7:10 PM - 8:00 PM
 HHPL 162,4,Men's Health,Open,James Bridgers,N/A,"Tuesday, Thursday",8:10 PM - 9:00 PM
 HHPL 163,1,Foundation of Health Promotion,Open,Phronie Jackson,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
-HHPL 165,3,"Hlth of Wmn, Child & Families",Open,Valora Bishop,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+HHPL 165,3,"Hlth of Wmn, Child & Families",Closed,Valora Bishop,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
 HHPL 167,2,MCH-Institute,Open,Valora Bishop,BUR-2013,Saturday,10:00 AM - 12:30 PM
-HHPL 175,1,Controlling Stress & Tension,Open,Litonya Livingston,N/A,Monday,5:40 PM - 7:00 PM
+HHPL 175,1,Controlling Stress & Tension,Waitlist,Litonya Livingston,N/A,Monday,5:40 PM - 7:00 PM
 HHPL 175,2,Controlling Stress & Tension,Open,Litonya Livingston,N/A,Tuesday,5:40 PM - 7:20 PM
 HHPL 179,1,Comm Health Internship-Majors Only,Open,Edgar Jackson,N/A,Sunday,10:10 AM - 4:00 PM
 HHPL 192,1,Direct Readings Hnrs for Juniors,Open,Edgar Jackson,N/A,N/A,N/A
@@ -1074,9 +1093,9 @@ HIST 017,1,Slavery and Law,Open,Jeffrey Kerr-Ritchie,DGH-114,"Tuesday, Thursday"
 HIST 030,1,Intro African History I,Open,Jody Benjamin,DGH-101,"Tuesday, Thursday",9:40 AM - 11:00 AM
 HIST 031,1,Intro to African History II,Open,Ademide Adelusi-Adeluyi,N/A,"Tuesday, Thursday",11:10 AM - 12:30 PM
 HIST 031,2,Intro to African History II,Open,Ademide Adelusi-Adeluyi,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
-HIST 043,1,"Coll: Music, Resist & Blk Dias",Open,Tammy Brown,DGH-113,Tuesday,5:10 PM - 7:30 PM
+HIST 043,1,"Coll: Music, Resist & Blk Dias",Closed,Tammy Brown,DGH-113,Tuesday,5:10 PM - 7:30 PM
 HIST 044,1,Coll on the African Diaspora,Open,Nathalie Pierre,DGH-113,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-HIST 074,1,ST: History of Black Religion,Open,Benjamin Baker,DGH-101,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+HIST 074,1,ST: History of Black Religion,Closed,Benjamin Baker,DGH-101,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 HIST 076,1,Topics,Open,Sonja Woods,DGH-101,"Tuesday, Thursday",3:40 PM - 5:00 PM
 HIST 077,1,Topics in History,Open,Tammy Brown,DGH-113,Thursday,5:10 PM - 7:30 PM
 HIST 101,1,World Geography,Open,Petronella Kigochi,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
@@ -1086,9 +1105,9 @@ HIST 135,1,West Africa Since 1800,Open,Ademide Adelusi-Adeluyi,N/A,"Tuesday, Thu
 HIST 152,1,Seminar on African Diaspora,Open,Jody Benjamin,DGH-101,"Tuesday, Thursday",11:10 AM - 12:30 PM
 HIST 176,2,Afro-America to 1877,Open,Nikki Taylor,DGH-20,Tuesday,2:10 PM - 3:30 PM
 HIST 177,2,African Amer Hist,Open,Benjamin Baker,DGH-101,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-HIST 177,3,African Amer Hist,Open,Nikki Taylor,DGH-111A,"Tuesday, Thursday",12:40 PM - 2:00 PM
+HIST 177,3,African Amer Hist,Closed,Nikki Taylor,DGH-111A,"Tuesday, Thursday",12:40 PM - 2:00 PM
 HIST 181,1,Sem: Human Rights History,Open,Jean-Michael Mabeko-Tali,DGH-122,"Tuesday, Thursday",3:40 PM - 5:00 PM
-HIST 182,2,Slavery to Mass Incarceration,Open,Ibram Kendi,DGH-113,"Tuesday, Thursday",2:10 PM - 3:30 PM
+HIST 182,2,Slavery to Mass Incarceration,Closed,Ibram Kendi,DGH-113,"Tuesday, Thursday",2:10 PM - 3:30 PM
 HIST 185,1,Black Women's Activism,Open,Ashley Preston,DGH-106/108,Tuesday,5:10 PM - 7:30 PM
 HIST 890,2,Study Abroad,Closed,Kay Lewis,DGH-113,"Tuesday, Thursday",12:40 PM - 2:00 PM
 HLMN 305,1,Health Care Finance,Open,Kyrone Davis,801 NC-523,Wednesday,10:10 AM - 12:40 PM
@@ -1096,6 +1115,7 @@ HLMN 375,1,Geriatrics for AH Pro,Open,Lennox Graham,N/A,Thursday,1:10 PM - 2:50 
 HLMN 404,1,Health Policy,Closed,Kafui Doe,801 NC-524,Tuesday,1:10 PM - 3:40 PM
 HLMN 408,1,Health Management Seminar,Open,Kafui Doe,801 NC-524,Wednesday,1:10 PM - 3:40 PM
 HLMN 417,1,Independent Study,Open,Kyrone Davis,N/A,N/A,N/A
+HLMN 425,1,Human Resource Management in Healthcare,Open,Patricia Talbert,801 NC-523,Tuesday,10:10 AM - 12:40 PM
 HOSP 300,1,Intro to Hospitality Industry,Open,Skye Curry,CB4-400,"Monday, Wednesday",5:10 PM - 6:30 PM
 HUDV 095,1,"Human Development, Family, Culture and Society",Open,Hakim Rashid,MIN-212,"Tuesday, Thursday",2:10 PM - 3:30 PM
 HUDV 113,1,"Prenatal, Infancy & Early Childhood Development",Open,Ura Oyemade Bailey,N/A,"Tuesday, Thursday",8:10 AM - 9:30 AM
@@ -1114,8 +1134,8 @@ HUDV 150,1,Positive Aging in Adult Dev. - DCP,Open,Stacey McDonald Lowe,N/A,Wedn
 HUDV 169,1,Internship in Human Dev.,Open,Ura Oyemade Bailey,MIN-209,Tuesday,4:30 PM - 5:30 PM
 HUDV 191,1,Service Learning in Human Dev.,Open,Hakim Rashid,MIN-212,Tuesday,5:10 PM - 6:30 PM
 HUDV 210,1,Honors Thesis II,Open,Jasmine Godwin,N/A,Friday,3:30 PM - 4:00 PM
-IDSD 110,1,"Women, Gender & Sexualities",Open,Angela Pashayan,ILH-118,"Tuesday, Thursday",3:40 PM - 5:00 PM
-IDSD 111,1,Black Feminist Theory,Open,Angela Pashayan,UGL-L010,"Tuesday, Thursday",5:10 PM - 6:40 PM
+IDSD 110,1,"Women, Gender & Sexualities",Closed,Angela Pashayan,ILH-118,"Tuesday, Thursday",3:40 PM - 5:00 PM
+IDSD 111,1,Black Feminist Theory,Waitlist,Angela Pashayan,UGL-L010,"Tuesday, Thursday",5:10 PM - 6:40 PM
 IDSD 130,1,Cornerstone: African Diaspora,Open,Amy Lewis,LKH-105/107,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 IDSD 130,2,Cornerstone: African Diaspora,Open,Amy Lewis,UGL-L010,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 IDSD 130,3,Cornerstone: African Diaspora,Open,Wesley Hanson,UGL-L010,"Tuesday, Thursday",9:40 AM - 11:00 AM
@@ -1143,20 +1163,20 @@ INFO 210,1,Intro to Software Design,Open,Olusola Olabanjo,CB4-418,"Monday, Wedne
 INFO 311,1,Quantitative Business Analysis,Open,Darian Unger,CB4-317,"Tuesday, Thursday",2:10 PM - 3:30 PM
 INFO 311,2,Quantitative Business Analysis,Open,Darian Unger,CB4-317,"Tuesday, Thursday",3:40 PM - 5:00 PM
 INFO 311,3,Quantitative Business Analysis,Open,Olusola Olabanjo,CB4-418,"Monday, Wednesday",8:10 AM - 9:30 AM
-INFO 311,4,Quantitative Business Analysis,Open,Janvier Tchommo,CB4-317,"Monday, Wednesday",12:40 PM - 2:00 PM
+INFO 311,4,Quantitative Business Analysis,Waitlist,Janvier Tchommo,CB4-317,"Monday, Wednesday",12:40 PM - 2:00 PM
 INFO 325,1,Intro to Data & Network Comm,Open,Samaa Elnagar,CB4-428,"Tuesday, Thursday",9:40 AM - 11:00 AM
 INFO 330,1,Database Management,Open,Daniel Owunwanne,CB4-322,"Tuesday, Thursday",11:10 AM - 12:30 PM
 INFO 335,1,Production and Operations Management,Open,Anupam Kumar,CB4-200,"Monday, Wednesday",5:10 PM - 6:30 PM
 INFO 335,2,Production and Operations Management,Open,Janvier Tchommo,CB4-218,"Tuesday, Thursday",11:10 AM - 12:30 PM
-INFO 335,3,Production and Operations Management,Open,Soomin Park,CB4-322,"Monday, Wednesday",11:10 AM - 12:30 PM
-INFO 335,4,Production and Operations Management,Open,Janvier Tchommo,CB4-418,"Tuesday, Thursday",12:40 PM - 2:00 PM
+INFO 335,3,Production and Operations Management,Closed,Soomin Park,CB4-322,"Monday, Wednesday",11:10 AM - 12:30 PM
+INFO 335,4,Production and Operations Management,Closed,Janvier Tchommo,CB4-418,"Tuesday, Thursday",12:40 PM - 2:00 PM
 INFO 340,1,Introduction to Java,Open,Samaa Elnagar,CB4-428,"Tuesday, Thursday",11:10 AM - 12:30 PM
 INFO 370,1,Systems Analysis & Design,Open,Daniel Owunwanne,CB4-300A,"Tuesday, Thursday",2:10 PM - 3:30 PM
 INFO 375,1,Sem Cmptr-Innovation and Technology Management,Open,Darian Unger,CB4-567,"Tuesday, Thursday",11:10 AM - 12:30 PM
 INFO 384,1,Business Analytics & AI,Open,Anupam Kumar,CB4-400,"Monday, Wednesday",3:40 PM - 5:00 PM
 INFO 393,1,Network/Internet Sec Mgmt,Open,Robert Burke,CB4-235,"Monday, Wednesday",9:00 AM - 11:00 AM
 INFO 395,1,Information Assurance,Open,Samaa Elnagar,CB4-428,"Tuesday, Thursday",2:10 PM - 3:30 PM
-INFO 396,2,Project Mgmt,Open,Jude Joseph,N/A,"Monday, Wednesday",5:10 PM - 6:30 PM
+INFO 396,2,Project Mgmt,Closed,Jude Joseph,N/A,"Monday, Wednesday",5:10 PM - 6:30 PM
 INFO 398,1,Infor Sys Consulting,Open,Efosa Idemudia,CB4-428,"Monday, Wednesday",11:10 AM - 12:30 PM
 INSU 351,1,Life & Health Insurance,Open,B. Paul Choi,CB4-400,"Monday, Wednesday",9:40 AM - 11:00 AM
 INSU 354,1,Risk Management,Open,Charmaine Davis,CB4-317,"Monday, Wednesday",3:40 PM - 5:00 PM
@@ -1181,6 +1201,159 @@ KORE 002,1,Korean II,Open,Kukjin Cheon,LKH-365,"Monday, Wednesday, Friday",10:10
 KORE 002,2,Korean II,Open,Kukjin Cheon,LKH-323,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 KORE 004,1,Korean IV,Open,Kukjin Cheon,LKH-323,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 KORE 100,1,Korean Culture,Closed,N/A,N/A,N/A,N/A
+MATH 005,1,College Algebra I WR,Open,Queen Wiggs Tollett,ILH-107,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
+MATH 005,1,College Algebra I WR,Open,Queen Wiggs Tollett,ILH-107,"Tuesday, Thursday",8:10 AM - 9:00 AM
+MATH 005,2,College Algebra I WR,Open,Kwabena Boateng,ASB-100,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 005,2,College Algebra I WR,Open,Kwabena Boateng,DGH-17/19,"Tuesday, Thursday",9:10 AM - 10:00 AM
+MATH 005,3,College Algebra I WR,Open,Queen Wiggs Tollett,DGH-205/207,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+MATH 005,3,College Algebra I WR,Open,Queen Wiggs Tollett,DGH-205/207,"Tuesday, Thursday",10:10 AM - 11:00 AM
+MATH 005,4,College Algebra I WR,Open,Lisette Kernizan,N/A,"Monday, Tuesday, Wednesday, Thursday, Friday",3:10 PM - 4:00 PM
+MATH 005,5,College Algebra I WR,Open,Lisette Kernizan,N/A,"Monday, Tuesday, Wednesday, Thursday, Friday",4:10 PM - 5:00 PM
+MATH 005,6,College Algebra I WR,Open,IDRISSA ABDEL KADER,LKH-236,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 005,6,College Algebra I WR,Open,IDRISSA ABDEL KADER,BNC-C08,"Tuesday, Thursday",3:10 PM - 4:00 PM
+MATH 005,7,College Algebra I WR,Open,Gloria Ampiah-Danso,LKH-208,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 005,7,College Algebra I WR,Open,Gloria Ampiah-Danso,ASA-202,"Tuesday, Thursday",4:10 PM - 5:00 PM
+MATH 005,10,College Algebra I WR,Open,Khadeejah Smith,LKH-200,"Monday, Wednesday",4:10 PM - 5:00 PM
+MATH 005,10,College Algebra I WR,Open,Khadeejah Smith,ASB-100,"Tuesday, Thursday",4:10 PM - 5:30 PM
+MATH 005,11,College Algebra I WR,Open,Khadeejah Smith,LKH-242,"Monday, Wednesday",5:10 PM - 6:00 PM
+MATH 005,11,College Algebra I WR,Open,Khadeejah Smith,LKH-242,"Tuesday, Thursday",5:40 PM - 7:00 PM
+MATH 005,12,College Algebra I WR,Open,Tiffany Padgett,N/A,"Monday, Tuesday, Wednesday, Thursday, Friday",2:10 PM - 3:00 PM
+MATH 005,13,College Algebra I WR,Open,Anita Wahi,N/A,"Monday, Wednesday",5:40 PM - 7:00 PM
+MATH 005,13,College Algebra I WR,Open,Anita Wahi,N/A,Friday,2:10 PM - 4:00 PM
+MATH 005,14,College Algebra I WR,Open,Stanley Einstein-Matthews,N/A,"Monday, Tuesday, Wednesday, Thursday, Friday",1:10 PM - 2:00 PM
+MATH 006,1,College Algebra I,Open,Ben Adenbaum,ILH-103,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
+MATH 006,2,College Algebra I,Open,Abdul-Malik Saiid,ILH-103,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 006,3,College Algebra I,Open,Lifoma Salaam,DGH-102/DGH-103,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+MATH 006,5,College Algebra I,Open,Lifoma Salaam,DGH-106/108,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 006,6,College Algebra I,Open,Lawrencia Konje Siri Epse Nukenine,DGH-105/107,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 006,7,College Algebra I,Open,Tamu Turner,LKH-208,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
+MATH 006,8,College Algebra I,Open,Tamu Turner,LKH-208,"Monday, Wednesday, Friday",6:10 PM - 7:00 PM
+MATH 006,9,College Algebra I,Open,Francois Ramaroson,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 006,10,College Algebra I,Open,Mohammad Mahmood,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 006,11,College Algebra I,Open,Kelli Cofield,DGH-110,"Monday, Wednesday",4:10 PM - 5:30 PM
+MATH 006,12,College Algebra I,Open,Kelli Cofield,DGH-106/108,"Monday, Wednesday",5:40 PM - 7:00 PM
+MATH 007,1,Precalculus,Open,Kamal Barley,LKH-253,"Monday, Wednesday, Thursday, Friday",8:10 AM - 9:00 AM
+MATH 007,2,Precalculus,Open,Demba Sy,DGH-106/108,"Monday, Wednesday, Thursday, Friday",9:10 AM - 10:00 AM
+MATH 007,3,Precalculus,Open,John-Harold Ahiable,N/A,"Monday, Wednesday, Thursday, Friday",10:10 AM - 11:00 AM
+MATH 007,4,Precalculus,Open,Queen Wiggs Tollett,DGH-205/207,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 007,4,Precalculus,Open,Queen Wiggs Tollett,LKH-244,Thursday,1:10 PM - 2:00 PM
+MATH 007,5,Precalculus,Open,Jermain McDermott,DGH-218,"Monday, Wednesday, Thursday, Friday",4:10 PM - 5:00 PM
+MATH 007,6,Precalculus,Open,Lawrencia Konje Siri Epse Nukenine,LKH-253,"Monday, Wednesday, Thursday, Friday",5:10 PM - 6:00 PM
+MATH 007,7,Precalculus,Open,John-Harold Ahiable,N/A,"Monday, Tuesday, Wednesday, Friday",11:10 AM - 12:00 PM
+MATH 007,8,Precalculus,Open,Crepin Mahop,N/A,"Monday, Tuesday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 007,9,Precalculus,Open,Crepin Mahop,N/A,"Monday, Tuesday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 007,10,Precalculus,Open,Gabriel Ayine,N/A,"Monday, Tuesday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 007,11,Precalculus,Open,Gabriel Ayine,N/A,"Monday, Tuesday, Wednesday, Friday",5:10 PM - 6:00 PM
+MATH 007,12,Precalculus,Open,Derrick Asamoah Owusu,DGH-205/207,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 007,12,Precalculus,Open,Derrick Asamoah Owusu,ASB-213/215,Thursday,2:10 PM - 3:00 PM
+MATH 007,13,Precalculus,Open,Eric Che,N/A,"Monday, Tuesday, Wednesday, Friday",6:10 PM - 7:00 PM
+MATH 007,14,Precalculus,Open,Khalid Boushaba,N/A,"Monday, Tuesday, Wednesday, Friday",8:10 AM - 9:00 AM
+MATH 007,15,Precalculus,Open,Khalid Boushaba,N/A,"Monday, Tuesday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 009,1,Intro to Statistics,Open,Nana Kena Frempong,LKH-200,"Monday, Wednesday, Thursday, Friday",8:10 AM - 9:00 AM
+MATH 009,2,Intro to Statistics,Open,Nana Kena Frempong,ASB-100,"Monday, Wednesday, Thursday, Friday",11:10 AM - 12:00 PM
+MATH 009,3,Intro to Statistics,Open,Kwabena Boateng,DGH-215/217,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 009,3,Intro to Statistics,Open,Kwabena Boateng,DGH-211,Thursday,2:10 PM - 3:00 PM
+MATH 009,4,Intro to Statistics,Open,Derrick Asamoah Owusu,DGH-17/19,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 009,4,Intro to Statistics,Open,Derrick Asamoah Owusu,N/A,Thursday,3:10 PM - 4:00 PM
+MATH 009,5,Intro to Statistics,Open,Sean O'Loughlin,DGH-215/217,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 009,5,Intro to Statistics,Open,Sean O'Loughlin,DGH-208/210,Thursday,4:10 PM - 5:00 PM
+MATH 009,6,Intro to Statistics,Open,Sean O'Loughlin,LKH-200,"Monday, Wednesday, Thursday, Friday",5:10 PM - 6:00 PM
+MATH 009,7,Intro to Statistics,Open,Oladapo Olalude,LKH-236,"Monday, Wednesday, Thursday, Friday",6:10 PM - 7:00 PM
+MATH 009,8,Intro to Statistics,Open,Robert Scott,N/A,"Monday, Tuesday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 009,9,Intro to Statistics,Open,Robert Scott,N/A,"Monday, Tuesday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 009,10,Intro to Statistics,Open,Simon Kojo Appiah,DGH-208/210,"Monday, Tuesday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 009,11,Intro to Statistics,Open,Andre Williams,N/A,"Monday, Tuesday, Wednesday, Friday",5:10 PM - 6:00 PM
+MATH 009,12,Intro to Statistics,Open,Derrick Asamoah Owusu,N/A,"Monday, Tuesday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 009,13,Intro to Statistics,Open,Christopher Kim,BNB-B03,"Monday, Tuesday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 010,1,College Algebra II,Open,Kwabena Boateng,LKH-257,"Monday, Wednesday, Thursday, Friday",8:10 AM - 9:00 AM
+MATH 010,2,College Algebra II,Open,Drew Dickenson,DGH-205/207,"Monday, Wednesday, Thursday, Friday",9:10 AM - 10:00 AM
+MATH 010,3,College Algebra II,Open,Demba Sy,BNB-B01,"Monday, Wednesday, Thursday, Friday",10:10 AM - 11:00 AM
+MATH 010,4,College Algebra II,Open,Aaron Large,ASA-101,"Tuesday, Thursday",2:10 PM - 4:00 PM
+MATH 010,5,College Algebra II,Open,Jermain McDermott,DGH-208/210,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 010,5,College Algebra II,Open,Jermain McDermott,N/A,Thursday,3:10 PM - 4:00 PM
+MATH 010,6,College Algebra II,Open,IDRISSA ABDEL KADER,ILH-107,"Monday, Wednesday, Thursday, Friday",4:10 PM - 5:00 PM
+MATH 010,7,College Algebra II,Open,Oladapo Olalude,LKH-236,"Monday, Wednesday, Thursday, Friday",5:10 PM - 6:00 PM
+MATH 010,8,College Algebra II,Open,Stanley Einstein-Matthews,N/A,"Monday, Tuesday, Wednesday, Friday",11:10 AM - 12:00 PM
+MATH 010,9,College Algebra II,Open,John-Harold Ahiable,N/A,"Monday, Tuesday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 010,10,College Algebra II,Open,Eric Che,N/A,"Monday, Tuesday, Wednesday, Friday",5:10 PM - 6:00 PM
+MATH 010,11,College Algebra II,Open,Andre Williams,N/A,"Monday, Tuesday, Wednesday, Friday",6:10 PM - 7:00 PM
+MATH 010,12,College Algebra II,Open,Aaron Large,ASB-213/215,"Tuesday, Thursday",4:10 PM - 6:00 PM
+MATH 010,13,College Algebra II,Open,Tiffany Padgett,N/A,"Monday, Tuesday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 010,14,College Algebra II,Open,Anita Wahi,DGH-208/210,"Tuesday, Thursday",5:10 PM - 7:00 PM
+MATH 012,1,Patterns in Math,Open,Kamal Barley,LKH-105/107,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 012,2,Patterns in Math,Open,Kamal Barley,LKH-242,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 014,1,Intro. to Data Science,Open,Maeve Wildes,ASB-105,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 014,2,Intro. to Data Science - Honors,Open,Meenakshi Nerolu,ASB-105,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+MATH 014,3,Intro. to Data Science,Open,Moussa Doumbia,ASB-105,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 014,4,Intro. to Data Science,Open,Moussa Doumbia,ASB-105,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 014,5,Intro. to Data Science,Open,Almaz Abebe,ASB-105,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 014,6,Intro. to Data Science,Open,Sosna Birra,ASB-105,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 021,1,Fundamental Concepts II,Open,Kamal Barley,MIN-123,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+MATH 026,1,Applied Calculus,Open,Demba Sy,CB4-428,"Monday, Wednesday, Thursday, Friday",8:10 AM - 9:00 AM
+MATH 026,2,Applied Calculus,Open,Paul Bezandry,MIN-212,"Monday, Wednesday, Thursday, Friday",9:10 AM - 10:00 AM
+MATH 026,3,Applied Calculus,Open,Almaz Abebe,DGH-17/19,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 026,3,Applied Calculus,Open,Almaz Abebe,MIN-217,Thursday,1:10 PM - 2:00 PM
+MATH 026,4,Applied Calculus,Open,Almaz Abebe,DGH-106/108,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 026,4,Applied Calculus,Open,Almaz Abebe,DGH-211,Thursday,4:10 PM - 5:00 PM
+MATH 026,5,Applied Calculus,Open,Paul Bezandry,LKH-257,"Monday, Wednesday, Thursday, Friday",5:10 PM - 6:00 PM
+MATH 026,6,Applied Calculus,Open,Derrick Asamoah Owusu,N/A,"Monday, Tuesday, Wednesday, Friday",11:10 AM - 12:00 PM
+MATH 026,7,Applied Calculus,Open,Leroy Rowe,N/A,"Monday, Tuesday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 026,8,Applied Calculus,Open,Leroy Rowe,N/A,"Monday, Tuesday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 026,9,Applied Calculus,Open,Devin Greene,DGH-17/19,"Tuesday, Thursday",4:10 PM - 5:50 PM
+MATH 103,1,Proof & Problem Solving,Open,Francois Ramaroson,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 103,2,Proof & Problem Solving,Open,Daniel Mamo,DGH-105/107,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+MATH 152,1,Applied Statistics,Open,Malick Kebe,DGH-104,"Monday, Wednesday, Friday",4:10 PM - 5:00 PM
+MATH 153,1,Data Wrangling/Data Engineering,Open,Moussa Doumbia,ASB-105,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+MATH 156,1,Calculus I,Open,Drew Dickenson,LKH-B2,"Monday, Wednesday, Thursday, Friday",8:10 AM - 9:00 AM
+MATH 156,2,Calculus I,Open,Ben Adenbaum,BNB-B03,"Monday, Wednesday, Thursday, Friday",9:10 AM - 10:00 AM
+MATH 156,3,Calculus I,Open,Ben Adenbaum,BNB-B03,"Monday, Wednesday, Thursday, Friday",10:10 AM - 11:00 AM
+MATH 156,4,Calculus I,Open,Meenakshi Nerolu,MIN-124,"Monday, Tuesday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 156,5,Calculus I,Open,Mohammad Mahmood,N/A,"Monday, Wednesday, Thursday, Friday",3:10 PM - 4:00 PM
+MATH 156,7,Calculus I,Open,Devin Greene,MIN-123,"Monday, Wednesday, Thursday, Friday",2:10 PM - 3:00 PM
+MATH 156,8,Calculus I - Honors,Open,Angelica Babei,ASB-100,"Monday, Wednesday, Thursday, Friday",1:10 PM - 2:00 PM
+MATH 156,9,Calculus I,Open,Jermain McDermott,LKH-244,"Monday, Wednesday, Thursday, Friday",5:10 PM - 6:00 PM
+MATH 156,10,Calculus I,Open,Roberto De Leo,LKH-B2,"Tuesday, Thursday",5:10 PM - 7:00 PM
+MATH 157,1,Calculus II,Open,Jordan Hirsh,ASB-103,"Monday, Wednesday, Thursday, Friday",8:10 AM - 9:00 AM
+MATH 157,2,Calculus II,Open,Daniel Mamo,ASB-103,"Monday, Wednesday, Thursday, Friday",10:10 AM - 11:00 AM
+MATH 157,3,Calculus II,Open,Minh-Tam Trinh,ASB-103,"Monday, Wednesday, Thursday, Friday",12:10 PM - 1:00 PM
+MATH 157,4,Calculus II,Open,Jordan Hirsh,ASB-103,"Monday, Wednesday, Thursday, Friday",4:10 PM - 5:00 PM
+MATH 157,5,Calculus II,Open,Dennis Davenport,ASB-103,"Monday, Wednesday, Thursday, Friday",3:10 PM - 4:00 PM
+MATH 157,6,Calculus II-Honors,Open,Angelica Babei,ASB-103,"Monday, Wednesday, Thursday, Friday",2:10 PM - 3:00 PM
+MATH 157,7,Calculus II,Open,Timothy Myers,DGH-205/207,"Monday, Wednesday, Thursday, Friday",5:10 PM - 6:00 PM
+MATH 157,8,Calculus II,Open,Paul Bezandry,N/A,"Monday, Wednesday, Thursday, Friday",11:10 AM - 12:00 PM
+MATH 158,1,Calculus III,Open,Jordan Hirsh,ASB-103,"Monday, Wednesday, Thursday, Friday",9:10 AM - 10:00 AM
+MATH 158,2,Calculus III,Open,Timothy Myers,ASB-103,"Monday, Wednesday, Thursday, Friday",11:10 AM - 12:00 PM
+MATH 158,3,Calculus III,Open,Timothy Myers,ASB-103,"Monday, Wednesday, Thursday, Friday",1:10 PM - 2:00 PM
+MATH 158,4,Calculus III,Open,Cheikh Ndiaye,ASB-100,"Tuesday, Thursday",2:10 PM - 4:00 PM
+MATH 159,2,Differential Equations,Open,Nana Kena Frempong,ASB-213/215,"Monday, Wednesday, Thursday, Friday",9:10 AM - 10:00 AM
+MATH 159,3,Differential Equations,Open,Sayomi Kamimoto,ASB-213/215,"Monday, Wednesday, Thursday, Friday",11:10 AM - 12:00 PM
+MATH 159,4,Differential Equations,Open,Maeve Wildes,ASB-213/215,"Monday, Wednesday, Thursday, Friday",1:10 PM - 2:00 PM
+MATH 159,5,Differential Equations,Open,Devin Greene,ASB-213/215,"Monday, Wednesday, Thursday, Friday",3:10 PM - 4:00 PM
+MATH 160,1,Adv Calculus for Sci & Eng,Open,Maeve Wildes,DGH-218,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 163,1,Machine Learning,Open,Moussa Doumbia,DGH-114,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 163,1,Machine Learning,Open,Moussa Doumbia,DGH-211,Thursday,3:10 PM - 4:00 PM
+MATH 164,1,Numerical Analysis,Open,Christopher Kim,DGH-114,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 165,1,Directed Readings,Open,Bourama Toni,ASB-105,"Monday, Wednesday, Friday",6:10 PM - 7:00 PM
+MATH 168,1,Actuarial Science Lab I,Open,Derrick Asamoah Owusu,ASB-105,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
+MATH 176,1,UG Research in Mathematics,Open,Bourama Toni,N/A,N/A,N/A
+MATH 177,1,Optimization Techniques,Open,Christopher Kim,ASB-213/215,"Monday, Tuesday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 180,1,Intro to Linear Algebra,Open,Roberto De Leo,ASB-213/215,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+MATH 180,3,Intro to Linear Algebra,Open,Henok Mawi,DGH-102/DGH-103,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 180,4,Intro to Linear Algebra,Open,Jie Ren,DGH-104,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 180,5,Intro to Linear Algebra,Open,Sankar Sitaraman,DGH-208/210,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 181,2,Discrete Structures,Open,Drew Dickenson,ASB-100,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+MATH 181,3,Discrete Structures,Open,Sankar Sitaraman,ASB-100,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 181,4,Discrete Structures,Open,Jie Ren,DGH-212/214,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+MATH 184,1,Introduction to Number Theory,Open,Minh-Tam Trinh,DGH-106/108,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
+MATH 189,1,Probability & Statistics I,Open,Yeona Kang,DGH-104,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
+MATH 189,2,Probability & Statistics I,Open,Simon Kojo Appiah,ASB-213/215,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+MATH 189,3,Probability & Statistics I,Open,Paul Bezandry,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 190,2,Probability & Statistics II,Open,Simon Kojo Appiah,DGH-113,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+MATH 192,1,Topics in Applied Mathematics,Open,Katharine Gurski,DGH-105/107,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
+MATH 193,1,Actuarial Science Seminar,Open,Simon Kojo Appiah,ASB-100,"Monday, Wednesday, Friday",6:10 PM - 7:00 PM
+MATH 195,1,Introduction to Analysis I,Open,Katharine Gurski,ASB-105,"Tuesday, Thursday",1:10 PM - 2:30 PM
+MATH 198,1,Intro to Modern Alegbra II,Open,Angelica Babei,DGH-120,"Monday, Wednesday",9:40 AM - 11:00 AM
+MATH 795,1,Intro Anal I-Wrtg,Open,Katharine Gurski,ASB-105,"Tuesday, Thursday",1:10 PM - 2:30 PM
 MEEG 103,1,Intro to Computer Aided Design,Open,Hyung Bae,LKD-3108,"Monday, Wednesday",9:10 AM - 10:00 AM
 MEEG 103,2,Intro to Computer Aided Design,Open,Hyung Bae,LKD-3108,"Monday, Wednesday",10:10 AM - 11:00 AM
 MEEG 204,1,Intro to Solid Mechanics,Open,Mohsen Mosleh,LKD-1017,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
@@ -1190,11 +1363,11 @@ MEEG 209,1,Material Science,Open,Gbadebo Owolabi,LKD-1017,"Monday, Wednesday, Fr
 MEEG 301,1,Systems Dynamics,Open,Achille Messac,LKD-3114,"Tuesday, Thursday",11:10 AM - 12:30 PM
 MEEG 306,1,Applied Thermodynamics,Open,Emmanuel Glakpe,LKD-3114,"Tuesday, Thursday",9:40 AM - 11:00 AM
 MEEG 311,1,Mechanical Design II,Open,Peter Omoniyi,LKD-3114,"Tuesday, Thursday",12:40 PM - 2:00 PM
-MEEG 316,1,Instrumentation & Exper Lab,Open,H Whitworth,LKD-3114,Wednesday,10:10 AM - 11:00 AM
-MEEG 316,1,Instrumentation & Exper Lab,Open,H Whitworth,LKD-G038,Wednesday,2:10 PM - 5:00 PM
+MEEG 316,1,Instrumentation & Exper Lab,Closed,H Whitworth,LKD-3114,Wednesday,10:10 AM - 11:00 AM
+MEEG 316,1,Instrumentation & Exper Lab,Closed,H Whitworth,LKD-G038,Wednesday,2:10 PM - 5:00 PM
 MEEG 316,2,Instrumentation & Exper Lab,Open,H Whitworth,LKD-3114,Wednesday,10:10 AM - 11:00 AM
 MEEG 316,2,Instrumentation & Exper Lab,Open,H Whitworth,LKD-G038,Thursday,2:10 PM - 5:00 PM
-MEEG 320,1,Fluid Mechanics II,Open,Emmanuel Glakpe,LKD-3114,"Monday, Wednesday, Friday",8:00 AM - 9:40 AM
+MEEG 320,1,Fluid Mechanics II,Open,Emmanuel Glakpe,LKD-3114,"Tuesday, Thursday",8:10 AM - 9:30 AM
 MEEG 350,1,Comp Aided Engineering,Open,Hyung Bae,LKD-3108,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 MEEG 442,1,Senior Project II,Open,Dan Feng,LKD-3108,Wednesday,2:10 PM - 5:00 PM
 MEEG 443,1,CAD/CAM,Open,Mohsen Mosleh,LKD-3116,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
@@ -1211,22 +1384,22 @@ MGMT 026,1,Sr. Honors Sem 2,Open,Christopher Oliver,CB4-200,"Tuesday, Thursday",
 MGMT 301,1,Management & OB,Open,Ingrid Hayes-Burrell,CB4-418,"Tuesday, Thursday",9:40 AM - 11:00 AM
 MGMT 301,2,Management & OB,Open,Stephanie Leonard,CB4-428,"Tuesday, Thursday",12:40 PM - 2:00 PM
 MGMT 301,3,Management & OB,Open,Stephanie Leonard,CB4-417,"Tuesday, Thursday",2:10 PM - 3:30 PM
-MGMT 301,4,Management & OB,Open,Cathy House,CB4-218,"Monday, Wednesday",2:10 PM - 3:30 PM
+MGMT 301,4,Management & OB,Closed,Cathy House,CB4-218,"Monday, Wednesday",2:10 PM - 3:30 PM
 MGMT 301,5,Management & OB,Open,Charles Pugh,CB4-217,"Tuesday, Thursday",5:10 PM - 6:30 PM
 MGMT 302,1,Adv. Organ Behavior,Open,Amanda Hinojosa,CB4-200,"Monday, Wednesday",9:40 AM - 11:00 AM
 MGMT 302,2,Adv Organizational Behavior,Open,Amanda Hinojosa,CB4-415,"Monday, Wednesday",11:10 AM - 12:30 PM
-MGMT 303,1,Human Resources Mgmt,Open,Amanda Hinojosa,CB4-415,"Monday, Wednesday",2:10 PM - 3:30 PM
+MGMT 303,1,Human Resources Mgmt,Waitlist,Amanda Hinojosa,CB4-415,"Monday, Wednesday",2:10 PM - 3:30 PM
 MGMT 303,2,Human Resources Mgmt,Open,Charles Pugh,CB4-216,"Monday, Wednesday",5:10 PM - 6:30 PM
 MGMT 307,1,Ldrship & Spirituality in Mgmt,Open,Kanika Jones,CB4-400,"Tuesday, Thursday",3:40 PM - 5:00 PM
 MGMT 314,1,Diversity & Inclusion in Org.,Open,Stephanie Leonard,CB4-217,"Tuesday, Thursday",9:40 AM - 11:00 AM
-MGMT 316,1,Business Ethics,Open,Ingrid Hayes-Burrell,CB4-317,"Tuesday, Thursday",8:10 AM - 9:30 AM
+MGMT 316,1,Business Ethics,Closed,Ingrid Hayes-Burrell,CB4-317,"Tuesday, Thursday",8:10 AM - 9:30 AM
 MGMT 331,1,Decision Making,Open,Raymond Smith,CB4-428,"Monday, Wednesday",9:40 AM - 11:00 AM
 MGMT 350,1,Management of Small Business,Open,Cathy House,CB4-317,"Monday, Wednesday",8:10 AM - 9:30 AM
 MGMT 351,1,Entrepreneurship General,Open,Michael Ogbolu,CB4-317,"Tuesday, Thursday",9:40 AM - 11:00 AM
 MGMT 351,2,Entrepreneurship General,Open,Michael Ogbolu,CB4-317,"Tuesday, Thursday",11:10 AM - 12:30 PM
-MGMT 351,3,Entrepreneurship General,Open,Robert Singh,CB4-317,"Monday, Wednesday",9:40 AM - 11:00 AM
-MGMT 351,4,Entrepreneurship General,Open,Robert Singh,CB4-417,"Monday, Wednesday",12:40 PM - 2:00 PM
-MGMT 355,1,New Venture Development,Open,Cathy House,CB4-216,"Monday, Wednesday",12:40 PM - 2:00 PM
+MGMT 351,3,Entrepreneurship General,Closed,Robert Singh,CB4-317,"Monday, Wednesday",9:40 AM - 11:00 AM
+MGMT 351,4,Entrepreneurship General,Closed,Robert Singh,CB4-417,"Monday, Wednesday",12:40 PM - 2:00 PM
+MGMT 355,1,New Venture Development,Waitlist,Cathy House,CB4-216,"Monday, Wednesday",12:40 PM - 2:00 PM
 MGMT 356,1,Entrepreneurial Externship,Open,Cathy House,CB4-218,"Monday, Wednesday",9:40 AM - 11:00 AM
 MGMT 380,1,Seminar in Management,Open,Michael Ogbolu,CB4-322,"Tuesday, Thursday",12:40 PM - 2:00 PM
 MGMT 390,1,Business Policy,Open,Ikenna Uzuegbunam,CB4-218,"Tuesday, Thursday",2:10 PM - 3:30 PM
@@ -1271,7 +1444,7 @@ MJFC 327,2,Adv Broadcast Journalism,Open,Christine McWhorter,WHUT-205,"Monday, W
 MJFC 329,1,Sports Reporting,Open,Deron Snyder,ASA-104,Friday,11:10 AM - 2:00 PM
 MJFC 330,2,Multimedia Audio Production,Open,Heidi Gerber-Salins,WHUT-205,"Monday, Wednesday",9:10 AM - 10:30 AM
 MJFC 331,1,Audio for TV & Film,Open,Carolyn Malachi,WHUT-108,Thursday,4:10 PM - 7:00 PM
-MJFC 331,2,Audio for TV & Film,Open,Thom Woodward,WHUT-206,"Tuesday, Thursday",9:10 AM - 10:30 AM
+MJFC 331,2,Audio for TV & Film,Closed,Thom Woodward,WHUT-206,"Tuesday, Thursday",9:10 AM - 10:30 AM
 MJFC 333,1,Music in Media,Open,Maya Giles,WHUT-206,"Tuesday, Thursday",2:10 PM - 3:30 PM
 MJFC 340,2,Scriptwriting,Open,Sonja Williams,WHUT-207,"Monday, Wednesday",11:10 AM - 12:30 PM
 MJFC 340,3,Scriptwriting,Open,Shom Shamapande,ASA-209,"Tuesday, Thursday",2:10 PM - 3:30 PM
@@ -1303,22 +1476,22 @@ MJFC 466,1,Film/TV Thesis: Production,Open,Idit Dvir,WHUT-207,Wednesday,5:10 PM 
 MJFC 466,2,Film/TV Thesis: Production,Open,Srikanth Nandigama,WHUT-207,Thursday,2:10 PM - 4:00 PM
 MJFC 468,1,Film/TV Thesis: Writing,Open,Vickey Saunders,WHUT-108,Thursday,10:10 AM - 12:00 PM
 MJFC 468,2,Film/TV Thesis: Writing,Open,Joy Cheriel Brown,ASA-109,Tuesday,4:10 PM - 6:00 PM
-MKTG 301,1,Principles of Marketing,Open,Claire Cha,CB4-317,"Monday, Wednesday",11:00 AM - 12:30 PM
+MKTG 301,1,Principles of Marketing,Closed,Claire Cha,CB4-317,"Monday, Wednesday",11:00 AM - 12:30 PM
 MKTG 301,2,Principles of Marketing,Open,Morgan Bryant,CB4-216,"Monday, Wednesday",8:10 AM - 9:30 AM
 MKTG 301,3,Principles of Marketing,Open,Morgan Bryant,CB4-216,"Monday, Wednesday",9:40 AM - 11:00 AM
 MKTG 301,4,Principles of Marketing,Open,Marlene Towns,CB4-218,"Tuesday, Thursday",11:10 AM - 12:30 PM
 MKTG 301,5,Principles of Marketing,Open,Ashish Bhardwaj,CB4-216,"Tuesday, Thursday",2:10 PM - 3:30 PM
 MKTG 301,6,Principles of Marketing,Open,Ashish Bhardwaj,CB4-216,"Tuesday, Thursday",3:40 PM - 5:00 PM
 MKTG 304,1,Publication Management,Open,Dana Williams-Johnson,CB4-216,"Monday, Wednesday",3:40 PM - 5:00 PM
-MKTG 310,1,Consumer Behavior,Open,Marlene Towns,CB4-400,"Tuesday, Thursday",2:10 PM - 3:30 PM
+MKTG 310,1,Consumer Behavior,Closed,Marlene Towns,CB4-400,"Tuesday, Thursday",2:10 PM - 3:30 PM
 MKTG 310,2,Consumer Behavior,Open,Marlene Towns,CB4-322,"Tuesday, Thursday",3:40 PM - 5:00 PM
 MKTG 315,1,Marketing Research,Open,Claire Cha,CB4-217,"Monday, Wednesday",9:40 AM - 11:00 AM
-MKTG 318,1,Retailing,Open,Kapriatta Jenkins,CB4-415,"Tuesday, Thursday",9:40 AM - 11:00 AM
-MKTG 319,1,Sales Management,Open,Claire Cha,CB4-317,"Monday, Wednesday",2:10 PM - 3:30 PM
+MKTG 318,1,Retailing,Closed,Kapriatta Jenkins,CB4-415,"Tuesday, Thursday",9:40 AM - 11:00 AM
+MKTG 319,1,Sales Management,Waitlist,Claire Cha,CB4-317,"Monday, Wednesday",2:10 PM - 3:30 PM
 MKTG 320,1,Marketing Communications,Open,Lily Zeng,CB4-217,"Monday, Wednesday",12:40 PM - 2:00 PM
 MKTG 362,1,Marketing Analytics,Open,RAMIN BAGHERZADEH,CB4-322,"Tuesday, Thursday",2:10 PM - 3:30 PM
 MKTG 362,2,Marketing Analytics,Open,RAMIN BAGHERZADEH,CB4-217,"Tuesday, Thursday",12:40 PM - 2:00 PM
-MKTG 381,1,Marketing for Startups,Open,Johnny Graham,CB4-322,"Tuesday, Thursday",5:10 PM - 6:00 PM
+MKTG 381,1,Marketing for Startups,Waitlist,Johnny Graham,CB4-322,"Tuesday, Thursday",5:10 PM - 6:00 PM
 MKTG 398,1,Advanced Digital Marketing,Open,Dana Williams-Johnson,CB4-218,"Monday, Wednesday",12:40 PM - 2:00 PM
 MKTG 399,1,Marketing Planning & Strategy,Open,Delancy Bennett,CB4-418,"Monday, Wednesday",12:40 PM - 2:00 PM
 MKTG 399,2,Marketing Planning & Strategy,Open,Delancy Bennett,CB4-418,"Monday, Wednesday",2:10 PM - 3:30 PM
@@ -1347,8 +1520,8 @@ MUSC 110,1,Global Popular Music,Open,Matthew Franke,LVC-303,"Monday, Wednesday, 
 MUSC 201,1,Senior Thesis,Open,Matthew Franke,N/A,N/A,N/A
 MUSC 207,1,Individual Research,Open,Matthew Franke,N/A,N/A,N/A
 MUSD 058,1,Instrumental Conducting,Open,Benita Gladney,LVC-303,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-MUSE 001,1,Piano for  Non-majors I,Open,Natalia Kazaryan,LVC-304,Wednesday,12:10 PM - 1:00 PM
-MUSE 001,2,Piano for  Non-majors I,Open,Natalia Kazaryan,LVC-304,Tuesday,11:10 AM - 12:00 PM
+MUSE 001,1,Piano for  Non-majors I,Closed,Natalia Kazaryan,LVC-304,Wednesday,12:10 PM - 1:00 PM
+MUSE 001,2,Piano for  Non-majors I,Closed,Natalia Kazaryan,LVC-304,Tuesday,11:10 AM - 12:00 PM
 MUSE 002,2,Piano for Non-majors II,Open,Natalia Kazaryan,LVC-304,Thursday,11:10 AM - 12:00 PM
 MUSE 003,1,Fundamentals of Piano,Open,Natalia Kazaryan,LVC-304,"Monday, Wednesday",11:10 AM - 12:00 PM
 MUSE 011,1,Functional Piano I,Open,Natalia Kazaryan,LVC-304,"Monday, Wednesday",9:10 AM - 10:00 AM
@@ -1411,7 +1584,7 @@ MUSM 211,1,Violoncello Major,Open,Carroll Dashiell Jr,N/A,N/A,N/A
 MUSN 100,1,String Bass Instruction,Open,Carroll Dashiell Jr,N/A,N/A,N/A
 MUSN 111,1,String Bass Minor,Open,Carroll Dashiell Jr,N/A,N/A,N/A
 MUSN 211,1,String Bass Major,Open,Carroll Dashiell Jr,N/A,N/A,N/A
-MUSO 001,1,Guitar Class-Non-major,Open,Thomas Lagana,LVC-B002 (Band Room),Friday,11:10 AM - 12:00 PM
+MUSO 001,1,Guitar Class-Non-major,Closed,Thomas Lagana,LVC-B002 (Band Room),Friday,11:10 AM - 12:00 PM
 MUSO 100,1,Guitar Instruction,Open,Thomas Lagana,N/A,N/A,N/A
 MUSO 111,1,Guitar Minor,Open,Thomas Lagana,N/A,N/A,N/A
 MUSO 211,1,Guitar Major,Open,Thomas Lagana,N/A,N/A,N/A
@@ -1448,7 +1621,7 @@ MUTW 111,1,Voice for Jazz Studies,Open,Reginald Bowens,N/A,N/A,N/A
 MUTW 111,2,Voice for Jazz Studies,Open,Christie Dashiell,N/A,N/A,N/A
 MUTW 111,3,Voice for Jazz Studies,Open,Shacara Rogers-West,N/A,N/A,N/A
 MUTX 111,1,Jazz Piano,Open,Cyrus Chestnut,N/A,N/A,N/A
-NAHS 140,3,Human Growth & Development,Open,Chantel Brooks,801 NC Multipurpose,Tuesday,1:10 PM - 4:00 PM
+NAHS 140,3,Human Growth & Development,Closed,Chantel Brooks,801 NC Multipurpose,Tuesday,1:10 PM - 4:00 PM
 NURS 306,1,Introduction to Pharmacology,Open,Nkechi Enwerem,801 NC Multipurpose,Friday,9:10 AM - 12:00 PM
 NURS 325,1,Adult Health,Open,Joan Smith,801 NC Multipurpose,Monday,9:10 AM - 12:00 PM
 NURS 325,1,Adult Health,Open,Joan Smith,801 NC Multipurpose,Monday,1:00 PM - 3:00 PM
@@ -1463,9 +1636,9 @@ NURS 438,2,Nursing Leadership,Open,Cassandre Jean-Antoine,801 NC Multipurpose,Th
 NURS 440,1,Nursing Synthesis,Open,Sasha Sherwood,801 NC-810,Friday,9:10 AM - 12:00 PM
 NURS 440,2,Nursing Synthesis,Open,Sasha Sherwood,801 NC-807,Friday,9:10 AM - 12:00 PM
 NUTR 006,1,Introduction to Foods,Open,Keilia Phillips,801 NC-909,Thursday,8:10 AM - 12:00 PM
-NUTR 161,1,Introduction to Nutrition,Open,Tahar Hajri,801 NC-907,Tuesday,9:00 AM - 12:00 PM
+NUTR 161,1,Introduction to Nutrition,Closed,Tahar Hajri,801 NC-907,Tuesday,9:00 AM - 12:00 PM
 NUTR 161,2,Introduction to Nutrition,Open,Daphene Altema-Johnson,801 NC Multipurpose,Tuesday,5:00 PM - 8:00 PM
-NUTR 161,3,Introduction to Nutrition,Open,Cinda Catching,801 NC Multipurpose,Wednesday,3:40 PM - 6:30 PM
+NUTR 161,3,Introduction to Nutrition,Closed,Cinda Catching,801 NC Multipurpose,Wednesday,3:40 PM - 6:30 PM
 NUTR 169,1,Comp Exam/Field Experience in HNF,Open,Chimene Castor,N/A,Monday,9:30 AM - 12:20 PM
 NUTR 175,1,Advanced Nutrition,Open,Oyonumo Ntekim,801 NC-909,Wednesday,9:00 AM - 12:00 PM
 NUTR 320,1,Nutr  Life Cycle,Open,Daphene Altema-Johnson,801 NC-907,Monday,5:00 PM - 8:00 PM
@@ -1473,14 +1646,14 @@ NUTR 326,1,Nutrition Policy,Open,Pascale Jean,801 NC-523,Tuesday,5:40 PM - 8:30 
 NUTR 408,1,Global Health,Open,Chimene Castor,801 NC-522,Thursday,1:00 PM - 4:00 PM
 NUTR 422,1,Health Promotion and Planning,Open,Cinda Catching,801 NC-523,Monday,3:30 PM - 6:30 PM
 PHIL 051,1,Principles of Reasoning,Closed,John Stigall,LKH-105/107,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-PHIL 051,2,Principles of Reasoning,Open,John Stigall,LKH-257,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+PHIL 051,2,Principles of Reasoning,Closed,John Stigall,LKH-257,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 PHIL 055,1,Intro to Philosophy,Open,Kolapo Abimbola,DGH-208/210,"Tuesday, Thursday",9:40 AM - 11:00 AM
 PHIL 055,2,Intro to Philosophy,Open,Kolapo Abimbola,DGH-208/210,"Tuesday, Thursday",12:40 PM - 2:00 PM
-PHIL 055,3,Intro to Philosophy,Open,Reese Faust,LKH-118,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
-PHIL 055,4,Intro to Philosophy,Open,Reese Faust,DGH-211,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-PHIL 055,5,Intro to Philosophy,Open,Reese Faust,DGH-211,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-PHIL 055,7,Intro to Philosophy,Open,Patrick Goodin,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
-PHIL 055,8,Intro to Philosophy,Open,Patrick Goodin,N/A,"Tuesday, Thursday",5:10 PM - 6:30 PM
+PHIL 055,3,Intro to Philosophy,Closed,Reese Faust,LKH-118,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+PHIL 055,4,Intro to Philosophy,Closed,Reese Faust,DGH-211,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+PHIL 055,5,Intro to Philosophy,Closed,Reese Faust,DGH-211,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+PHIL 055,7,Intro to Philosophy,Closed,Patrick Goodin,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
+PHIL 055,8,Intro to Philosophy,Closed,Patrick Goodin,N/A,"Tuesday, Thursday",5:10 PM - 6:30 PM
 PHIL 055,9,Intro to Philosophy,Open,Dimiter Kirilov,LKH-105/107,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 PHIL 055,10,HONORS - Intro to Philosophy,Open,Dimiter Kirilov,LKH-253,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 PHIL 055,14,Intro to Philosophy,Open,Olanrewaju Shitta-Bey,LKH-208,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
@@ -1495,20 +1668,20 @@ PHIL 057,7,Intro to Ethics,Open,Savannah Pearlman,DGH-110,"Monday, Wednesday, Fr
 PHIL 057,8,Intro to Ethics,Open,Savannah Pearlman,LKH-B2,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 PHIL 088,1,Directed Readings for Jrs,Open,Joey Jebari,N/A,Wednesday,12:10 PM - 2:00 PM
 PHIL 088,2,Directed Readings for Jrs,Open,Anika Simpson,N/A,Wednesday,12:10 PM - 2:00 PM
-PHIL 110,1,Classical Ethics,Open,Joey Jebari,LKH-105/107,"Monday, Wednesday",2:10 PM - 3:30 PM
-PHIL 115,1,Black Women Philosophers,Open,DeeAnn Spicer,LIB-102H,"Tuesday, Thursday",2:10 PM - 3:30 PM
+PHIL 110,1,Classical Ethics,Closed,Joey Jebari,LKH-105/107,"Monday, Wednesday",2:10 PM - 3:30 PM
+PHIL 115,1,Black Women Philosophers,Closed,DeeAnn Spicer,LIB-102H,"Tuesday, Thursday",2:10 PM - 3:30 PM
 PHIL 115,2,Black Women Philosophers,Open,DeeAnn Spicer,LKH-P08,"Tuesday, Thursday",3:40 PM - 5:00 PM
 PHIL 120,1,Existentialism,Open,DeeAnn Spicer,LKH-208,"Tuesday, Thursday",5:10 PM - 6:30 PM
 PHIL 137,1,Forensic Science & Law,Open,Kolapo Abimbola,DGH-215/217,"Tuesday, Thursday",11:10 AM - 12:30 PM
-PHIL 151,1,Metaphysics,Open,Dimiter Kirilov,LKH-236,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+PHIL 151,1,Metaphysics,Closed,Dimiter Kirilov,LKH-236,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 PHIL 173,1,Ethics of Medical Care,Open,Assya Pascalev,LKH-P08,"Tuesday, Thursday",2:10 PM - 3:30 PM
-PHIL 175,1,Symbolic Logic,Open,John Stigall,DGH-106/108,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-PHIL 182,1,Seminar on Plato (Law & Justice),Open,Patrick Goodin,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
-PHIL 189,1,"19th Century Philosophy (Hegel, Marx, Nietzsche, Freud)",Open,Reese Faust,DGH-218,"Tuesday, Thursday",12:40 PM - 2:00 PM
+PHIL 175,1,Symbolic Logic,Closed,John Stigall,DGH-106/108,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+PHIL 182,1,Seminar on Plato (Law & Justice),Closed,Patrick Goodin,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
+PHIL 189,1,"19th Century Philosophy (Hegel, Marx, Nietzsche, Freud)",Closed,Reese Faust,DGH-218,"Tuesday, Thursday",12:40 PM - 2:00 PM
 PHIL 200,1,Senior Seminar,Open,Assya Pascalev,DGH-114,"Tuesday, Thursday",11:10 AM - 12:30 PM
-PHYS 002,1,General Physics II,Open,Sidi Maiga,BNB-B05,"Monday, Wednesday",6:40 PM - 8:00 PM
-PHYS 002,1,General Physics II,Open,Sidi Maiga,BNB-B05,Tuesday,6:10 PM - 8:00 PM
-PHYS 002,1,General Physics II,Open,Sidi Maiga,BNA-A07,Thursday,6:10 PM - 8:00 PM
+PHYS 002,1,General Physics II,Waitlist,Sidi Maiga,BNB-B05,"Monday, Wednesday",6:40 PM - 8:00 PM
+PHYS 002,1,General Physics II,Waitlist,Sidi Maiga,BNB-B05,Tuesday,6:10 PM - 8:00 PM
+PHYS 002,1,General Physics II,Waitlist,Sidi Maiga,BNA-A07,Thursday,6:10 PM - 8:00 PM
 PHYS 002,2,General Physics II,Open,Sidi Maiga,BNB-B05,"Monday, Wednesday",6:40 PM - 8:00 PM
 PHYS 002,2,General Physics II,Open,Sidi Maiga,BNA-A07,Tuesday,6:10 PM - 8:00 PM
 PHYS 002,2,General Physics II,Open,Sidi Maiga,BNB-B05,Thursday,6:10 PM - 8:00 PM
@@ -1518,12 +1691,12 @@ PHYS 002,3,General Physics II,Open,Sidi Maiga,BNB-B05,Thursday,6:10 PM - 8:00 PM
 PHYS 002,4,General Physics II,Open,Sidi Maiga,BNA-A07,Monday,4:10 PM - 6:00 PM
 PHYS 002,4,General Physics II,Open,Sidi Maiga,BNB-B05,"Monday, Wednesday",6:40 PM - 8:00 PM
 PHYS 002,4,General Physics II,Open,Sidi Maiga,BNB-B05,Tuesday,6:10 PM - 8:00 PM
-PHYS 002,5,General Physics II,Open,Dawit Hailu,BNB-B05,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-PHYS 002,5,General Physics II,Open,Dawit Hailu,BNB-B05,Tuesday,11:10 AM - 1:00 PM
-PHYS 002,5,General Physics II,Open,Dawit Hailu,BNA-A07,Thursday,10:10 AM - 12:00 PM
-PHYS 002,6,General Physics II,Open,Dawit Hailu,BNB-B05,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-PHYS 002,6,General Physics II,Open,Dawit Hailu,BNB-B05,Tuesday,11:10 AM - 1:00 PM
-PHYS 002,6,General Physics II,Open,Dawit Hailu,BNA-A07,Thursday,3:10 PM - 5:00 PM
+PHYS 002,5,General Physics II,Closed,Dawit Hailu,BNB-B05,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+PHYS 002,5,General Physics II,Closed,Dawit Hailu,BNB-B05,Tuesday,11:10 AM - 1:00 PM
+PHYS 002,5,General Physics II,Closed,Dawit Hailu,BNA-A07,Thursday,10:10 AM - 12:00 PM
+PHYS 002,6,General Physics II,Waitlist,Dawit Hailu,BNB-B05,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+PHYS 002,6,General Physics II,Waitlist,Dawit Hailu,BNB-B05,Tuesday,11:10 AM - 1:00 PM
+PHYS 002,6,General Physics II,Waitlist,Dawit Hailu,BNA-A07,Thursday,3:10 PM - 5:00 PM
 PHYS 002,7,General Physics II,Open,Dawit Hailu,BNB-B05,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 PHYS 002,7,General Physics II,Open,Dawit Hailu,BNB-B05,Tuesday,11:10 AM - 1:00 PM
 PHYS 002,7,General Physics II,Open,Dawit Hailu,BNA-A07,Thursday,8:10 AM - 10:00 AM
@@ -1545,7 +1718,7 @@ PHYS 002,12,General Physics II,Open,Sidi Maiga,BNB-B05,Thursday,4:10 PM - 6:00 P
 PHYS 007,1,Physics for Allied Health,Open,Dawit Hailu,BNA-A01,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 PHYS 007,1,Physics for Allied Health,Open,Dawit Hailu,BNA-A01,Tuesday,2:10 PM - 4:00 PM
 PHYS 007,1,Physics for Allied Health,Open,Dawit Hailu,BNA-A11,Thursday,1:10 PM - 3:00 PM
-PHYS 010,1,General Astronomy,Open,Dragana Tankosic,BNB-B05,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+PHYS 010,1,General Astronomy,Closed,Dragana Tankosic,BNB-B05,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 PHYS 013,1,Phys for Sci & Engr Lec I,Open,Tibebu Ayalew,BNB-B05,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 PHYS 013,1,Phys for Sci & Engr Lec I,Open,Tibebu Ayalew,BNB-B05,Thursday,2:10 PM - 4:00 PM
 PHYS 013,2,Phys for Sci & Engr Lec I,Open,Tibebu Ayalew,BNB-B05,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
@@ -1575,23 +1748,23 @@ PHYS 191,1,Quantum Physics II,Open,Sugata Chowdhury,BNC-C08,"Monday, Wednesday, 
 PHYS 193,1,Intro to Math Physics II,Open,Tristan Hubsch,BNC-C06,"Monday, Wednesday",8:40 AM - 10:00 AM
 PHYS 702,1,Experimental Physics I,Open,Quinton Williams,BNA-A01,Thursday,2:10 PM - 5:00 PM
 PHYS 991,2,Co-op Physics,Open,Quinton Williams,N/A,N/A,N/A
-POLS 002,1,Intro to Research in Pol Sci,Open,Mazaher Koruzhde,DGH-120,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+POLS 002,1,Intro to Research in Pol Sci,Waitlist,Mazaher Koruzhde,DGH-120,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 POLS 002,2,Intro to Research in Pol Sci,Open,Mazaher Koruzhde,DGH-120,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 POLS 003,1,Intro to Comp Politics,Open,Babajide Tella,DGH-120,"Tuesday, Thursday",9:40 AM - 11:00 AM
-POLS 003,2,Intro to Comp Politics,Open,Babajide Tella,DGH-102/DGH-103,"Tuesday, Thursday",11:10 AM - 12:30 PM
+POLS 003,2,Intro to Comp Politics,Closed,Babajide Tella,DGH-102/DGH-103,"Tuesday, Thursday",11:10 AM - 12:30 PM
 POLS 004,1,Intro to Political Theory,Open,Tamill Harris,DGH-102/DGH-103,"Tuesday, Thursday",9:40 AM - 11:00 AM
 POLS 004,2,Intro to Political Theory,Open,Jermaine Young,DGH-205/207,Tuesday,5:10 PM - 7:30 PM
 POLS 005,1,Intro to African Politics,Open,Babajide Tella,DGH-102/DGH-103,"Tuesday, Thursday",2:10 PM - 3:30 PM
 POLS 005,2,Intro to African Politics,Open,Babajide Tella,DGH-102/DGH-103,"Tuesday, Thursday",3:40 PM - 5:00 PM
 POLS 006,1,Pan-Africanism,Open,Daryl Harris,DGH-105/107,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
 POLS 006,2,Pan-Africanism,Open,James Pope,DGH-120,"Tuesday, Thursday",12:40 PM - 2:00 PM
-POLS 007,1,Intro to Black Politics,Open,Tamill Harris,DGH-212/214,"Tuesday, Thursday",12:40 PM - 2:00 PM
+POLS 007,1,Intro to Black Politics,Closed,Tamill Harris,DGH-212/214,"Tuesday, Thursday",12:40 PM - 2:00 PM
 POLS 008,1,Intro to Political Economy,Open,Patrick Ukata,DGH-102/DGH-103,"Tuesday, Thursday",12:40 PM - 2:00 PM
 POLS 008,2,Intro to Political Economy,Open,Patrick Ukata,DGH-105/107,"Tuesday, Thursday",2:10 PM - 3:30 PM
 POLS 010,1,Nat'l Gov't of the U S,Open,Ravi Perry,DGH-120,"Tuesday, Thursday",2:10 PM - 3:30 PM
 POLS 010,2,Nat'l Gov't of the U S,Open,JohnPatrick Ifedi,DGH-104,"Tuesday, Thursday",2:10 PM - 3:30 PM
 POLS 011,1,State & Local Government,Open,Tamill Harris,DGH-110,"Tuesday, Thursday",2:10 PM - 3:30 PM
-POLS 032,1,International Law,Open,Zainab Alam,DGH-102/DGH-103,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+POLS 032,1,International Law,Closed,Zainab Alam,DGH-102/DGH-103,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 POLS 084,1,Direct Read Hnrs for Sophomore,Open,Ayana Best,DGH-218,"Tuesday, Thursday",11:10 AM - 12:30 PM
 POLS 128,1,Intro. to Intl. Relations,Open,Ben Fred-Mensah,DGH-205/207,"Tuesday, Thursday",3:40 PM - 5:00 PM
 POLS 128,2,Intro. to Intl. Relations,Open,Patrick Ukata,DGH-105/107,"Tuesday, Thursday",11:10 AM - 12:30 PM
@@ -1604,7 +1777,7 @@ POLS 149,1,Intro to Pub Policy Analysis,Open,Jasmine White,DGH-106/108,"Tuesday,
 POLS 150,1,Internship I,Open,Jasmine White,N/A,Tuesday,5:30 PM - 7:50 PM
 POLS 151,1,Internship II,Open,Norman Sandridge,N/A,Wednesday,5:30 PM - 7:50 PM
 POLS 159,1,International Organizations,Open,JohnPatrick Ifedi,DGH-205/207,"Tuesday, Thursday",12:40 PM - 2:00 PM
-POLS 163,1,Constitutional Law I,Open,Jagir Patel,N/A,Wednesday,5:10 PM - 7:30 PM
+POLS 163,1,Constitutional Law I,Closed,Jagir Patel,N/A,Wednesday,5:10 PM - 7:30 PM
 POLS 164,1,Constitutional Law II,Open,Jagir Patel,N/A,Tuesday,5:10 PM - 7:30 PM
 POLS 171,1,Govt & Pol of So Am Countries,Open,David Dixon,DGH-110,"Tuesday, Thursday",3:40 PM - 5:00 PM
 POLS 176,1,Govt & Pol in Tropical Africa,Open,Ben Fred-Mensah,DGH-110,"Tuesday, Thursday",12:40 PM - 2:00 PM
@@ -1612,10 +1785,10 @@ POLS 178,1,American Foreign Policy,Open,JohnPatrick Ifedi,DGH-215/217,"Tuesday, 
 POLS 180,1,Urban Government & Politics,Open,Bruce Jones,DGH-104,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 POLS 183,1,Race & Public Policy,Open,Jasmine White,DGH-106/108,"Tuesday, Thursday",3:40 PM - 5:00 PM
 POLS 183,2,Race & Public Policy,Open,Jasmine White,DGH-106/108,"Tuesday, Thursday",11:10 AM - 12:30 PM
-POLS 184,1,Problems in Amer Democracy,Open,Marcus Board Jr.,DGH-110,"Tuesday, Thursday",11:10 AM - 12:30 PM
+POLS 184,1,Problems in Amer Democracy,Waitlist,Marcus Board Jr.,DGH-110,"Tuesday, Thursday",11:10 AM - 12:30 PM
 POLS 189,1,Black Political Theory,Open,James Pope,DGH-105/107,Thursday,5:10 PM - 7:30 PM
 POLS 193,1,Special Topics in Pol Theory,Open,Mona Oraby,DGH-208/210,"Tuesday, Thursday",2:10 PM - 3:30 PM
-POLS 890,1,Study Abroad: Race and Brazil,Waitlist,Clarence Lusane,DGH-101,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+POLS 890,1,Study Abroad: Race and Brazil,Closed,Clarence Lusane,DGH-101,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 POLS 890,2,Study Abroad: Black Revolution and China in the 20th Century,Closed,Marcus Board Jr.,DGH-101,"Tuesday, Thursday",2:10 PM - 3:30 PM
 PORT 001,1,Portuguese I,Open,Eliseo Jacob,LKH-304,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 PORT 002,1,Portuguese II,Open,Eliseo Jacob,ILH-107,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
@@ -1672,11 +1845,11 @@ SOCI 003,4,Social Problems,Open,Keadrick Peters,DGH-110,"Monday, Wednesday, Frid
 SOCI 003,5,Social Problems,Open,Alexandra Rodriguez,DGH-212/214,"Tuesday, Thursday",2:10 PM - 3:30 PM
 SOCI 003,6,Social Problems,Open,Anthony Jackson,DGH-211,Wednesday,3:40 PM - 6:00 PM
 SOCI 014,2,Qualitative Methods,Open,Arvilla Payne-Jackson,N/A,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-SOCI 015,1,Medical Traditions Across Cult,Open,Arvilla Payne-Jackson,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
-SOCI 020,1,Introduction to Social Psych,Open,Michael Plummer,N/A,"Tuesday, Thursday",12:40 PM - 2:00 PM
+SOCI 015,1,Medical Traditions Across Cult,Waitlist,Arvilla Payne-Jackson,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+SOCI 020,1,Introduction to Social Psych,Waitlist,Michael Plummer,N/A,"Tuesday, Thursday",12:40 PM - 2:00 PM
 SOCI 020,2,Introduction to Social Psych,Open,Lennox Yearwood,N/A,"Tuesday, Thursday",2:10 PM - 3:30 PM
-SOCI 020,3,Introduction to Social Psych,Open,Michael Plummer,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
-SOCI 061,1,Problems in the Blk Community,Open,Sydni Turner,DGH-212/214,"Tuesday, Thursday",11:10 AM - 12:30 PM
+SOCI 020,3,Introduction to Social Psych,Closed,Michael Plummer,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+SOCI 061,1,Problems in the Blk Community,Closed,Sydni Turner,DGH-212/214,"Tuesday, Thursday",11:10 AM - 12:30 PM
 SOCI 070,1,Criminology,Open,Duane Tobias,N/A,Thursday,5:10 PM - 7:30 PM
 SOCI 070,4,Criminology,Open,Duane Tobias,N/A,Tuesday,5:10 PM - 7:30 PM
 SOCI 070,6,Criminology,Open,Jay Stewart,DGH-102/DGH-103,Thursday,5:10 PM - 7:30 PM
@@ -1684,67 +1857,67 @@ SOCI 070,7,Criminology,Open,Oshea Johnson,DGH-212/214,"Monday, Wednesday, Friday
 SOCI 070,8,Criminology,Open,Tiffany Simmons,DGH-102/DGH-103,Tuesday,5:10 PM - 7:30 PM
 SOCI 070,9,Criminology,Open,Oshea Johnson,DGH-211,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 SOCI 071,2,Juvenile Delinquency,Waitlist,Mack McGhee,N/A,Wednesday,5:10 PM - 7:30 PM
-SOCI 071,3,Juvenile Delinquency,Open,Jerald Lynch,N/A,Thursday,5:10 PM - 7:30 PM
-SOCI 074,2,Corrections,Open,Zoe Spencer,N/A,Monday,5:10 PM - 7:30 PM
+SOCI 071,3,Juvenile Delinquency,Closed,Jerald Lynch,N/A,Thursday,5:10 PM - 7:30 PM
+SOCI 074,2,Corrections,Closed,Zoe Spencer,N/A,Monday,5:10 PM - 7:30 PM
 SOCI 074,3,Corrections,Open,Zoe Spencer,N/A,Tuesday,5:10 PM - 7:30 PM
-SOCI 079,1,Internship Criminology,Open,Tiffany Simmons,N/A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
-SOCI 079,2,Internship Criminology,Open,Tiffany Simmons,N/A,Thursday,5:10 PM - 7:30 PM
-SOCI 080,1,Language and Society,Open,Arvilla Payne-Jackson,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
-SOCI 100,2,Social Theory & Society,Open,Trevor Kinlock,DGH-211,"Tuesday, Thursday",11:10 AM - 12:30 PM
+SOCI 079,1,Internship Criminology,Closed,Tiffany Simmons,N/A,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
+SOCI 079,2,Internship Criminology,Closed,Tiffany Simmons,N/A,Thursday,5:10 PM - 7:30 PM
+SOCI 080,1,Language and Society,Waitlist,Arvilla Payne-Jackson,N/A,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
+SOCI 100,2,Social Theory & Society,Closed,Trevor Kinlock,DGH-211,"Tuesday, Thursday",11:10 AM - 12:30 PM
 SOCI 106,4,Senior Departmental Honors,Open,Michelle Dovil,N/A,N/A,N/A
-SOCI 110,1,Elementary Statistics,Open,George Browne,DGH-212/214,Wednesday,5:10 PM - 7:30 PM
-SOCI 110,2,Elementary Statistics,Open,Cassandra Jean,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
-SOCI 110,3,Elementary Statistics,Open,George Browne,N/A,Thursday,5:10 PM - 7:30 PM
-SOCI 110,4,Elementary Statistics,Open,Ronnie Manuel,N/A,Friday,5:10 PM - 7:30 PM
+SOCI 110,1,Elementary Statistics,Closed,George Browne,DGH-212/214,Wednesday,5:10 PM - 7:30 PM
+SOCI 110,2,Elementary Statistics,Closed,Cassandra Jean,N/A,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+SOCI 110,3,Elementary Statistics,Closed,George Browne,N/A,Thursday,5:10 PM - 7:30 PM
+SOCI 110,4,Elementary Statistics,Closed,Ronnie Manuel,N/A,Friday,5:10 PM - 7:30 PM
 SOCI 111,1,Sociological Methods,Open,Judith Singletary,DGH-211,Tuesday,2:10 PM - 4:30 PM
 SOCI 111,2,Sociological Methods,Open,Marie Plaisime,N/A,Monday,5:10 PM - 7:30 PM
-SOCI 111,3,Sociological Methods,Open,Rod Martinez,N/A,"Tuesday, Thursday",8:10 AM - 9:40 AM
+SOCI 111,3,Sociological Methods,Closed,Rod Martinez,N/A,"Tuesday, Thursday",8:10 AM - 9:40 AM
 SOCI 122,1,"Resistance, Revolt, Reform&Rev",Open,Britany Gatewood,DGH-205/207,"Tuesday, Thursday",2:10 PM - 3:30 PM
-SOCI 141,2,Black Feminism,Open,Denae Bradley,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
+SOCI 141,2,Black Feminism,Closed,Denae Bradley,N/A,"Tuesday, Thursday",9:40 AM - 11:00 AM
 SOCI 144,1,"Climate Change, Energy & Social Justice",Open,Cassandra Jean,N/A,Tuesday,5:10 PM - 7:30 PM
 SOCI 151,1,Sociology of Poverty,Open,Anthony Jackson,DGH-211,Wednesday,6:10 PM - 8:30 PM
 SOCI 151,2,Sociology of Poverty,Open,Nicole Bao,DGH-205/207,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 SOCI 170,1,Principles of Criminal Justice,Open,Dante Taylor,DGH-215/217,Wednesday,5:10 PM - 7:30 PM
 SOCI 170,2,Principles of Criminal Justice,Open,Dante Taylor,DGH-212/214,"Tuesday, Thursday",3:40 PM - 5:00 PM
-SOCI 170,4,Principles of Criminal Justice,Open,Dante Taylor,DGH-20,"Tuesday, Thursday",11:10 AM - 12:30 PM
-SOCI 172,1,Social Change & the Criminal Justice System,Open,Sonia Pruitt,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
-SOCI 174,1,"Police, Law & Society",Open,Jerald Lynch,N/A,Monday,5:10 PM - 7:30 PM
-SOCI 178,2,Public Health & Society,Open,Craig Dearfield,N/A,Tuesday,5:10 PM - 7:30 PM
-SOCI 180,2,The Family,Waitlist,Tia Dickerson,N/A,"Monday, Wednesday",9:10 AM - 10:00 AM
+SOCI 170,4,Principles of Criminal Justice,Closed,Dante Taylor,DGH-20,"Tuesday, Thursday",11:10 AM - 12:30 PM
+SOCI 172,1,Social Change & the Criminal Justice System,Waitlist,Sonia Pruitt,N/A,"Tuesday, Thursday",3:40 PM - 5:00 PM
+SOCI 174,1,"Police, Law & Society",Closed,Jerald Lynch,N/A,Monday,5:10 PM - 7:30 PM
+SOCI 178,2,Public Health & Society,Closed,Craig Dearfield,N/A,Tuesday,5:10 PM - 7:30 PM
+SOCI 180,2,The Family,Closed,Tia Dickerson,N/A,"Monday, Wednesday",9:10 AM - 10:00 AM
 SOCI 181,3,"Reproductive Justice, Hlth & Soc. Activism",Open,Candace Bond-Theriault,DGH-208/210,Wednesday,5:10 PM - 7:30 PM
 SOCI 199,1,Environmental Inequality,Open,Michelle Dovil,DGH-215/217,"Tuesday, Thursday",2:10 PM - 3:30 PM
-SOCI 295,2,Restorative Justice,Open,Jay Stewart,DGH-211,Monday,5:10 PM - 7:30 PM
+SOCI 295,2,Restorative Justice,Closed,Jay Stewart,DGH-211,Monday,5:10 PM - 7:30 PM
 SOCI 890,4,Study Abroad,Open,Anaheed Al-Hardan,DGH-113,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
 SPAN 001,1,Spanish I,Open,Anaxidalia Gonzalez Nunez,LKH-300,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 SPAN 001,2,Spanish I,Open,Anaxidalia Gonzalez Nunez,LKH-304,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 SPAN 001,3,Spanish I,Open,Ana Zegarra,LKH-323,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
-SPAN 001,4,Spanish I,Open,Ana Zegarra,LKH-340,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-SPAN 001,5,Spanish I,Open,Ana Zegarra,LKH-300,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+SPAN 001,4,Spanish I,Closed,Ana Zegarra,LKH-340,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+SPAN 001,5,Spanish I,Closed,Ana Zegarra,LKH-300,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 SPAN 001,6,Spanish I,Open,Ana Zegarra,LKH-340,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
 SPAN 001,7,Spanish I,Open,Trinidad Pardo Ballester,LKH-304,"Tuesday, Thursday",8:10 AM - 9:30 AM
 SPAN 001,8,Spanish I,Open,Trinidad Pardo Ballester,ILH-116,"Tuesday, Thursday",9:40 AM - 11:00 AM
-SPAN 001,9,Spanish I,Open,Krystal Jenkins,DGH-218,"Tuesday, Thursday",8:10 AM - 9:30 AM
+SPAN 001,9,Spanish I,Closed,Krystal Jenkins,DGH-218,"Tuesday, Thursday",8:10 AM - 9:30 AM
 SPAN 001,10,Spanish I,Open,Trinidad Pardo Ballester,ILH-118,"Tuesday, Thursday",12:40 PM - 2:00 PM
 SPAN 002,1,Spanish II,Open,Mayka Puente,LKH-365,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
 SPAN 002,2,Spanish II,Open,Mayka Puente,LKH-323,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
-SPAN 002,3,Spanish II,Open,Jerome Haynesworth,LKH-340,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+SPAN 002,3,Spanish II,Closed,Jerome Haynesworth,LKH-340,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 SPAN 002,4,Spanish II,Open,Mayka Puente,DGH-104,"Monday, Wednesday, Friday",1:10 PM - 2:00 PM
-SPAN 002,5,Spanish II,Open,Jerome Haynesworth,LKH-340,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
+SPAN 002,5,Spanish II,Closed,Jerome Haynesworth,LKH-340,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 SPAN 002,6,Spanish II,Open,Jerome Haynesworth,LKH-340,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
 SPAN 002,7,Spanish II,Open,Jerome Haynesworth,LKH-340,"Monday, Wednesday, Friday",5:10 PM - 6:00 PM
 SPAN 002,8,Spanish II,Open,Yherman Alvery,LKH-340,"Tuesday, Thursday",8:10 AM - 9:30 AM
 SPAN 002,9,Spanish II,Open,Miren Edurne Anton Lobato,LKH-323,"Tuesday, Thursday",8:10 AM - 9:30 AM
 SPAN 002,10,Spanish II,Open,Yherman Alvery,ILH-103,"Tuesday, Thursday",9:40 AM - 11:00 AM
-SPAN 002,11,Spanish II,Open,Roberto Perez,ILH-118,"Tuesday, Thursday",9:40 AM - 11:00 AM
-SPAN 002,12,Spanish II,Open,Yherman Alvery,ILH-103,"Tuesday, Thursday",12:40 PM - 2:00 PM
+SPAN 002,11,Spanish II,Closed,Roberto Perez,ILH-118,"Tuesday, Thursday",9:40 AM - 11:00 AM
+SPAN 002,12,Spanish II,Closed,Yherman Alvery,ILH-103,"Tuesday, Thursday",12:40 PM - 2:00 PM
 SPAN 002,14,Spanish II,Open,Yherman Alvery,LKH-323,"Tuesday, Thursday",2:10 PM - 3:30 PM
 SPAN 002,15,Spanish II,Open,Miren Edurne Anton Lobato,ILH-107,"Tuesday, Thursday",2:10 PM - 3:30 PM
 SPAN 002,16,Spanish II,Open,Miren Edurne Anton Lobato,ILH-107,"Tuesday, Thursday",9:40 AM - 11:00 AM
 SPAN 003,1,Spanish III,Open,Khaled Sayed,LKH-304,"Monday, Wednesday, Friday",8:10 AM - 9:00 AM
 SPAN 003,2,Spanish III,Open,Khaled Sayed,ILH-107,"Monday, Wednesday, Friday",9:10 AM - 10:00 AM
-SPAN 003,3,Spanish III,Open,Roberto Perez,LKH-365,"Tuesday, Thursday",2:10 PM - 3:30 PM
-SPAN 003,4,Spanish III,Open,Khaled Sayed,ILH-118,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
-SPAN 003,6,Spanish III,Open,Khaled Sayed,ILH-103,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
+SPAN 003,3,Spanish III,Waitlist,Roberto Perez,LKH-365,"Tuesday, Thursday",2:10 PM - 3:30 PM
+SPAN 003,4,Spanish III,Waitlist,Khaled Sayed,ILH-118,"Monday, Wednesday, Friday",10:10 AM - 11:00 AM
+SPAN 003,6,Spanish III,Waitlist,Khaled Sayed,ILH-103,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
 SPAN 003,7,Spanish III,Open,Roberto Perez,ILH-103,"Tuesday, Thursday",8:10 AM - 9:30 AM
 SPAN 003,8,Spanish III,Open,Aida Albania Tristan,ILH-103,"Tuesday, Thursday",11:10 AM - 12:30 PM
 SPAN 003,9,Spanish III,Open,Aida Albania Tristan,DGH-114,"Tuesday, Thursday",12:40 PM - 2:00 PM
@@ -1762,7 +1935,7 @@ SPAN 050,2,Oral Communication I,Open,Mesi Bakari Walton,ILH-116,"Tuesday, Thursd
 SPAN 051,1,Oral Communication II,Open,Roberto Perez,ILH-116,"Tuesday, Thursday",11:10 AM - 12:30 PM
 SPAN 051,2,Oral Communication II,Open,Mesi Bakari Walton,LKH-359,"Tuesday, Thursday",9:40 AM - 11:00 AM
 SPAN 052,1,Reading & Writing,Open,Monica Styles,LKH-304,"Monday, Wednesday, Friday",6:10 PM - 7:00 PM
-SPAN 052,3,Reading & Writing,Open,Mercedes Tibbits,LKH-323,"Tuesday, Thursday",11:10 AM - 12:30 PM
+SPAN 052,3,Reading & Writing,Closed,Mercedes Tibbits,LKH-323,"Tuesday, Thursday",11:10 AM - 12:30 PM
 SPAN 060,1,Textual Analysis,Open,Monica Styles,LKH-200,"Monday, Wednesday, Friday",3:10 PM - 4:00 PM
 SPAN 066,1,Simultaneous Interpretation II,Open,Krystal Jenkins,ILH-118,"Tuesday, Thursday",11:10 AM - 12:30 PM
 SPAN 078,1,Business Spanish,Open,Clement Akassi,ILH-116,"Monday, Wednesday, Friday",12:10 PM - 1:00 PM
@@ -1890,14 +2063,14 @@ THTA 201,1,Independent Study,Closed,Pat Parks,N/A,N/A,N/A
 THTA 208,1,Finance Management,Open,Yasmin Gregg,N/A,"Tuesday, Thursday",6:40 PM - 8:00 PM
 THTA 209,1,Drama Internship,Open,Pat Parks,N/A,N/A,N/A
 THTT 102,1,Stagecraft II,Open,Danielle Preston,OFB-408,"Monday, Wednesday",3:40 PM - 5:00 PM
-THTT 102,2,Stagecraft II,Open,Gregory Jackson,Sculpture Studio Workshop,"Monday, Wednesday",3:40 PM - 5:00 PM
+THTT 102,2,Stagecraft II,Open,Gregory Jackson,LVC-2027 (Scene Shop),"Monday, Wednesday",3:40 PM - 5:00 PM
 THTT 102,3,Stagecraft II,Open,Thelonious Starnes,LVC-IRAT,"Monday, Wednesday",3:40 PM - 5:00 PM
 THTT 106,1,Drawing & Painting Skills,Open,Mekbib Gebertsadik,OFB-100,"Monday, Wednesday, Friday",2:10 PM - 3:00 PM
 THTT 112,1,Stagecraft II - Lab,Open,Danielle Preston,N/A,N/A,N/A
 THTT 112,2,Stagecraft II - Lab,Open,Gregory Jackson,N/A,N/A,N/A
 THTT 112,3,Stagecraft II - Lab,Open,Thelonious Starnes,N/A,N/A,N/A
 THTT 202,1,Theatre Technology II,Open,Danielle Preston,OFB-407,"Tuesday, Thursday",3:40 PM - 5:00 PM
-THTT 202,2,Theatre Technology II,Open,Gregory Jackson,Sculpture Studio Workshop,"Tuesday, Thursday",3:40 PM - 5:00 PM
+THTT 202,2,Theatre Technology II,Open,Gregory Jackson,LVC-2027 (Scene Shop),"Tuesday, Thursday",3:40 PM - 5:00 PM
 THTT 202,3,Theatre Technology II,Open,Thelonious Starnes,LVC-IRAT,"Tuesday, Thursday",3:40 PM - 5:00 PM
 THTT 203,1,Stage Make Up,Open,Danielle Preston,OFB-407,"Tuesday, Thursday",2:10 PM - 3:30 PM
 THTT 207,1,Stage Management,Open,Keta Newborn,OFB-302,"Monday, Wednesday, Friday",11:10 AM - 12:00 PM
